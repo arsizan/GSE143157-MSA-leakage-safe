@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this code or these outputs, please cite the paper below and the GSE143157 dataset (Rydbirk et al., 2020)."
+title: "GSE143157 MSA leakage-safe analysis: code and frozen outputs"
+type: software
+authors:
+  - family-names: Sizan
+    given-names: Md. Abdur Rahman
+    affiliation: Pabna University of Science and Technology
+  - family-names: Aman
+    given-names: Nakib
+    affiliation: Pabna University of Science and Technology
+  - family-names: Samy
+    given-names: Md. Kaysaruzzaman
+    affiliation: Varendra University
+version: 1.0.0
+repository-code: "https://github.com/arsizan/GSE143157-MSA-leakage-safe"
+# license: MIT            # set to the license you choose (SPDX id)
+# doi: 10.5281/zenodo.XXXXXXX   # add after Zenodo archives the release
+preferred-citation:
+  type: conference-paper
+  title: "Leakage-Safe Nested Validation of Paired DNA Methylation and Hydroxymethylation Profiles in Multiple System Atrophy"
+  authors:
+    - family-names: Sizan
+      given-names: Md. Abdur Rahman
+    - family-names: Aman
+      given-names: Nakib
+    - family-names: Samy
+      given-names: Md. Kaysaruzzaman
+  collection-title: "2026 29th International Conference on Computer and Information Technology (ICCIT)"
+  year: 2026
