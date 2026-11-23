@@ -1,15 +1,13 @@
-# large matrices and raw GEO inputs (regenerate or download; GitHub rejects files > 100 MB)
+# large matrices, checkpoints and raw GEO inputs (GitHub rejects files > 100 MB)
 *.h5
 *.hdf5
+*.pkl
+_checkpoints/
 data/
 GSE143157_BMIQ_normalized_beta.txt
 *_family.soft.gz
-# Python / notebooks
-__pycache__/
-*.pyc
-.ipynb_checkpoints/
-.venv/
 # OS / Office temp files
 .DS_Store
 Thumbs.db
+desktop.ini
 ~$*

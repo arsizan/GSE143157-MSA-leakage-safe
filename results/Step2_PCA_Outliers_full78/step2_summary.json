@@ -1,0 +1,149 @@
+{
+  "pipeline": {
+    "name": "GSE143157 Step 2 PCA and outlier review",
+    "version": "1.0.0",
+    "completed_utc": "2026-08-18T20:10:58.281419+00:00",
+    "elapsed_seconds": 14.20032525062561
+  },
+  "inputs": {
+    "step1_dir": "D:\\Paper\\MSA_Research\\02_Epigenetics\\GSE143157\\02_Preprocessing\\Step1_results_full78",
+    "step1_pipeline_version": "1.1.0",
+    "5mC_shape": [
+      731661,
+      78
+    ],
+    "5hmC_shape": [
+      405408,
+      78
+    ]
+  },
+  "parameters": {
+    "top_variable_cpgs": 50000,
+    "chunk_rows": 5000,
+    "pca_components_saved": 10,
+    "outlier_pcs_used": 5,
+    "outlier_robust_z_threshold": 3.5,
+    "detection_failure_fraction_threshold": 0.01,
+    "feature_centering": "per CpG across donors",
+    "feature_variance_scaling": false,
+    "5hmC_pca_imputation": "per-CpG median, unsupervised QC only",
+    "automatic_donor_exclusion": false
+  },
+  "donors": 78,
+  "condition_counts": {
+    "MSA": 41,
+    "Control": 37
+  },
+  "feature_selection": {
+    "5mC": {
+      "input_cpgs": 731661,
+      "positive_variance_cpgs": 731661,
+      "selected_cpgs": 50000,
+      "selected_missing_cells_median_imputed_for_qc_only": 0
+    },
+    "5hmC": {
+      "input_cpgs": 405408,
+      "positive_variance_cpgs": 405408,
+      "selected_cpgs": 50000,
+      "selected_missing_cells_median_imputed_for_qc_only": 88686
+    }
+  },
+  "explained_variance": {
+    "5mC": {
+      "PC1": 0.49682768314586057,
+      "PC2": 0.06897318353542553,
+      "first_5_cumulative": 0.6475922345719877
+    },
+    "5hmC": {
+      "PC1": 0.19359985094163587,
+      "PC2": 0.07214306554546505,
+      "first_5_cumulative": 0.33563287027231764
+    }
+  },
+  "review_candidate_count": 10,
+  "high_priority_review_count": 2,
+  "review_candidates": [
+    {
+      "donor_id": "MSA 30",
+      "condition": "MSA",
+      "evidence_count": 4,
+      "outlier_evidence": "5hmC PCA; 5hmC missingness; negative 5hmC; Detection-P",
+      "high_priority_review": true
+    },
+    {
+      "donor_id": "Control 11",
+      "condition": "Control",
+      "evidence_count": 2,
+      "outlier_evidence": "5mC PCA; 5hmC PCA",
+      "high_priority_review": true
+    },
+    {
+      "donor_id": "MSA 4",
+      "condition": "MSA",
+      "evidence_count": 1,
+      "outlier_evidence": "5hmC missingness",
+      "high_priority_review": false
+    },
+    {
+      "donor_id": "Control 36",
+      "condition": "Control",
+      "evidence_count": 1,
+      "outlier_evidence": "5hmC missingness",
+      "high_priority_review": false
+    },
+    {
+      "donor_id": "MSA 11",
+      "condition": "MSA",
+      "evidence_count": 1,
+      "outlier_evidence": "5hmC PCA",
+      "high_priority_review": false
+    },
+    {
+      "donor_id": "MSA 29",
+      "condition": "MSA",
+      "evidence_count": 1,
+      "outlier_evidence": "5mC low correlation",
+      "high_priority_review": false
+    },
+    {
+      "donor_id": "MSA 8",
+      "condition": "MSA",
+      "evidence_count": 1,
+      "outlier_evidence": "5hmC PCA",
+      "high_priority_review": false
+    },
+    {
+      "donor_id": "Control 32",
+      "condition": "Control",
+      "evidence_count": 1,
+      "outlier_evidence": "5hmC PCA",
+      "high_priority_review": false
+    },
+    {
+      "donor_id": "Control 9",
+      "condition": "Control",
+      "evidence_count": 1,
+      "outlier_evidence": "5hmC PCA",
+      "high_priority_review": false
+    },
+    {
+      "donor_id": "MSA 33",
+      "condition": "MSA",
+      "evidence_count": 1,
+      "outlier_evidence": "5hmC PCA",
+      "high_priority_review": false
+    }
+  ],
+  "MSA_30": {
+    "evidence_count": 4,
+    "evidence": "5hmC PCA; 5hmC missingness; negative 5hmC; Detection-P",
+    "overall_review_candidate": true,
+    "high_priority_review": true,
+    "automatic_exclusion": false
+  },
+  "interpretation_guardrails": [
+    "Outlier flags request review; they do not prove technical failure or justify deletion by themselves.",
+    "Full-cohort variable CpG selection is for unsupervised QC only and must not be reused as supervised ML feature selection.",
+    "Any donor removal must be reported and accompanied by a full-cohort sensitivity analysis."
+  ]
+}

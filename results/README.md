@@ -1,5 +1,5 @@
 # Frozen results
 
-Copy each `StepN_*` output folder here exactly as produced; do not edit the files, because `Step9_Final_Audit_Paper_Package/FINAL_INPUT_FILE_MANIFEST.csv` records their hashes.
+Outputs of Steps 1–9, unchanged from the frozen analysis. Do not edit these files: `Step9_Final_Audit_Paper_Package/FINAL_INPUT_FILE_MANIFEST.csv` records SHA-256 hashes of the 19 files behind the paper's numbers, and all 19 match.
 
-Leave out the two `.h5` matrices (see the main README).
+Local paths such as `D:\Paper\MSA_Research\...` inside the JSON files are where the analysis originally ran.

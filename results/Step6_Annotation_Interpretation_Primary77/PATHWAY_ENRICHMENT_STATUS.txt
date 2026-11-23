@@ -1,0 +1,4 @@
+NOT RUN IN THE PRIMARY PYTHON STEP
+Reason: naive gene enrichment is biased for methylation arrays.
+Bias-aware GOmeth input files were created for separate exploratory analysis.
+Guidance: https://bioconductor.org/packages/release/bioc/vignettes/missMethyl/inst/doc/missMethyl.html

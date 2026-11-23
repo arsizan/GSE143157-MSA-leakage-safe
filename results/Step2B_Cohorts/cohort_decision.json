@@ -1,0 +1,115 @@
+{
+  "pipeline": {
+    "name": "GSE143157 Step 2B cohort freeze",
+    "version": "1.0.0",
+    "completed_utc": "2026-08-18T20:45:21.076373+00:00",
+    "elapsed_seconds": 25.618690967559814
+  },
+  "inputs": {
+    "step1_dir": "D:\\Paper\\MSA_Research\\02_Epigenetics\\GSE143157\\02_Preprocessing\\Step1_results_full78",
+    "step2_dir": "D:\\Paper\\MSA_Research\\02_Epigenetics\\GSE143157\\02_Preprocessing\\Step2_PCA_Outliers_full78",
+    "step1_summary_sha256": "5e948eed149e0e9df34c25e7bfa9e2a70e000c9c1e89232662930de2de31bc4f",
+    "step2_summary_sha256": "acbd3da425aa1840fe5cfd96ab6c1d664e78c524ba2833ea4ae434cf6a31d1da",
+    "outlier_review_sha256": "981ada4ed6ce9a065687ee36d5c0126773a7809d8f30565702d994ba636d7ffd"
+  },
+  "frozen_decision": {
+    "primary_cohort": "primary_clean77",
+    "primary_excluded_donors": [
+      "MSA 30"
+    ],
+    "primary_exclusion_basis": "Converging objective BS/5hmC technical QC evidence",
+    "primary_same_donors_for_both_modalities": true,
+    "control_11_primary_status": "retained",
+    "control_11_reason": "Cross-modality PCA evidence without objective Detection-P/missingness technical failure",
+    "automatic_pca_only_exclusion": false
+  },
+  "MSA_30_step2_evidence": {
+    "evidence_count": 4,
+    "evidence": "5hmC PCA; 5hmC missingness; negative 5hmC; Detection-P",
+    "5mC_pca_robust_distance_z": 0.0680999016990963,
+    "5hmC_pca_robust_distance_z": 15.945461674435888,
+    "5hmC_negative_fraction_before_filter": 0.3823806380277205,
+    "5hmC_missing_fraction_after_filter": 0.2937805864709132,
+    "worst_detection_failure_fraction": 0.0225541610117253
+  },
+  "cohorts": {
+    "sensitivity_full78": {
+      "donors": 78,
+      "condition_counts": {
+        "MSA": 41,
+        "Control": 37
+      },
+      "sex_counts": {
+        "Female": 42,
+        "Male": 36
+      },
+      "age_mean": 69.34615384615384,
+      "age_min": 51.0,
+      "age_max": 91.0
+    },
+    "primary_clean77": {
+      "donors": 77,
+      "condition_counts": {
+        "MSA": 40,
+        "Control": 37
+      },
+      "sex_counts": {
+        "Female": 41,
+        "Male": 36
+      },
+      "age_mean": 69.35064935064935,
+      "age_min": 51.0,
+      "age_max": 91.0
+    },
+    "sensitivity_no_MSA30_Control11_76": {
+      "donors": 76,
+      "condition_counts": {
+        "MSA": 40,
+        "Control": 36
+      },
+      "sex_counts": {
+        "Female": 41,
+        "Male": 35
+      },
+      "age_mean": 69.40789473684211,
+      "age_min": 51.0,
+      "age_max": 91.0
+    }
+  },
+  "primary_hdf5": {
+    "file": "GSE143157_primary_clean77.h5",
+    "construction": "Memory-safe row-chunked donor-column subset; CpG values are not recalculated",
+    "source_donor_indices_dataset": "source_donor_indices",
+    "matrix_stats": {
+      "5mC": {
+        "shape": [
+          731661,
+          77
+        ],
+        "dtype": "float32",
+        "missing_cells": 0,
+        "missing_fraction": 0.0,
+        "finite_min": 1.6710169359335225e-10,
+        "finite_max": 0.999474823474884
+      },
+      "5hmC": {
+        "shape": [
+          405408,
+          77
+        ],
+        "dtype": "float32",
+        "missing_cells": 1413641,
+        "missing_fraction": 0.04528517943892085,
+        "finite_min": 0.0,
+        "finite_max": 0.9737353324890137
+      }
+    }
+  },
+  "downstream_policy": [
+    "Use primary_clean77 for the main paired 5mC-only, 5hmC-only, and combined comparison.",
+    "Repeat final findings on sensitivity_full78.",
+    "Use sensitivity_no_MSA30_Control11_76 only as a stress-test.",
+    "Do not reuse Step 2 top-variable CpGs as supervised ML features.",
+    "Any ML feature selection must occur inside each training fold."
+  ]
+}

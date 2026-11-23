@@ -1,0 +1,80 @@
+{
+  "pipeline": {
+    "name": "GSE143157 Step 7 prespecified overlapping-cohort sensitivity validation",
+    "version": "1.0.0",
+    "completed_utc": "2026-08-19T20:43:41.758013+00:00",
+    "elapsed_seconds": 1.2162408828735352
+  },
+  "analysis_mode": "FULL_RESEARCH_RUN",
+  "cohorts": {
+    "primary_clean77": {
+      "donors": 77,
+      "control": 37,
+      "msa": 40,
+      "excluded": [
+        "MSA 30"
+      ]
+    },
+    "sensitivity_full78": {
+      "donors": 78,
+      "control": 37,
+      "msa": 41,
+      "excluded": []
+    },
+    "sensitivity_no_MSA30_Control11_76": {
+      "donors": 76,
+      "control": 36,
+      "msa": 40,
+      "excluded": [
+        "MSA 30",
+        "Control 11"
+      ]
+    }
+  },
+  "counts": {
+    "primary_candidates": 20,
+    "primary_candidates_supported_in_both": 15,
+    "stable_combined_model_features_primary": 20,
+    "stable_combined_model_features_full78": 27,
+    "stable_combined_model_features_clean76": 21
+  },
+  "combined_model_performance": [
+    {
+      "cohort": "primary_clean77",
+      "donors": 77,
+      "roc_auc_donor_mean_oof": 0.6527027027027027,
+      "roc_auc_bootstrap_low": 0.5344594594594595,
+      "roc_auc_bootstrap_high": 0.7696114864864865,
+      "pr_auc_donor_mean_oof": 0.694095450704173,
+      "balanced_accuracy_donor_mean_oof": 0.5983108108108108,
+      "delta_roc_auc_vs_primary_clean77": 0.0
+    },
+    {
+      "cohort": "sensitivity_full78",
+      "donors": 78,
+      "roc_auc_donor_mean_oof": 0.7046802900461437,
+      "roc_auc_bootstrap_low": 0.5840145023071851,
+      "roc_auc_bootstrap_high": 0.8134475939353988,
+      "pr_auc_donor_mean_oof": 0.7362099201373293,
+      "balanced_accuracy_donor_mean_oof": 0.6021753460777851,
+      "delta_roc_auc_vs_primary_clean77": 0.051977587343441045
+    },
+    {
+      "cohort": "sensitivity_no_MSA30_Control11_76",
+      "donors": 76,
+      "roc_auc_donor_mean_oof": 0.6847222222222222,
+      "roc_auc_bootstrap_low": 0.5583333333333333,
+      "roc_auc_bootstrap_high": 0.8042013888888887,
+      "pr_auc_donor_mean_oof": 0.6612665470674447,
+      "balanced_accuracy_donor_mean_oof": 0.6472222222222221,
+      "delta_roc_auc_vs_primary_clean77": 0.032019519519519535
+    }
+  ],
+  "guardrails": [
+    "The sensitivity cohorts were prespecified in Step 2B and their donor folds were frozen in Step 3.",
+    "Only the Step 6-locked molecular-plus-covariate model view was re-estimated.",
+    "All variance filtering, imputation, scaling, supervised CpG selection and tuning were nested inside outer training data.",
+    "The cohorts overlap and are not independent external validation datasets.",
+    "Sensitivity-support thresholds are descriptive stability rules, not statistical significance tests."
+  ]
+}

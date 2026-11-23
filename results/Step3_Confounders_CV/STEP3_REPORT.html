@@ -1,0 +1,70 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GSE143157 Step 3 report</title><style>
+body{font-family:Arial,sans-serif;max-width:1080px;margin:28px auto;padding:0 18px;line-height:1.5;color:#222}h1,h2{color:#17365d}
+.notice{background:#fff4ce;border-left:5px solid #d6a800;padding:12px 16px}.good{background:#eaf6ec;border-left:5px solid #2e7d32;padding:12px 16px}
+.data-table{border-collapse:collapse;width:100%;font-size:.88rem}.data-table th,.data-table td{padding:7px;border-bottom:1px solid #ddd;text-align:left}
+img{max-width:100%;height:auto}code{background:#f4f4f4;padding:2px 4px}</style></head><body>
+<h1>GSE143157 Step 3: confounders and leakage-safe nested CV</h1>
+<p class="good"><strong>Frozen primary cohort:</strong> Clean-77. The exact same donor folds must be used for 5mC, 5hmC, and combined models.</p>
+<p class="notice"><strong>Important:</strong> Covariate balance does not make global preprocessing safe. Imputation, variance filtering, feature selection, scaling, residualization, and tuning must still be fitted inside the outer-training data only.</p>
+<h2>Primary covariate audit</h2><p>Two-sided permutation tests used 20,000 permutations; four p-values were adjusted by Benjamini–Hochberg FDR. Effect sizes, not p-values alone, determine interpretation.</p><table class="dataframe data-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>covariate</th>
+      <th>control_summary</th>
+      <th>msa_summary</th>
+      <th>effect_name</th>
+      <th>effect_size</th>
+      <th>effect_magnitude</th>
+      <th>permutation_p_two_sided</th>
+      <th>fdr_bh</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>age</td>
+      <td>mean=72.973; sd=10.452; median=74.000</td>
+      <td>mean=66.000; sd=5.756; median=66.000</td>
+      <td>Hedges g</td>
+      <td>-0.827</td>
+      <td>large</td>
+      <td>0.0005</td>
+      <td>0.002</td>
+    </tr>
+    <tr>
+      <td>pmi_hours</td>
+      <td>mean=41.946; sd=19.245; median=45.000</td>
+      <td>mean=42.575; sd=26.425; median=31.500</td>
+      <td>Hedges g</td>
+      <td>0.02678</td>
+      <td>negligible</td>
+      <td>0.9054</td>
+      <td>0.9054</td>
+    </tr>
+    <tr>
+      <td>sex</td>
+      <td>{"Female": 18, "Male": 19}</td>
+      <td>{"Female": 23, "Male": 17}</td>
+      <td>Cramer's V</td>
+      <td>0.08863</td>
+      <td>negligible</td>
+      <td>0.4961</td>
+      <td>0.6614</td>
+    </tr>
+    <tr>
+      <td>brain_bank</td>
+      <td>{"Bispebjerg Brain Bank": 9, "MRC London Neurodegenerative Diseases Brain Bank": 28}</td>
+      <td>{"Bispebjerg Brain Bank": 17, "MRC London Neurodegenerative Diseases Brain Bank": 23}</td>
+      <td>Cramer's V</td>
+      <td>0.192</td>
+      <td>small</td>
+      <td>0.1419</td>
+      <td>0.2838</td>
+    </tr>
+  </tbody>
+</table>
+<h2>Frozen CV design</h2><ul><li>5-fold outer CV repeated 10 times.</li><li>4-fold inner CV inside every outer-training set.</li><li>Partitions were diagnosis-stratified and selected for age, sex, brain-bank, and PMI balance without reading CpG values.</li><li>Covariate-only, molecular-only, and molecular-plus-covariate models are required.</li></ul>
+<h2>Primary covariate distribution</h2><img src="covariate_balance_primary.png" alt="Primary covariate balance">
+<h2>Outer-fold balance</h2><img src="outer_fold_balance_primary.png" alt="Outer fold balance">
+<h2>Leakage rule</h2><p>Do not use the Step 2 top-variable CpG list for supervised modeling. Every molecular preprocessing decision must be learned again inside each training fold.</p>
+</body></html>

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GSE143157 Step 2B cohort report</title>
+<style>
+body{font-family:Arial,sans-serif;max-width:1000px;margin:28px auto;padding:0 18px;color:#222;line-height:1.55}
+h1,h2{color:#17365d} .good{background:#eaf6ec;border-left:5px solid #2e7d32;padding:12px 16px}
+.warn{background:#fff4ce;border-left:5px solid #d6a800;padding:12px 16px}
+table{border-collapse:collapse;width:100%}th,td{padding:8px;border-bottom:1px solid #ddd;text-align:left}
+code{background:#f4f4f4;padding:2px 4px}
+</style></head><body>
+<h1>GSE143157 Step 2B: frozen analysis cohorts</h1>
+<p class="good"><strong>Primary paired cohort:</strong> 77 donors (37 Control, 40 MSA). MSA 30 is removed from both 5mC and 5hmC so the modality comparison uses the same people.</p>
+<p class="warn"><strong>Control 11 remains in the primary cohort.</strong> PCA evidence alone is not treated as proof of technical failure. A separate 76-donor stress-test definition is supplied.</p>
+<h2>Cohorts</h2><table><tr><th>Cohort</th><th>Donors</th><th>Control</th><th>MSA</th><th>Purpose</th></tr>
+<tr><td>Primary Clean-77</td><td>77</td><td>37</td><td>40</td><td>Main paired 5mC/5hmC analysis</td></tr>
+<tr><td>Full-78</td><td>78</td><td>37</td><td>41</td><td>Full-cohort sensitivity analysis</td></tr>
+<tr><td>No-two 76</td><td>76</td><td>36</td><td>40</td><td>Optional stress-test only</td></tr></table>
+<h2>Why MSA 30 is excluded from the paired primary cohort</h2>
+<ul><li>BS-array Detection-P failure exceeded the documented threshold.</li><li>5hmC missingness and negative BS−oxBS differences were robust QC outliers.</li><li>5hmC PCA was an extreme outlier, while 5mC was not.</li></ul>
+<p>This rule is based on converging technical evidence, not diagnosis or PCA distance alone.</p>
+<h2>Primary HDF5</h2>
+<p><code>GSE143157_primary_clean77.h5</code></p>
+<ul><li>5mC shape: 731,661 × 77</li>
+<li>5hmC shape: 405,408 × 77</li>
+<li>No CpG row was removed or recalculated in Step 2B; only the MSA 30 donor column was omitted.</li></ul>
+<h2>Analysis rule</h2><p>Use Clean-77 for the main paired comparison. Repeat final models on Full-78. The 76-donor definition is a stress-test and must not silently replace the primary cohort.</p>
+</body></html>

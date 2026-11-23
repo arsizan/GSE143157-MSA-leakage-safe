@@ -1,0 +1,373 @@
+modality,collection,term_id,display_term,Term,Ont,Pathway,N,DE,P.DE,FDR,SigGenesInSet,rank_by_p,fdr_significant_0_05,nominal_p_lt_0_05
+5hmC,KEGG,hsa04614,Renin-angiotensin system,,,Renin-angiotensin system,19,1,0.00515441233665918,1,PRCP,1,FALSE,TRUE
+5hmC,KEGG,hsa00532,Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate,,,Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate,20,1,0.00854061159804948,1,UST,2,FALSE,TRUE
+5hmC,KEGG,hsa03250,Viral life cycle - HIV-1,,,Viral life cycle - HIV-1,64,1,0.0197488337090534,1,MLLT1,3,FALSE,TRUE
+5hmC,KEGG,hsa03010,Ribosome,,,Ribosome,168,1,0.0383177382055879,1,RSL24D1,4,FALSE,TRUE
+5hmC,KEGG,hsa04974,Protein digestion and absorption,,,Protein digestion and absorption,93,1,0.0403989193787961,1,PRCP,5,FALSE,TRUE
+5hmC,KEGG,hsa05171,Coronavirus disease,,,Coronavirus disease,208,1,0.0589731791281017,1,RSL24D1,6,FALSE,FALSE
+5hmC,KEGG,hsa05130,Pathogenic Escherichia coli infection,,,Pathogenic Escherichia coli infection,189,1,0.0681340643580653,1,MYO1B,7,FALSE,FALSE
+5hmC,KEGG,hsa04814,Motor proteins,,,Motor proteins,190,1,0.0709062756031539,1,MYO1B,8,FALSE,FALSE
+5hmC,KEGG,hsa05202,Transcriptional misregulation in cancer,,,Transcriptional misregulation in cancer,174,1,0.0720703873345754,1,MLLT1,9,FALSE,FALSE
+5hmC,KEGG,hsa04519,Cadherin signaling,,,Cadherin signaling,385,1,0.143077932441559,1,MYO1B,10,FALSE,FALSE
+5hmC,KEGG,hsa00430,Taurine and hypotaurine metabolism,,,Taurine and hypotaurine metabolism,16,0,0.999999999999999,1,,11,FALSE,FALSE
+5hmC,KEGG,hsa00541,Biosynthesis of various nucleotide sugars,,,Biosynthesis of various nucleotide sugars,19,0,0.999999999999999,1,,12,FALSE,FALSE
+5hmC,KEGG,hsa00670,One carbon pool by folate,,,One carbon pool by folate,37,0,0.999999999999999,1,,13,FALSE,FALSE
+5hmC,KEGG,hsa04014,Ras signaling pathway,,,Ras signaling pathway,226,0,0.999999999999999,1,,14,FALSE,FALSE
+5hmC,KEGG,hsa04020,Calcium signaling pathway,,,Calcium signaling pathway,241,0,0.999999999999999,1,,15,FALSE,FALSE
+5hmC,KEGG,hsa04062,Chemokine signaling pathway,,,Chemokine signaling pathway,175,0,0.999999999999999,1,,16,FALSE,FALSE
+5hmC,KEGG,hsa04070,Phosphatidylinositol signaling system,,,Phosphatidylinositol signaling system,92,0,0.999999999999999,1,,17,FALSE,FALSE
+5hmC,KEGG,hsa04213,Longevity regulating pathway - multiple species,,,Longevity regulating pathway - multiple species,60,0,0.999999999999999,1,,18,FALSE,FALSE
+5hmC,KEGG,hsa04260,Cardiac muscle contraction,,,Cardiac muscle contraction,78,0,0.999999999999999,1,,19,FALSE,FALSE
+5hmC,KEGG,hsa04270,Vascular smooth muscle contraction,,,Vascular smooth muscle contraction,132,0,0.999999999999999,1,,20,FALSE,FALSE
+5hmC,KEGG,hsa05031,Amphetamine addiction,,,Amphetamine addiction,66,0,0.999999999999999,1,,21,FALSE,FALSE
+5hmC,KEGG,hsa05131,Shigellosis,,,Shigellosis,232,0,0.999999999999999,1,,22,FALSE,FALSE
+5hmC,KEGG,hsa05222,Small cell lung cancer,,,Small cell lung cancer,88,0,0.999999999999999,1,,23,FALSE,FALSE
+5hmC,KEGG,hsa00010,Glycolysis / Gluconeogenesis,,,Glycolysis / Gluconeogenesis,63,0,1,1,,24,FALSE,FALSE
+5hmC,KEGG,hsa00020,Citrate cycle (TCA cycle),,,Citrate cycle (TCA cycle),28,0,1,1,,25,FALSE,FALSE
+5hmC,KEGG,hsa00030,Pentose phosphate pathway,,,Pentose phosphate pathway,26,0,1,1,,26,FALSE,FALSE
+5hmC,KEGG,hsa00040,Pentose and glucuronate interconversions,,,Pentose and glucuronate interconversions,31,0,1,1,,27,FALSE,FALSE
+5hmC,KEGG,hsa00051,Fructose and mannose metabolism,,,Fructose and mannose metabolism,35,0,1,1,,28,FALSE,FALSE
+5hmC,KEGG,hsa00052,Galactose metabolism,,,Galactose metabolism,29,0,1,1,,29,FALSE,FALSE
+5hmC,KEGG,hsa00053,Ascorbate and aldarate metabolism,,,Ascorbate and aldarate metabolism,24,0,1,1,,30,FALSE,FALSE
+5hmC,KEGG,hsa00061,Fatty acid biosynthesis,,,Fatty acid biosynthesis,16,0,1,1,,31,FALSE,FALSE
+5hmC,KEGG,hsa00062,Fatty acid elongation,,,Fatty acid elongation,28,0,1,1,,32,FALSE,FALSE
+5hmC,KEGG,hsa00071,Fatty acid degradation,,,Fatty acid degradation,41,0,1,1,,33,FALSE,FALSE
+5hmC,KEGG,hsa00100,Steroid biosynthesis,,,Steroid biosynthesis,17,0,1,1,,34,FALSE,FALSE
+5hmC,KEGG,hsa00120,Primary bile acid biosynthesis,,,Primary bile acid biosynthesis,17,0,1,1,,35,FALSE,FALSE
+5hmC,KEGG,hsa00130,Ubiquinone and other terpenoid-quinone biosynthesis,,,Ubiquinone and other terpenoid-quinone biosynthesis,12,0,1,1,,36,FALSE,FALSE
+5hmC,KEGG,hsa00140,Steroid hormone biosynthesis,,,Steroid hormone biosynthesis,54,0,1,1,,37,FALSE,FALSE
+5hmC,KEGG,hsa00190,Oxidative phosphorylation,,,Oxidative phosphorylation,118,0,1,1,,38,FALSE,FALSE
+5hmC,KEGG,hsa00220,Arginine biosynthesis,,,Arginine biosynthesis,21,0,1,1,,39,FALSE,FALSE
+5hmC,KEGG,hsa00230,Purine metabolism,,,Purine metabolism,122,0,1,1,,40,FALSE,FALSE
+5hmC,KEGG,hsa00232,Caffeine metabolism,,,Caffeine metabolism,5,0,1,1,,41,FALSE,FALSE
+5hmC,KEGG,hsa00240,Pyrimidine metabolism,,,Pyrimidine metabolism,56,0,1,1,,42,FALSE,FALSE
+5hmC,KEGG,hsa00250,"Alanine, aspartate and glutamate metabolism",,,"Alanine, aspartate and glutamate metabolism",36,0,1,1,,43,FALSE,FALSE
+5hmC,KEGG,hsa00260,"Glycine, serine and threonine metabolism",,,"Glycine, serine and threonine metabolism",35,0,1,1,,44,FALSE,FALSE
+5hmC,KEGG,hsa00270,Cysteine and methionine metabolism,,,Cysteine and methionine metabolism,51,0,1,1,,45,FALSE,FALSE
+5hmC,KEGG,hsa00280,"Valine, leucine and isoleucine degradation",,,"Valine, leucine and isoleucine degradation",46,0,1,1,,46,FALSE,FALSE
+5hmC,KEGG,hsa00290,"Valine, leucine and isoleucine biosynthesis",,,"Valine, leucine and isoleucine biosynthesis",4,0,1,1,,47,FALSE,FALSE
+5hmC,KEGG,hsa00310,Lysine degradation,,,Lysine degradation,61,0,1,1,,48,FALSE,FALSE
+5hmC,KEGG,hsa00330,Arginine and proline metabolism,,,Arginine and proline metabolism,44,0,1,1,,49,FALSE,FALSE
+5hmC,KEGG,hsa00340,Histidine metabolism,,,Histidine metabolism,20,0,1,1,,50,FALSE,FALSE
+5hmC,KEGG,hsa00350,Tyrosine metabolism,,,Tyrosine metabolism,33,0,1,1,,51,FALSE,FALSE
+5hmC,KEGG,hsa00360,Phenylalanine metabolism,,,Phenylalanine metabolism,14,0,1,1,,52,FALSE,FALSE
+5hmC,KEGG,hsa00380,Tryptophan metabolism,,,Tryptophan metabolism,39,0,1,1,,53,FALSE,FALSE
+5hmC,KEGG,hsa00400,"Phenylalanine, tyrosine and tryptophan biosynthesis",,,"Phenylalanine, tyrosine and tryptophan biosynthesis",6,0,1,1,,54,FALSE,FALSE
+5hmC,KEGG,hsa00410,beta-Alanine metabolism,,,beta-Alanine metabolism,31,0,1,1,,55,FALSE,FALSE
+5hmC,KEGG,hsa00440,Phosphonate and phosphinate metabolism,,,Phosphonate and phosphinate metabolism,5,0,1,1,,56,FALSE,FALSE
+5hmC,KEGG,hsa00450,Selenocompound metabolism,,,Selenocompound metabolism,17,0,1,1,,57,FALSE,FALSE
+5hmC,KEGG,hsa00470,D-Amino acid metabolism,,,D-Amino acid metabolism,6,0,1,1,,58,FALSE,FALSE
+5hmC,KEGG,hsa00480,Glutathione metabolism,,,Glutathione metabolism,49,0,1,1,,59,FALSE,FALSE
+5hmC,KEGG,hsa00500,Starch and sucrose metabolism,,,Starch and sucrose metabolism,30,0,1,1,,60,FALSE,FALSE
+5hmC,KEGG,hsa00510,N-Glycan biosynthesis,,,N-Glycan biosynthesis,50,0,1,1,,61,FALSE,FALSE
+5hmC,KEGG,hsa00511,Other glycan degradation,,,Other glycan degradation,18,0,1,1,,62,FALSE,FALSE
+5hmC,KEGG,hsa00512,Mucin type O-glycan biosynthesis,,,Mucin type O-glycan biosynthesis,34,0,1,1,,63,FALSE,FALSE
+5hmC,KEGG,hsa00513,Various types of N-glycan biosynthesis,,,Various types of N-glycan biosynthesis,40,0,1,1,,64,FALSE,FALSE
+5hmC,KEGG,hsa00514,Other types of O-glycan biosynthesis,,,Other types of O-glycan biosynthesis,46,0,1,1,,65,FALSE,FALSE
+5hmC,KEGG,hsa00515,Mannose type O-glycan biosynthesis,,,Mannose type O-glycan biosynthesis,23,0,1,1,,66,FALSE,FALSE
+5hmC,KEGG,hsa00520,Amino sugar and nucleotide sugar metabolism,,,Amino sugar and nucleotide sugar metabolism,37,0,1,1,,67,FALSE,FALSE
+5hmC,KEGG,hsa00524,"Neomycin, kanamycin and gentamicin biosynthesis",,,"Neomycin, kanamycin and gentamicin biosynthesis",5,0,1,1,,68,FALSE,FALSE
+5hmC,KEGG,hsa00531,Glycosaminoglycan degradation,,,Glycosaminoglycan degradation,18,0,1,1,,69,FALSE,FALSE
+5hmC,KEGG,hsa00533,Glycosaminoglycan biosynthesis - keratan sulfate,,,Glycosaminoglycan biosynthesis - keratan sulfate,14,0,1,1,,70,FALSE,FALSE
+5hmC,KEGG,hsa00534,Glycosaminoglycan biosynthesis - heparan sulfate / heparin,,,Glycosaminoglycan biosynthesis - heparan sulfate / heparin,23,0,1,1,,71,FALSE,FALSE
+5hmC,KEGG,hsa00561,Glycerolipid metabolism,,,Glycerolipid metabolism,59,0,1,1,,72,FALSE,FALSE
+5hmC,KEGG,hsa00562,Inositol phosphate metabolism,,,Inositol phosphate metabolism,74,0,1,1,,73,FALSE,FALSE
+5hmC,KEGG,hsa00563,Glycosylphosphatidylinositol (GPI)-anchor biosynthesis,,,Glycosylphosphatidylinositol (GPI)-anchor biosynthesis,29,0,1,1,,74,FALSE,FALSE
+5hmC,KEGG,hsa00564,Glycerophospholipid metabolism,,,Glycerophospholipid metabolism,98,0,1,1,,75,FALSE,FALSE
+5hmC,KEGG,hsa00565,Ether lipid metabolism,,,Ether lipid metabolism,51,0,1,1,,76,FALSE,FALSE
+5hmC,KEGG,hsa00590,Arachidonic acid metabolism,,,Arachidonic acid metabolism,59,0,1,1,,77,FALSE,FALSE
+5hmC,KEGG,hsa00591,Linoleic acid metabolism,,,Linoleic acid metabolism,26,0,1,1,,78,FALSE,FALSE
+5hmC,KEGG,hsa00592,alpha-Linolenic acid metabolism,,,alpha-Linolenic acid metabolism,26,0,1,1,,79,FALSE,FALSE
+5hmC,KEGG,hsa00600,Sphingolipid metabolism,,,Sphingolipid metabolism,53,0,1,1,,80,FALSE,FALSE
+5hmC,KEGG,hsa00601,Glycosphingolipid biosynthesis - lacto and neolacto series,,,Glycosphingolipid biosynthesis - lacto and neolacto series,28,0,1,1,,81,FALSE,FALSE
+5hmC,KEGG,hsa00603,Glycosphingolipid biosynthesis - globo and isoglobo series,,,Glycosphingolipid biosynthesis - globo and isoglobo series,15,0,1,1,,82,FALSE,FALSE
+5hmC,KEGG,hsa00604,Glycosphingolipid biosynthesis - ganglio series,,,Glycosphingolipid biosynthesis - ganglio series,15,0,1,1,,83,FALSE,FALSE
+5hmC,KEGG,hsa00620,Pyruvate metabolism,,,Pyruvate metabolism,46,0,1,1,,84,FALSE,FALSE
+5hmC,KEGG,hsa00630,Glyoxylate and dicarboxylate metabolism,,,Glyoxylate and dicarboxylate metabolism,31,0,1,1,,85,FALSE,FALSE
+5hmC,KEGG,hsa00640,Propanoate metabolism,,,Propanoate metabolism,32,0,1,1,,86,FALSE,FALSE
+5hmC,KEGG,hsa00650,Butanoate metabolism,,,Butanoate metabolism,25,0,1,1,,87,FALSE,FALSE
+5hmC,KEGG,hsa00660,C5-Branched dibasic acid metabolism,,,C5-Branched dibasic acid metabolism,2,0,1,1,,88,FALSE,FALSE
+5hmC,KEGG,hsa00730,Thiamine metabolism,,,Thiamine metabolism,15,0,1,1,,89,FALSE,FALSE
+5hmC,KEGG,hsa00740,Riboflavin metabolism,,,Riboflavin metabolism,8,0,1,1,,90,FALSE,FALSE
+5hmC,KEGG,hsa00750,Vitamin B6 metabolism,,,Vitamin B6 metabolism,6,0,1,1,,91,FALSE,FALSE
+5hmC,KEGG,hsa00760,Nicotinate and nicotinamide metabolism,,,Nicotinate and nicotinamide metabolism,37,0,1,1,,92,FALSE,FALSE
+5hmC,KEGG,hsa00770,Pantothenate and CoA biosynthesis,,,Pantothenate and CoA biosynthesis,21,0,1,1,PANK3,93,FALSE,FALSE
+5hmC,KEGG,hsa00780,Biotin metabolism,,,Biotin metabolism,3,0,1,1,,94,FALSE,FALSE
+5hmC,KEGG,hsa00785,Lipoic acid metabolism,,,Lipoic acid metabolism,18,0,1,1,,95,FALSE,FALSE
+5hmC,KEGG,hsa00790,Folate biosynthesis,,,Folate biosynthesis,28,0,1,1,,96,FALSE,FALSE
+5hmC,KEGG,hsa00830,Retinol metabolism,,,Retinol metabolism,55,0,1,1,,97,FALSE,FALSE
+5hmC,KEGG,hsa00860,Porphyrin metabolism,,,Porphyrin metabolism,36,0,1,1,,98,FALSE,FALSE
+5hmC,KEGG,hsa00900,Terpenoid backbone biosynthesis,,,Terpenoid backbone biosynthesis,24,0,1,1,,99,FALSE,FALSE
+5hmC,KEGG,hsa00910,Nitrogen metabolism,,,Nitrogen metabolism,15,0,1,1,,100,FALSE,FALSE
+5hmC,KEGG,hsa00920,Sulfur metabolism,,,Sulfur metabolism,10,0,1,1,,101,FALSE,FALSE
+5hmC,KEGG,hsa00970,Aminoacyl-tRNA biosynthesis,,,Aminoacyl-tRNA biosynthesis,43,0,1,1,,102,FALSE,FALSE
+5hmC,KEGG,hsa00980,Metabolism of xenobiotics by cytochrome P450,,,Metabolism of xenobiotics by cytochrome P450,59,0,1,1,,103,FALSE,FALSE
+5hmC,KEGG,hsa00982,Drug metabolism - cytochrome P450,,,Drug metabolism - cytochrome P450,49,0,1,1,,104,FALSE,FALSE
+5hmC,KEGG,hsa00983,Drug metabolism - other enzymes,,,Drug metabolism - other enzymes,65,0,1,1,,105,FALSE,FALSE
+5hmC,KEGG,hsa01040,Biosynthesis of unsaturated fatty acids,,,Biosynthesis of unsaturated fatty acids,27,0,1,1,,106,FALSE,FALSE
+5hmC,KEGG,hsa01100,Metabolic pathways,,,Metabolic pathways,1470,0,1,1,PANK3,107,FALSE,FALSE
+5hmC,KEGG,hsa01200,Carbon metabolism,,,Carbon metabolism,106,0,1,1,,108,FALSE,FALSE
+5hmC,KEGG,hsa01210,2-Oxocarboxylic acid metabolism,,,2-Oxocarboxylic acid metabolism,31,0,1,1,,109,FALSE,FALSE
+5hmC,KEGG,hsa01212,Fatty acid metabolism,,,Fatty acid metabolism,55,0,1,1,,110,FALSE,FALSE
+5hmC,KEGG,hsa01230,Biosynthesis of amino acids,,,Biosynthesis of amino acids,67,0,1,1,,111,FALSE,FALSE
+5hmC,KEGG,hsa01232,Nucleotide metabolism,,,Nucleotide metabolism,80,0,1,1,,112,FALSE,FALSE
+5hmC,KEGG,hsa01240,Biosynthesis of cofactors,,,Biosynthesis of cofactors,145,0,1,1,PANK3,113,FALSE,FALSE
+5hmC,KEGG,hsa01250,Biosynthesis of nucleotide sugars,,,Biosynthesis of nucleotide sugars,37,0,1,1,,114,FALSE,FALSE
+5hmC,KEGG,hsa01320,Sulfur cycle,,,Sulfur cycle,2,0,1,1,,115,FALSE,FALSE
+5hmC,KEGG,hsa01521,EGFR tyrosine kinase inhibitor resistance,,,EGFR tyrosine kinase inhibitor resistance,77,0,1,1,,116,FALSE,FALSE
+5hmC,KEGG,hsa01522,Endocrine resistance,,,Endocrine resistance,94,0,1,1,,117,FALSE,FALSE
+5hmC,KEGG,hsa01523,Antifolate resistance,,,Antifolate resistance,28,0,1,1,,118,FALSE,FALSE
+5hmC,KEGG,hsa01524,Platinum drug resistance,,,Platinum drug resistance,65,0,1,1,,119,FALSE,FALSE
+5hmC,KEGG,hsa02010,ABC transporters,,,ABC transporters,43,0,1,1,,120,FALSE,FALSE
+5hmC,KEGG,hsa03008,Ribosome biogenesis in eukaryotes,,,Ribosome biogenesis in eukaryotes,68,0,1,1,,121,FALSE,FALSE
+5hmC,KEGG,hsa03013,Nucleocytoplasmic transport,,,Nucleocytoplasmic transport,98,0,1,1,,122,FALSE,FALSE
+5hmC,KEGG,hsa03015,mRNA surveillance pathway,,,mRNA surveillance pathway,84,0,1,1,,123,FALSE,FALSE
+5hmC,KEGG,hsa03018,RNA degradation,,,RNA degradation,74,0,1,1,,124,FALSE,FALSE
+5hmC,KEGG,hsa03020,RNA polymerase,,,RNA polymerase,30,0,1,1,,125,FALSE,FALSE
+5hmC,KEGG,hsa03022,Basal transcription factors,,,Basal transcription factors,37,0,1,1,,126,FALSE,FALSE
+5hmC,KEGG,hsa03030,DNA replication,,,DNA replication,34,0,1,1,,127,FALSE,FALSE
+5hmC,KEGG,hsa03040,Spliceosome,,,Spliceosome,137,0,1,1,,128,FALSE,FALSE
+5hmC,KEGG,hsa03050,Proteasome,,,Proteasome,45,0,1,1,,129,FALSE,FALSE
+5hmC,KEGG,hsa03060,Protein export,,,Protein export,30,0,1,1,,130,FALSE,FALSE
+5hmC,KEGG,hsa03082,ATP-dependent chromatin remodeling,,,ATP-dependent chromatin remodeling,103,0,1,1,,131,FALSE,FALSE
+5hmC,KEGG,hsa03083,Polycomb repressive complex,,,Polycomb repressive complex,74,0,1,1,,132,FALSE,FALSE
+5hmC,KEGG,hsa03260,Virion - Human immunodeficiency virus,,,Virion - Human immunodeficiency virus,5,0,1,1,,133,FALSE,FALSE
+5hmC,KEGG,hsa03264,Virion - Flavivirus and Alphavirus,,,Virion - Flavivirus and Alphavirus,6,0,1,1,,134,FALSE,FALSE
+5hmC,KEGG,hsa03265,"Virion - Ebolavirus, Lyssavirus and Morbillivirus",,,"Virion - Ebolavirus, Lyssavirus and Morbillivirus",11,0,1,1,,135,FALSE,FALSE
+5hmC,KEGG,hsa03266,Virion - Herpesvirus,,,Virion - Herpesvirus,8,0,1,1,,136,FALSE,FALSE
+5hmC,KEGG,hsa03267,Virion - Adenovirus,,,Virion - Adenovirus,4,0,1,1,,137,FALSE,FALSE
+5hmC,KEGG,hsa03271,Virion - Rotavirus,,,Virion - Rotavirus,2,0,1,1,,138,FALSE,FALSE
+5hmC,KEGG,hsa03272,Virion - Hepatitis viruses,,,Virion - Hepatitis viruses,45,0,1,1,,139,FALSE,FALSE
+5hmC,KEGG,hsa03273,Virion - Lassa virus and SFTS virus,,,Virion - Lassa virus and SFTS virus,14,0,1,1,,140,FALSE,FALSE
+5hmC,KEGG,hsa03320,PPAR signaling pathway,,,PPAR signaling pathway,73,0,1,1,,141,FALSE,FALSE
+5hmC,KEGG,hsa03410,Base excision repair,,,Base excision repair,44,0,1,1,,142,FALSE,FALSE
+5hmC,KEGG,hsa03420,Nucleotide excision repair,,,Nucleotide excision repair,53,0,1,1,,143,FALSE,FALSE
+5hmC,KEGG,hsa03430,Mismatch repair,,,Mismatch repair,22,0,1,1,,144,FALSE,FALSE
+5hmC,KEGG,hsa03440,Homologous recombination,,,Homologous recombination,39,0,1,1,,145,FALSE,FALSE
+5hmC,KEGG,hsa03450,Non-homologous end-joining,,,Non-homologous end-joining,13,0,1,1,,146,FALSE,FALSE
+5hmC,KEGG,hsa03460,Fanconi anemia pathway,,,Fanconi anemia pathway,49,0,1,1,,147,FALSE,FALSE
+5hmC,KEGG,hsa04010,MAPK signaling pathway,,,MAPK signaling pathway,287,0,1,1,,148,FALSE,FALSE
+5hmC,KEGG,hsa04012,ErbB signaling pathway,,,ErbB signaling pathway,80,0,1,1,,149,FALSE,FALSE
+5hmC,KEGG,hsa04015,Rap1 signaling pathway,,,Rap1 signaling pathway,207,0,1,1,,150,FALSE,FALSE
+5hmC,KEGG,hsa04022,cGMP-PKG signaling pathway,,,cGMP-PKG signaling pathway,160,0,1,1,,151,FALSE,FALSE
+5hmC,KEGG,hsa04024,cAMP signaling pathway,,,cAMP signaling pathway,218,0,1,1,,152,FALSE,FALSE
+5hmC,KEGG,hsa04060,Cytokine-cytokine receptor interaction,,,Cytokine-cytokine receptor interaction,257,0,1,1,,153,FALSE,FALSE
+5hmC,KEGG,hsa04061,Viral protein interaction with cytokine and cytokine receptor,,,Viral protein interaction with cytokine and cytokine receptor,85,0,1,1,,154,FALSE,FALSE
+5hmC,KEGG,hsa04064,NF-kappa B signaling pathway,,,NF-kappa B signaling pathway,93,0,1,1,,155,FALSE,FALSE
+5hmC,KEGG,hsa04066,HIF-1 signaling pathway,,,HIF-1 signaling pathway,105,0,1,1,,156,FALSE,FALSE
+5hmC,KEGG,hsa04068,FoxO signaling pathway,,,FoxO signaling pathway,128,0,1,1,,157,FALSE,FALSE
+5hmC,KEGG,hsa04071,Sphingolipid signaling pathway,,,Sphingolipid signaling pathway,122,0,1,1,,158,FALSE,FALSE
+5hmC,KEGG,hsa04072,Phospholipase D signaling pathway,,,Phospholipase D signaling pathway,143,0,1,1,,159,FALSE,FALSE
+5hmC,KEGG,hsa04080,Neuroactive ligand-receptor interaction,,,Neuroactive ligand-receptor interaction,341,0,1,1,,160,FALSE,FALSE
+5hmC,KEGG,hsa04081,Hormone signaling,,,Hormone signaling,208,0,1,1,,161,FALSE,FALSE
+5hmC,KEGG,hsa04082,Neuroactive ligand signaling,,,Neuroactive ligand signaling,191,0,1,1,,162,FALSE,FALSE
+5hmC,KEGG,hsa04110,Cell cycle,,,Cell cycle,151,0,1,1,,163,FALSE,FALSE
+5hmC,KEGG,hsa04114,Oocyte meiosis,,,Oocyte meiosis,116,0,1,1,,164,FALSE,FALSE
+5hmC,KEGG,hsa04115,p53 signaling pathway,,,p53 signaling pathway,75,0,1,1,,165,FALSE,FALSE
+5hmC,KEGG,hsa04120,Ubiquitin mediated proteolysis,,,Ubiquitin mediated proteolysis,133,0,1,1,,166,FALSE,FALSE
+5hmC,KEGG,hsa04122,Sulfur relay system,,,Sulfur relay system,7,0,1,1,,167,FALSE,FALSE
+5hmC,KEGG,hsa04130,SNARE interactions in vesicular transport,,,SNARE interactions in vesicular transport,32,0,1,1,,168,FALSE,FALSE
+5hmC,KEGG,hsa04136,Autophagy - other,,,Autophagy - other,29,0,1,1,,169,FALSE,FALSE
+5hmC,KEGG,hsa04137,Mitophagy - animal,,,Mitophagy - animal,97,0,1,1,,170,FALSE,FALSE
+5hmC,KEGG,hsa04140,Autophagy - animal,,,Autophagy - animal,156,0,1,1,,171,FALSE,FALSE
+5hmC,KEGG,hsa04141,Protein processing in endoplasmic reticulum,,,Protein processing in endoplasmic reticulum,163,0,1,1,,172,FALSE,FALSE
+5hmC,KEGG,hsa04142,Lysosome biogenesis,,,Lysosome biogenesis,238,0,1,1,,173,FALSE,FALSE
+5hmC,KEGG,hsa04144,Endocytosis,,,Endocytosis,238,0,1,1,,174,FALSE,FALSE
+5hmC,KEGG,hsa04145,Phagocytosis,,,Phagocytosis,226,0,1,1,,175,FALSE,FALSE
+5hmC,KEGG,hsa04146,Peroxisome,,,Peroxisome,80,0,1,1,,176,FALSE,FALSE
+5hmC,KEGG,hsa04148,Efferocytosis,,,Efferocytosis,153,0,1,1,,177,FALSE,FALSE
+5hmC,KEGG,hsa04150,mTOR signaling pathway,,,mTOR signaling pathway,151,0,1,1,,178,FALSE,FALSE
+5hmC,KEGG,hsa04151,PI3K-Akt signaling pathway,,,PI3K-Akt signaling pathway,335,0,1,1,,179,FALSE,FALSE
+5hmC,KEGG,hsa04152,AMPK signaling pathway,,,AMPK signaling pathway,118,0,1,1,,180,FALSE,FALSE
+5hmC,KEGG,hsa04156,Integrated stress response (ISR) signaling pathway,,,Integrated stress response (ISR) signaling pathway,50,0,1,1,,181,FALSE,FALSE
+5hmC,KEGG,hsa04210,Apoptosis,,,Apoptosis,132,0,1,1,,182,FALSE,FALSE
+5hmC,KEGG,hsa04211,Longevity regulating pathway,,,Longevity regulating pathway,88,0,1,1,,183,FALSE,FALSE
+5hmC,KEGG,hsa04215,Apoptosis - multiple species,,,Apoptosis - multiple species,30,0,1,1,,184,FALSE,FALSE
+5hmC,KEGG,hsa04216,Ferroptosis,,,Ferroptosis,37,0,1,1,,185,FALSE,FALSE
+5hmC,KEGG,hsa04217,Necroptosis,,,Necroptosis,135,0,1,1,,186,FALSE,FALSE
+5hmC,KEGG,hsa04218,Cellular senescence,,,Cellular senescence,152,0,1,1,,187,FALSE,FALSE
+5hmC,KEGG,hsa04261,Adrenergic signaling in cardiomyocytes,,,Adrenergic signaling in cardiomyocytes,148,0,1,1,,188,FALSE,FALSE
+5hmC,KEGG,hsa04310,Wnt signaling pathway,,,Wnt signaling pathway,172,0,1,1,,189,FALSE,FALSE
+5hmC,KEGG,hsa04330,Notch signaling pathway,,,Notch signaling pathway,60,0,1,1,,190,FALSE,FALSE
+5hmC,KEGG,hsa04340,Hedgehog signaling pathway,,,Hedgehog signaling pathway,56,0,1,1,,191,FALSE,FALSE
+5hmC,KEGG,hsa04350,TGF-beta signaling pathway,,,TGF-beta signaling pathway,109,0,1,1,,192,FALSE,FALSE
+5hmC,KEGG,hsa04360,Axon guidance,,,Axon guidance,175,0,1,1,,193,FALSE,FALSE
+5hmC,KEGG,hsa04370,VEGF signaling pathway,,,VEGF signaling pathway,59,0,1,1,,194,FALSE,FALSE
+5hmC,KEGG,hsa04371,Apelin signaling pathway,,,Apelin signaling pathway,136,0,1,1,,195,FALSE,FALSE
+5hmC,KEGG,hsa04380,Osteoclast differentiation,,,Osteoclast differentiation,118,0,1,1,,196,FALSE,FALSE
+5hmC,KEGG,hsa04382,Cornified envelope formation,,,Cornified envelope formation,189,0,1,1,,197,FALSE,FALSE
+5hmC,KEGG,hsa04390,Hippo signaling pathway,,,Hippo signaling pathway,154,0,1,1,,198,FALSE,FALSE
+5hmC,KEGG,hsa04392,Hippo signaling pathway - multiple species,,,Hippo signaling pathway - multiple species,29,0,1,1,,199,FALSE,FALSE
+5hmC,KEGG,hsa04510,Focal adhesion,,,Focal adhesion,194,0,1,1,,200,FALSE,FALSE
+5hmC,KEGG,hsa04512,ECM-receptor interaction,,,ECM-receptor interaction,87,0,1,1,,201,FALSE,FALSE
+5hmC,KEGG,hsa04514,Cell adhesion molecule (CAM) interaction,,,Cell adhesion molecule (CAM) interaction,142,0,1,1,,202,FALSE,FALSE
+5hmC,KEGG,hsa04517,IgSF CAM signaling,,,IgSF CAM signaling,281,0,1,1,,203,FALSE,FALSE
+5hmC,KEGG,hsa04518,Integrin signaling,,,Integrin signaling,148,0,1,1,,204,FALSE,FALSE
+5hmC,KEGG,hsa04520,Adherens junction,,,Adherens junction,92,0,1,1,,205,FALSE,FALSE
+5hmC,KEGG,hsa04530,Tight junction,,,Tight junction,162,0,1,1,,206,FALSE,FALSE
+5hmC,KEGG,hsa04540,Gap junction,,,Gap junction,86,0,1,1,,207,FALSE,FALSE
+5hmC,KEGG,hsa04550,Signaling pathways regulating pluripotency of stem cells,,,Signaling pathways regulating pluripotency of stem cells,139,0,1,1,,208,FALSE,FALSE
+5hmC,KEGG,hsa04610,Complement and coagulation cascades,,,Complement and coagulation cascades,79,0,1,1,,209,FALSE,FALSE
+5hmC,KEGG,hsa04611,Platelet activation,,,Platelet activation,124,0,1,1,,210,FALSE,FALSE
+5hmC,KEGG,hsa04612,Antigen processing and presentation,,,Antigen processing and presentation,62,0,1,1,,211,FALSE,FALSE
+5hmC,KEGG,hsa04613,Neutrophil extracellular trap formation,,,Neutrophil extracellular trap formation,141,0,1,1,,212,FALSE,FALSE
+5hmC,KEGG,hsa04620,Toll-like receptor signaling pathway,,,Toll-like receptor signaling pathway,88,0,1,1,,213,FALSE,FALSE
+5hmC,KEGG,hsa04621,NOD-like receptor signaling pathway,,,NOD-like receptor signaling pathway,161,0,1,1,,214,FALSE,FALSE
+5hmC,KEGG,hsa04622,RIG-I-like receptor signaling pathway,,,RIG-I-like receptor signaling pathway,59,0,1,1,,215,FALSE,FALSE
+5hmC,KEGG,hsa04623,Cytosolic DNA-sensing pathway,,,Cytosolic DNA-sensing pathway,68,0,1,1,,216,FALSE,FALSE
+5hmC,KEGG,hsa04625,C-type lectin receptor signaling pathway,,,C-type lectin receptor signaling pathway,103,0,1,1,,217,FALSE,FALSE
+5hmC,KEGG,hsa04630,JAK-STAT signaling pathway,,,JAK-STAT signaling pathway,144,0,1,1,,218,FALSE,FALSE
+5hmC,KEGG,hsa04640,Hematopoietic cell lineage,,,Hematopoietic cell lineage,83,0,1,1,,219,FALSE,FALSE
+5hmC,KEGG,hsa04650,Natural killer cell mediated cytotoxicity,,,Natural killer cell mediated cytotoxicity,106,0,1,1,,220,FALSE,FALSE
+5hmC,KEGG,hsa04657,IL-17 signaling pathway,,,IL-17 signaling pathway,87,0,1,1,,221,FALSE,FALSE
+5hmC,KEGG,hsa04658,Th1 and Th2 cell differentiation,,,Th1 and Th2 cell differentiation,85,0,1,1,,222,FALSE,FALSE
+5hmC,KEGG,hsa04659,Th17 cell differentiation,,,Th17 cell differentiation,100,0,1,1,,223,FALSE,FALSE
+5hmC,KEGG,hsa04660,T cell receptor signaling pathway,,,T cell receptor signaling pathway,114,0,1,1,,224,FALSE,FALSE
+5hmC,KEGG,hsa04662,B cell receptor signaling pathway,,,B cell receptor signaling pathway,72,0,1,1,,225,FALSE,FALSE
+5hmC,KEGG,hsa04664,Fc epsilon RI signaling pathway,,,Fc epsilon RI signaling pathway,65,0,1,1,,226,FALSE,FALSE
+5hmC,KEGG,hsa04666,Fc gamma R-mediated phagosome formation,,,Fc gamma R-mediated phagosome formation,90,0,1,1,,227,FALSE,FALSE
+5hmC,KEGG,hsa04668,TNF signaling pathway,,,TNF signaling pathway,114,0,1,1,,228,FALSE,FALSE
+5hmC,KEGG,hsa04670,Leukocyte transendothelial migration,,,Leukocyte transendothelial migration,108,0,1,1,,229,FALSE,FALSE
+5hmC,KEGG,hsa04672,Intestinal immune network for IgA production,,,Intestinal immune network for IgA production,42,0,1,1,,230,FALSE,FALSE
+5hmC,KEGG,hsa04710,Circadian rhythm,,,Circadian rhythm,34,0,1,1,,231,FALSE,FALSE
+5hmC,KEGG,hsa04713,Circadian entrainment,,,Circadian entrainment,95,0,1,1,,232,FALSE,FALSE
+5hmC,KEGG,hsa04714,Thermogenesis,,,Thermogenesis,213,0,1,1,,233,FALSE,FALSE
+5hmC,KEGG,hsa04720,Long-term potentiation,,,Long-term potentiation,64,0,1,1,,234,FALSE,FALSE
+5hmC,KEGG,hsa04721,Synaptic vesicle cycle,,,Synaptic vesicle cycle,78,0,1,1,,235,FALSE,FALSE
+5hmC,KEGG,hsa04722,Neurotrophin signaling pathway,,,Neurotrophin signaling pathway,114,0,1,1,,236,FALSE,FALSE
+5hmC,KEGG,hsa04723,Retrograde endocannabinoid signaling,,,Retrograde endocannabinoid signaling,133,0,1,1,,237,FALSE,FALSE
+5hmC,KEGG,hsa04724,Glutamatergic synapse,,,Glutamatergic synapse,114,0,1,1,,238,FALSE,FALSE
+5hmC,KEGG,hsa04725,Cholinergic synapse,,,Cholinergic synapse,111,0,1,1,,239,FALSE,FALSE
+5hmC,KEGG,hsa04726,Serotonergic synapse,,,Serotonergic synapse,102,0,1,1,,240,FALSE,FALSE
+5hmC,KEGG,hsa04727,GABAergic synapse,,,GABAergic synapse,83,0,1,1,,241,FALSE,FALSE
+5hmC,KEGG,hsa04728,Dopaminergic synapse,,,Dopaminergic synapse,127,0,1,1,,242,FALSE,FALSE
+5hmC,KEGG,hsa04730,Long-term depression,,,Long-term depression,58,0,1,1,,243,FALSE,FALSE
+5hmC,KEGG,hsa04740,Olfactory transduction,,,Olfactory transduction,210,0,1,1,,244,FALSE,FALSE
+5hmC,KEGG,hsa04742,Taste transduction,,,Taste transduction,80,0,1,1,,245,FALSE,FALSE
+5hmC,KEGG,hsa04744,Phototransduction,,,Phototransduction,26,0,1,1,,246,FALSE,FALSE
+5hmC,KEGG,hsa04750,Inflammatory mediator regulation of TRP channels,,,Inflammatory mediator regulation of TRP channels,97,0,1,1,,247,FALSE,FALSE
+5hmC,KEGG,hsa04810,Regulation of actin cytoskeleton,,,Regulation of actin cytoskeleton,220,0,1,1,,248,FALSE,FALSE
+5hmC,KEGG,hsa04820,Cytoskeleton in muscle cells,,,Cytoskeleton in muscle cells,224,0,1,1,,249,FALSE,FALSE
+5hmC,KEGG,hsa04910,Insulin signaling pathway,,,Insulin signaling pathway,131,0,1,1,,250,FALSE,FALSE
+5hmC,KEGG,hsa04911,Insulin secretion,,,Insulin secretion,83,0,1,1,,251,FALSE,FALSE
+5hmC,KEGG,hsa04912,GnRH signaling pathway,,,GnRH signaling pathway,91,0,1,1,,252,FALSE,FALSE
+5hmC,KEGG,hsa04913,Ovarian steroidogenesis,,,Ovarian steroidogenesis,49,0,1,1,,253,FALSE,FALSE
+5hmC,KEGG,hsa04914,Progesterone-mediated oocyte maturation,,,Progesterone-mediated oocyte maturation,87,0,1,1,,254,FALSE,FALSE
+5hmC,KEGG,hsa04915,Estrogen signaling pathway,,,Estrogen signaling pathway,132,0,1,1,,255,FALSE,FALSE
+5hmC,KEGG,hsa04916,Melanogenesis,,,Melanogenesis,101,0,1,1,,256,FALSE,FALSE
+5hmC,KEGG,hsa04917,Prolactin signaling pathway,,,Prolactin signaling pathway,69,0,1,1,,257,FALSE,FALSE
+5hmC,KEGG,hsa04918,Thyroid hormone synthesis,,,Thyroid hormone synthesis,73,0,1,1,,258,FALSE,FALSE
+5hmC,KEGG,hsa04919,Thyroid hormone signaling pathway,,,Thyroid hormone signaling pathway,117,0,1,1,,259,FALSE,FALSE
+5hmC,KEGG,hsa04920,Adipocytokine signaling pathway,,,Adipocytokine signaling pathway,67,0,1,1,,260,FALSE,FALSE
+5hmC,KEGG,hsa04921,Oxytocin signaling pathway,,,Oxytocin signaling pathway,152,0,1,1,,261,FALSE,FALSE
+5hmC,KEGG,hsa04922,Glucagon signaling pathway,,,Glucagon signaling pathway,99,0,1,1,,262,FALSE,FALSE
+5hmC,KEGG,hsa04923,Regulation of lipolysis in adipocytes,,,Regulation of lipolysis in adipocytes,57,0,1,1,,263,FALSE,FALSE
+5hmC,KEGG,hsa04924,Renin secretion,,,Renin secretion,68,0,1,1,,264,FALSE,FALSE
+5hmC,KEGG,hsa04925,Aldosterone synthesis and secretion,,,Aldosterone synthesis and secretion,93,0,1,1,,265,FALSE,FALSE
+5hmC,KEGG,hsa04926,Relaxin signaling pathway,,,Relaxin signaling pathway,124,0,1,1,,266,FALSE,FALSE
+5hmC,KEGG,hsa04927,Cortisol synthesis and secretion,,,Cortisol synthesis and secretion,61,0,1,1,,267,FALSE,FALSE
+5hmC,KEGG,hsa04928,"Parathyroid hormone synthesis, secretion and action",,,"Parathyroid hormone synthesis, secretion and action",113,0,1,1,,268,FALSE,FALSE
+5hmC,KEGG,hsa04929,GnRH secretion,,,GnRH secretion,62,0,1,1,,269,FALSE,FALSE
+5hmC,KEGG,hsa04930,Type II diabetes mellitus,,,Type II diabetes mellitus,45,0,1,1,,270,FALSE,FALSE
+5hmC,KEGG,hsa04931,Insulin resistance,,,Insulin resistance,105,0,1,1,,271,FALSE,FALSE
+5hmC,KEGG,hsa04932,Non-alcoholic fatty liver disease,,,Non-alcoholic fatty liver disease,148,0,1,1,,272,FALSE,FALSE
+5hmC,KEGG,hsa04933,AGE-RAGE signaling pathway in diabetic complications,,,AGE-RAGE signaling pathway in diabetic complications,95,0,1,1,,273,FALSE,FALSE
+5hmC,KEGG,hsa04934,Cushing syndrome,,,Cushing syndrome,151,0,1,1,,274,FALSE,FALSE
+5hmC,KEGG,hsa04935,"Growth hormone synthesis, secretion and action",,,"Growth hormone synthesis, secretion and action",115,0,1,1,,275,FALSE,FALSE
+5hmC,KEGG,hsa04936,Alcoholic liver disease,,,Alcoholic liver disease,126,0,1,1,,276,FALSE,FALSE
+5hmC,KEGG,hsa04940,Type I diabetes mellitus,,,Type I diabetes mellitus,39,0,1,1,,277,FALSE,FALSE
+5hmC,KEGG,hsa04950,Maturity onset diabetes of the young,,,Maturity onset diabetes of the young,26,0,1,1,,278,FALSE,FALSE
+5hmC,KEGG,hsa04960,Aldosterone-regulated sodium reabsorption,,,Aldosterone-regulated sodium reabsorption,36,0,1,1,,279,FALSE,FALSE
+5hmC,KEGG,hsa04961,Endocrine and other factor-regulated calcium reabsorption,,,Endocrine and other factor-regulated calcium reabsorption,51,0,1,1,,280,FALSE,FALSE
+5hmC,KEGG,hsa04962,Vasopressin-regulated water reabsorption,,,Vasopressin-regulated water reabsorption,43,0,1,1,,281,FALSE,FALSE
+5hmC,KEGG,hsa04964,Proximal tubule bicarbonate reclamation,,,Proximal tubule bicarbonate reclamation,21,0,1,1,,282,FALSE,FALSE
+5hmC,KEGG,hsa04966,Collecting duct acid secretion,,,Collecting duct acid secretion,27,0,1,1,,283,FALSE,FALSE
+5hmC,KEGG,hsa04970,Salivary secretion,,,Salivary secretion,86,0,1,1,,284,FALSE,FALSE
+5hmC,KEGG,hsa04971,Gastric acid secretion,,,Gastric acid secretion,75,0,1,1,,285,FALSE,FALSE
+5hmC,KEGG,hsa04972,Pancreatic secretion,,,Pancreatic secretion,94,0,1,1,,286,FALSE,FALSE
+5hmC,KEGG,hsa04973,Carbohydrate digestion and absorption,,,Carbohydrate digestion and absorption,41,0,1,1,,287,FALSE,FALSE
+5hmC,KEGG,hsa04975,Fat digestion and absorption,,,Fat digestion and absorption,43,0,1,1,,288,FALSE,FALSE
+5hmC,KEGG,hsa04976,Bile secretion,,,Bile secretion,80,0,1,1,,289,FALSE,FALSE
+5hmC,KEGG,hsa04977,Vitamin digestion and absorption,,,Vitamin digestion and absorption,25,0,1,1,,290,FALSE,FALSE
+5hmC,KEGG,hsa04978,Mineral absorption,,,Mineral absorption,55,0,1,1,,291,FALSE,FALSE
+5hmC,KEGG,hsa04979,Cholesterol metabolism,,,Cholesterol metabolism,52,0,1,1,,292,FALSE,FALSE
+5hmC,KEGG,hsa04980,Cobalamin transport and metabolism,,,Cobalamin transport and metabolism,17,0,1,1,,293,FALSE,FALSE
+5hmC,KEGG,hsa04981,Folate transport and metabolism,,,Folate transport and metabolism,28,0,1,1,,294,FALSE,FALSE
+5hmC,KEGG,hsa05010,Alzheimer disease,,,Alzheimer disease,356,0,1,1,,295,FALSE,FALSE
+5hmC,KEGG,hsa05012,Parkinson disease,,,Parkinson disease,243,0,1,1,,296,FALSE,FALSE
+5hmC,KEGG,hsa05014,Amyotrophic lateral sclerosis,,,Amyotrophic lateral sclerosis,337,0,1,1,,297,FALSE,FALSE
+5hmC,KEGG,hsa05016,Huntington disease,,,Huntington disease,280,0,1,1,,298,FALSE,FALSE
+5hmC,KEGG,hsa05017,Spinocerebellar ataxia,,,Spinocerebellar ataxia,137,0,1,1,,299,FALSE,FALSE
+5hmC,KEGG,hsa05020,Prion disease,,,Prion disease,249,0,1,1,,300,FALSE,FALSE
+5hmC,KEGG,hsa05022,Pathways of neurodegeneration - multiple diseases,,,Pathways of neurodegeneration - multiple diseases,446,0,1,1,,301,FALSE,FALSE
+5hmC,KEGG,hsa05030,Cocaine addiction,,,Cocaine addiction,47,0,1,1,,302,FALSE,FALSE
+5hmC,KEGG,hsa05032,Morphine addiction,,,Morphine addiction,87,0,1,1,,303,FALSE,FALSE
+5hmC,KEGG,hsa05033,Nicotine addiction,,,Nicotine addiction,36,0,1,1,,304,FALSE,FALSE
+5hmC,KEGG,hsa05034,Alcoholism,,,Alcoholism,147,0,1,1,,305,FALSE,FALSE
+5hmC,KEGG,hsa05100,Bacterial invasion of epithelial cells,,,Bacterial invasion of epithelial cells,76,0,1,1,,306,FALSE,FALSE
+5hmC,KEGG,hsa05110,Vibrio cholerae infection,,,Vibrio cholerae infection,49,0,1,1,,307,FALSE,FALSE
+5hmC,KEGG,hsa05120,Epithelial cell signaling in Helicobacter pylori infection,,,Epithelial cell signaling in Helicobacter pylori infection,68,0,1,1,,308,FALSE,FALSE
+5hmC,KEGG,hsa05132,Salmonella infection,,,Salmonella infection,237,0,1,1,,309,FALSE,FALSE
+5hmC,KEGG,hsa05133,Pertussis,,,Pertussis,72,0,1,1,,310,FALSE,FALSE
+5hmC,KEGG,hsa05134,Legionellosis,,,Legionellosis,56,0,1,1,,311,FALSE,FALSE
+5hmC,KEGG,hsa05135,Yersinia infection,,,Yersinia infection,130,0,1,1,,312,FALSE,FALSE
+5hmC,KEGG,hsa05140,Leishmaniasis,,,Leishmaniasis,64,0,1,1,,313,FALSE,FALSE
+5hmC,KEGG,hsa05142,Chagas disease,,,Chagas disease,96,0,1,1,,314,FALSE,FALSE
+5hmC,KEGG,hsa05143,African trypanosomiasis,,,African trypanosomiasis,35,0,1,1,,315,FALSE,FALSE
+5hmC,KEGG,hsa05144,Malaria,,,Malaria,46,0,1,1,,316,FALSE,FALSE
+5hmC,KEGG,hsa05145,Toxoplasmosis,,,Toxoplasmosis,102,0,1,1,,317,FALSE,FALSE
+5hmC,KEGG,hsa05146,Amoebiasis,,,Amoebiasis,95,0,1,1,,318,FALSE,FALSE
+5hmC,KEGG,hsa05150,Staphylococcus aureus infection,,,Staphylococcus aureus infection,71,0,1,1,,319,FALSE,FALSE
+5hmC,KEGG,hsa05152,Tuberculosis,,,Tuberculosis,157,0,1,1,,320,FALSE,FALSE
+5hmC,KEGG,hsa05160,Hepatitis C,,,Hepatitis C,142,0,1,1,,321,FALSE,FALSE
+5hmC,KEGG,hsa05161,Hepatitis B,,,Hepatitis B,147,0,1,1,,322,FALSE,FALSE
+5hmC,KEGG,hsa05162,Measles,,,Measles,117,0,1,1,,323,FALSE,FALSE
+5hmC,KEGG,hsa05163,Human cytomegalovirus infection,,,Human cytomegalovirus infection,208,0,1,1,,324,FALSE,FALSE
+5hmC,KEGG,hsa05164,Influenza A,,,Influenza A,146,0,1,1,,325,FALSE,FALSE
+5hmC,KEGG,hsa05165,Human papillomavirus infection,,,Human papillomavirus infection,315,0,1,1,,326,FALSE,FALSE
+5hmC,KEGG,hsa05166,Human T-cell leukemia virus 1 infection,,,Human T-cell leukemia virus 1 infection,210,0,1,1,,327,FALSE,FALSE
+5hmC,KEGG,hsa05167,Kaposi sarcoma-associated herpesvirus infection,,,Kaposi sarcoma-associated herpesvirus infection,181,0,1,1,,328,FALSE,FALSE
+5hmC,KEGG,hsa05168,Herpes simplex virus 1 infection,,,Herpes simplex virus 1 infection,157,0,1,1,,329,FALSE,FALSE
+5hmC,KEGG,hsa05169,Epstein-Barr virus infection,,,Epstein-Barr virus infection,183,0,1,1,,330,FALSE,FALSE
+5hmC,KEGG,hsa05170,Human immunodeficiency virus 1 infection,,,Human immunodeficiency virus 1 infection,195,0,1,1,,331,FALSE,FALSE
+5hmC,KEGG,hsa05200,Pathways in cancer,,,Pathways in cancer,500,0,1,1,,332,FALSE,FALSE
+5hmC,KEGG,hsa05203,Viral carcinogenesis,,,Viral carcinogenesis,177,0,1,1,,333,FALSE,FALSE
+5hmC,KEGG,hsa05204,Chemical carcinogenesis - DNA adducts,,,Chemical carcinogenesis - DNA adducts,49,0,1,1,,334,FALSE,FALSE
+5hmC,KEGG,hsa05205,Proteoglycans in cancer,,,Proteoglycans in cancer,197,0,1,1,,335,FALSE,FALSE
+5hmC,KEGG,hsa05206,MicroRNAs in cancer,,,MicroRNAs in cancer,292,0,1,1,MIR103A1,336,FALSE,FALSE
+5hmC,KEGG,hsa05207,Chemical carcinogenesis - receptor activation,,,Chemical carcinogenesis - receptor activation,191,0,1,1,,337,FALSE,FALSE
+5hmC,KEGG,hsa05208,Chemical carcinogenesis - reactive oxygen species,,,Chemical carcinogenesis - reactive oxygen species,196,0,1,1,,338,FALSE,FALSE
+5hmC,KEGG,hsa05210,Colorectal cancer,,,Colorectal cancer,84,0,1,1,,339,FALSE,FALSE
+5hmC,KEGG,hsa05211,Renal cell carcinoma,,,Renal cell carcinoma,65,0,1,1,,340,FALSE,FALSE
+5hmC,KEGG,hsa05212,Pancreatic cancer,,,Pancreatic cancer,73,0,1,1,,341,FALSE,FALSE
+5hmC,KEGG,hsa05213,Endometrial cancer,,,Endometrial cancer,56,0,1,1,,342,FALSE,FALSE
+5hmC,KEGG,hsa05214,Glioma,,,Glioma,74,0,1,1,,343,FALSE,FALSE
+5hmC,KEGG,hsa05215,Prostate cancer,,,Prostate cancer,101,0,1,1,,344,FALSE,FALSE
+5hmC,KEGG,hsa05216,Thyroid cancer,,,Thyroid cancer,37,0,1,1,,345,FALSE,FALSE
+5hmC,KEGG,hsa05217,Basal cell carcinoma,,,Basal cell carcinoma,63,0,1,1,,346,FALSE,FALSE
+5hmC,KEGG,hsa05218,Melanoma,,,Melanoma,70,0,1,1,,347,FALSE,FALSE
+5hmC,KEGG,hsa05219,Bladder cancer,,,Bladder cancer,40,0,1,1,,348,FALSE,FALSE
+5hmC,KEGG,hsa05220,Chronic myeloid leukemia,,,Chronic myeloid leukemia,74,0,1,1,,349,FALSE,FALSE
+5hmC,KEGG,hsa05221,Acute myeloid leukemia,,,Acute myeloid leukemia,63,0,1,1,,350,FALSE,FALSE
+5hmC,KEGG,hsa05223,Non-small cell lung cancer,,,Non-small cell lung cancer,71,0,1,1,,351,FALSE,FALSE
+5hmC,KEGG,hsa05224,Breast cancer,,,Breast cancer,145,0,1,1,,352,FALSE,FALSE
+5hmC,KEGG,hsa05225,Hepatocellular carcinoma,,,Hepatocellular carcinoma,160,0,1,1,,353,FALSE,FALSE
+5hmC,KEGG,hsa05226,Gastric cancer,,,Gastric cancer,147,0,1,1,,354,FALSE,FALSE
+5hmC,KEGG,hsa05230,Central carbon metabolism in cancer,,,Central carbon metabolism in cancer,67,0,1,1,,355,FALSE,FALSE
+5hmC,KEGG,hsa05231,Choline metabolism in cancer,,,Choline metabolism in cancer,95,0,1,1,,356,FALSE,FALSE
+5hmC,KEGG,hsa05235,PD-L1 expression and PD-1 checkpoint pathway in cancer,,,PD-L1 expression and PD-1 checkpoint pathway in cancer,87,0,1,1,,357,FALSE,FALSE
+5hmC,KEGG,hsa05310,Asthma,,,Asthma,23,0,1,1,,358,FALSE,FALSE
+5hmC,KEGG,hsa05320,Autoimmune thyroid disease,,,Autoimmune thyroid disease,38,0,1,1,,359,FALSE,FALSE
+5hmC,KEGG,hsa05321,Inflammatory bowel disease,,,Inflammatory bowel disease,59,0,1,1,,360,FALSE,FALSE
+5hmC,KEGG,hsa05322,Systemic lupus erythematosus,,,Systemic lupus erythematosus,90,0,1,1,,361,FALSE,FALSE
+5hmC,KEGG,hsa05323,Rheumatoid arthritis,,,Rheumatoid arthritis,84,0,1,1,,362,FALSE,FALSE
+5hmC,KEGG,hsa05330,Allograft rejection,,,Allograft rejection,32,0,1,1,,363,FALSE,FALSE
+5hmC,KEGG,hsa05332,Graft-versus-host disease,,,Graft-versus-host disease,33,0,1,1,,364,FALSE,FALSE
+5hmC,KEGG,hsa05340,Primary immunodeficiency,,,Primary immunodeficiency,32,0,1,1,,365,FALSE,FALSE
+5hmC,KEGG,hsa05410,Hypertrophic cardiomyopathy,,,Hypertrophic cardiomyopathy,96,0,1,1,,366,FALSE,FALSE
+5hmC,KEGG,hsa05412,Arrhythmogenic right ventricular cardiomyopathy,,,Arrhythmogenic right ventricular cardiomyopathy,83,0,1,1,,367,FALSE,FALSE
+5hmC,KEGG,hsa05414,Dilated cardiomyopathy,,,Dilated cardiomyopathy,101,0,1,1,,368,FALSE,FALSE
+5hmC,KEGG,hsa05415,Diabetic cardiomyopathy,,,Diabetic cardiomyopathy,179,0,1,1,,369,FALSE,FALSE
+5hmC,KEGG,hsa05416,Viral myocarditis,,,Viral myocarditis,62,0,1,1,,370,FALSE,FALSE
+5hmC,KEGG,hsa05417,Lipid and atherosclerosis,,,Lipid and atherosclerosis,194,0,1,1,,371,FALSE,FALSE
+5hmC,KEGG,hsa05418,Fluid shear stress and atherosclerosis,,,Fluid shear stress and atherosclerosis,130,0,1,1,,372,FALSE,FALSE

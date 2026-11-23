@@ -1,0 +1,9 @@
+SUCCESS
+Completed UTC: 2026-08-20 03:56:39 UTC
+Analysis mode: BIAS_AWARE_EXPLORATORY_ENRICHMENT
+Method: missMethyl::gometh; EPIC; prior.prob=TRUE; equiv.cpg=TRUE; fract.counts=TRUE
+FDR-significant terms: 0
+Interpretation: exploratory; ML-stable candidates are not EWAS-significant probes
+Presentation label repair: APPLIED
+Presentation label repair UTC: 2026-08-20 20:21:21 UTC
+Core GOmeth term IDs, P-values, FDR values, and genes changed: FALSE

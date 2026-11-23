@@ -1,0 +1,10 @@
+cohort_a,cohort_b,stable_set_a,stable_set_b,intersection,union,jaccard
+primary_clean77,primary_clean77,20,20,20,20,1.0
+primary_clean77,sensitivity_full78,20,27,20,27,0.7407407407407407
+primary_clean77,sensitivity_no_MSA30_Control11_76,20,21,15,26,0.5769230769230769
+sensitivity_full78,primary_clean77,27,20,20,27,0.7407407407407407
+sensitivity_full78,sensitivity_full78,27,27,27,27,1.0
+sensitivity_full78,sensitivity_no_MSA30_Control11_76,27,21,17,31,0.5483870967741935
+sensitivity_no_MSA30_Control11_76,primary_clean77,21,20,15,26,0.5769230769230769
+sensitivity_no_MSA30_Control11_76,sensitivity_full78,21,27,17,31,0.5483870967741935
+sensitivity_no_MSA30_Control11_76,sensitivity_no_MSA30_Control11_76,21,21,21,21,1.0

@@ -1,0 +1,19 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>GSE143157 Step 8</title>
+<style>
+body{font-family:Segoe UI,Arial,sans-serif;max-width:1100px;margin:32px auto;line-height:1.5;color:#202124}
+h1,h2{color:#17365d} .ok{background:#e8f5e9;border-left:5px solid #2e7d32;padding:12px}
+.warn{background:#fff8e1;border-left:5px solid #f9a825;padding:12px}
+table{border-collapse:collapse;width:100%;margin:14px 0} th,td{border:1px solid #ccc;padding:7px;text-align:left}
+th{background:#eef3f8} img{max-width:100%;height:auto;border:1px solid #ddd}
+</style></head><body>
+<h1>GSE143157 Step 8: Bias-aware pathway enrichment</h1>
+<div class="ok"><b>Run completed and presentation labels repaired.</b> GOmeth P-values, FDR values, term IDs, and contributing genes were unchanged. Repair UTC: 2026-08-20 20:21:21 UTC.</div>
+<div class="warn"><b>Interpretation:</b> No term passed FDR &lt; 0.05. This is a valid, reportable result. The tested CpGs are stable ML candidates, not EWAS-significant loci; ranked terms are exploratory.</div>
+<h2>QC and result counts</h2>
+<table><tr><th>Modality</th><th>Collection</th><th>Selected CpGs</th><th>Background CpGs</th><th>Tested terms</th><th>Nominal P&lt;0.05</th><th>FDR&lt;0.05</th><th>Minimum FDR</th></tr>
+<tr><td>5mC</td><td>GO</td><td>7</td><td>731661</td><td>21165</td><td>409</td><td>0</td><td>1</td></tr><tr><td>5mC</td><td>KEGG</td><td>7</td><td>731661</td><td>372</td><td>34</td><td>0</td><td>0.104805564537736</td></tr><tr><td>5hmC</td><td>GO</td><td>7</td><td>405408</td><td>21140</td><td>54</td><td>0</td><td>1</td></tr><tr><td>5hmC</td><td>KEGG</td><td>7</td><td>405408</td><td>372</td><td>5</td><td>0</td><td>1</td></tr></table>
+<h2>Corrected 5mC term labels</h2><img src="top_enrichment_5mC.png" alt="Corrected 5mC enrichment ranking">
+<h2>Corrected 5hmC term labels</h2><img src="top_enrichment_5hmC.png" alt="Corrected 5hmC enrichment ranking">
+<h2>Guardrail</h2><p>Only FDR below 0.05 is statistically significant. Nominally ranked pathways must not be presented as confirmed MSA mechanisms.</p>
+</body></html>

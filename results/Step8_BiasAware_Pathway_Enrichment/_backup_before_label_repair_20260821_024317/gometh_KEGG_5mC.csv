@@ -1,0 +1,373 @@
+"modality","collection","term_id","display_term","Term","Ont","Pathway","N","DE","P.DE","FDR","SigGenesInSet","rank_by_p","fdr_significant_0_05","nominal_p_lt_0_05"
+"5mC","KEGG","hsa01522","Glycolysis / Gluconeogenesis","","","Endocrine resistance",95,2,0.00081011755091091,0.104805564537736,"ADCY9,NOTCH1",1,FALSE,TRUE
+"5mC","KEGG","hsa05200","Glycolysis / Gluconeogenesis","","","Pathways in cancer",507,3,0.000820901958143322,0.104805564537736,"ADCY9,NOTCH1,FZD9",2,FALSE,TRUE
+"5mC","KEGG","hsa04916","Glycolysis / Gluconeogenesis","","","Melanogenesis",101,2,0.000845206165626901,0.104805564537736,"ADCY9,FZD9",3,FALSE,TRUE
+"5mC","KEGG","hsa05224","Glycolysis / Gluconeogenesis","","","Breast cancer",145,2,0.00157525618873238,0.146498825552112,"NOTCH1,FZD9",4,FALSE,TRUE
+"5mC","KEGG","hsa04934","Glycolysis / Gluconeogenesis","","","Cushing syndrome",153,2,0.00198943764751036,0.148014160974771,"ADCY9,FZD9",5,FALSE,TRUE
+"5mC","KEGG","hsa05165","Glycolysis / Gluconeogenesis","","","Human papillomavirus infection",320,2,0.0073563363582676,0.456092854212591,"NOTCH1,FZD9",6,FALSE,TRUE
+"5mC","KEGG","hsa04962","Glycolysis / Gluconeogenesis","","","Vasopressin-regulated water reabsorption",43,1,0.0159286841866285,0.465108081815869,"ADCY9",7,FALSE,TRUE
+"5mC","KEGG","hsa04913","Glycolysis / Gluconeogenesis","","","Ovarian steroidogenesis",51,1,0.0183505506247211,0.465108081815869,"ADCY9",8,FALSE,TRUE
+"5mC","KEGG","hsa05110","Glycolysis / Gluconeogenesis","","","Vibrio cholerae infection",49,1,0.0187682716024598,0.465108081815869,"ADCY9",9,FALSE,TRUE
+"5mC","KEGG","hsa04923","Glycolysis / Gluconeogenesis","","","Regulation of lipolysis in adipocytes",57,1,0.024097383921686,0.465108081815869,"ADCY9",10,FALSE,TRUE
+"5mC","KEGG","hsa04961","Glycolysis / Gluconeogenesis","","","Endocrine and other factor-regulated calcium reabsorption",51,1,0.024317029409672,0.465108081815869,"ADCY9",11,FALSE,TRUE
+"5mC","KEGG","hsa05217","Glycolysis / Gluconeogenesis","","","Basal cell carcinoma",63,1,0.0264262098620573,0.465108081815869,"FZD9",12,FALSE,TRUE
+"5mC","KEGG","hsa04330","Glycolysis / Gluconeogenesis","","","Notch signaling pathway",60,1,0.0269658901980294,0.465108081815869,"NOTCH1",13,FALSE,TRUE
+"5mC","KEGG","hsa04213","Glycolysis / Gluconeogenesis","","","Longevity regulating pathway - multiple species",60,1,0.0271468141768366,0.465108081815869,"ADCY9",14,FALSE,TRUE
+"5mC","KEGG","hsa04976","Glycolysis / Gluconeogenesis","","","Bile secretion",85,1,0.0278054801074643,0.465108081815869,"ADCY9",15,FALSE,TRUE
+"5mC","KEGG","hsa04927","Glycolysis / Gluconeogenesis","","","Cortisol synthesis and secretion",62,1,0.0311792604046873,0.465108081815869,"ADCY9",16,FALSE,TRUE
+"5mC","KEGG","hsa04918","Glycolysis / Gluconeogenesis","","","Thyroid hormone synthesis",73,1,0.032217282561553,0.465108081815869,"ADCY9",17,FALSE,TRUE
+"5mC","KEGG","hsa04658","Glycolysis / Gluconeogenesis","","","Th1 and Th2 cell differentiation",89,1,0.0329625718735176,0.465108081815869,"NOTCH1",18,FALSE,TRUE
+"5mC","KEGG","hsa04970","Glycolysis / Gluconeogenesis","","","Salivary secretion",87,1,0.034356438364828,0.465108081815869,"ADCY9",19,FALSE,TRUE
+"5mC","KEGG","hsa04971","Glycolysis / Gluconeogenesis","","","Gastric acid secretion",75,1,0.0357607840728202,0.465108081815869,"ADCY9",20,FALSE,TRUE
+"5mC","KEGG","hsa04914","Glycolysis / Gluconeogenesis","","","Progesterone-mediated oocyte maturation",89,1,0.036218904800726,0.465108081815869,"ADCY9",21,FALSE,TRUE
+"5mC","KEGG","hsa04972","Glycolysis / Gluconeogenesis","","","Pancreatic secretion",96,1,0.0364417648790807,0.465108081815869,"ADCY9",22,FALSE,TRUE
+"5mC","KEGG","hsa04540","Glycolysis / Gluconeogenesis","","","Gap junction",88,1,0.0385150266020606,0.465108081815869,"ADCY9",23,FALSE,TRUE
+"5mC","KEGG","hsa04912","Glycolysis / Gluconeogenesis","","","GnRH signaling pathway",91,1,0.0397214150069979,0.465108081815869,"ADCY9",24,FALSE,TRUE
+"5mC","KEGG","hsa04911","Glycolysis / Gluconeogenesis","","","Insulin secretion",83,1,0.0400641769375052,0.465108081815869,"ADCY9",25,FALSE,TRUE
+"5mC","KEGG","hsa04211","Glycolysis / Gluconeogenesis","","","Longevity regulating pathway",88,1,0.0409737559071278,0.465108081815869,"ADCY9",26,FALSE,TRUE
+"5mC","KEGG","hsa04727","Glycolysis / Gluconeogenesis","","","GABAergic synapse",84,1,0.0412243449198013,0.465108081815869,"ADCY9",27,FALSE,TRUE
+"5mC","KEGG","hsa04114","Glycolysis / Gluconeogenesis","","","Oocyte meiosis",118,1,0.0441291469741994,0.465108081815869,"ADCY9",28,FALSE,TRUE
+"5mC","KEGG","hsa04750","Glycolysis / Gluconeogenesis","","","Inflammatory mediator regulation of TRP channels",97,1,0.0455043330325185,0.465108081815869,"ADCY9",29,FALSE,TRUE
+"5mC","KEGG","hsa05032","Glycolysis / Gluconeogenesis","","","Morphine addiction",88,1,0.0466619784089427,0.465108081815869,"ADCY9",30,FALSE,TRUE
+"5mC","KEGG","hsa04925","Glycolysis / Gluconeogenesis","","","Aldosterone synthesis and secretion",94,1,0.0467680244408603,0.465108081815869,"ADCY9",31,FALSE,TRUE
+"5mC","KEGG","hsa05414","Glycolysis / Gluconeogenesis","","","Dilated cardiomyopathy",101,1,0.0480016619587407,0.465108081815869,"ADCY9",32,FALSE,TRUE
+"5mC","KEGG","hsa00230","Glycolysis / Gluconeogenesis","","","Purine metabolism",123,1,0.0483397034112549,0.465108081815869,"ADCY9",33,FALSE,TRUE
+"5mC","KEGG","hsa04713","Glycolysis / Gluconeogenesis","","","Circadian entrainment",96,1,0.0489611637193553,0.465108081815869,"ADCY9",34,FALSE,TRUE
+"5mC","KEGG","hsa04611","Glycolysis / Gluconeogenesis","","","Platelet activation",124,1,0.0534823140269108,0.465108081815869,"ADCY9",35,FALSE,FALSE
+"5mC","KEGG","hsa04270","Glycolysis / Gluconeogenesis","","","Vascular smooth muscle contraction",132,1,0.0541949477588516,0.465108081815869,"ADCY9",36,FALSE,FALSE
+"5mC","KEGG","hsa04919","Glycolysis / Gluconeogenesis","","","Thyroid hormone signaling pathway",117,1,0.0542057136342612,0.465108081815869,"NOTCH1",37,FALSE,FALSE
+"5mC","KEGG","hsa04926","Glycolysis / Gluconeogenesis","","","Relaxin signaling pathway",125,1,0.054249802265972,0.465108081815869,"ADCY9",38,FALSE,FALSE
+"5mC","KEGG","hsa04915","Glycolysis / Gluconeogenesis","","","Estrogen signaling pathway",136,1,0.0545223645716559,0.465108081815869,"ADCY9",39,FALSE,FALSE
+"5mC","KEGG","hsa04723","Glycolysis / Gluconeogenesis","","","Retrograde endocannabinoid signaling",134,1,0.0549461481287435,0.465108081815869,"ADCY9",40,FALSE,FALSE
+"5mC","KEGG","hsa04935","Glycolysis / Gluconeogenesis","","","Growth hormone synthesis, secretion and action",116,1,0.0550301396398683,0.465108081815869,"ADCY9",41,FALSE,FALSE
+"5mC","KEGG","hsa04725","Glycolysis / Gluconeogenesis","","","Cholinergic synapse",112,1,0.0556424026142712,0.465108081815869,"ADCY9",42,FALSE,FALSE
+"5mC","KEGG","hsa04928","Glycolysis / Gluconeogenesis","","","Parathyroid hormone synthesis, secretion and action",113,1,0.0560590062567534,0.465108081815869,"ADCY9",43,FALSE,FALSE
+"5mC","KEGG","hsa04550","Glycolysis / Gluconeogenesis","","","Signaling pathways regulating pluripotency of stem cells",139,1,0.0571170974787086,0.465108081815869,"FZD9",44,FALSE,FALSE
+"5mC","KEGG","hsa04724","Glycolysis / Gluconeogenesis","","","Glutamatergic synapse",115,1,0.057248065736771,0.465108081815869,"ADCY9",45,FALSE,FALSE
+"5mC","KEGG","hsa04371","Glycolysis / Gluconeogenesis","","","Apelin signaling pathway",138,1,0.0581617174156184,0.465108081815869,"ADCY9",46,FALSE,FALSE
+"5mC","KEGG","hsa04150","Glycolysis / Gluconeogenesis","","","mTOR signaling pathway",151,1,0.0631138973475571,0.465108081815869,"FZD9",47,FALSE,FALSE
+"5mC","KEGG","hsa05226","Glycolysis / Gluconeogenesis","","","Gastric cancer",147,1,0.0633339865482366,0.465108081815869,"FZD9",48,FALSE,FALSE
+"5mC","KEGG","hsa04062","Glycolysis / Gluconeogenesis","","","Chemokine signaling pathway",183,1,0.0671610544225641,0.465108081815869,"ADCY9",49,FALSE,FALSE
+"5mC","KEGG","hsa05225","Glycolysis / Gluconeogenesis","","","Hepatocellular carcinoma",161,1,0.0685017575608089,0.465108081815869,"FZD9",50,FALSE,FALSE
+"5mC","KEGG","hsa05207","Glycolysis / Gluconeogenesis","","","Chemical carcinogenesis - receptor activation",197,1,0.0688652263936006,0.465108081815869,"ADCY9",51,FALSE,FALSE
+"5mC","KEGG","hsa04072","Glycolysis / Gluconeogenesis","","","Phospholipase D signaling pathway",144,1,0.0692392482032136,0.465108081815869,"ADCY9",52,FALSE,FALSE
+"5mC","KEGG","hsa04261","Glycolysis / Gluconeogenesis","","","Adrenergic signaling in cardiomyocytes",148,1,0.0692551356327972,0.465108081815869,"ADCY9",53,FALSE,FALSE
+"5mC","KEGG","hsa04022","Glycolysis / Gluconeogenesis","","","cGMP-PKG signaling pathway",160,1,0.070107862479154,0.465108081815869,"ADCY9",54,FALSE,FALSE
+"5mC","KEGG","hsa04921","Glycolysis / Gluconeogenesis","","","Oxytocin signaling pathway",152,1,0.0705835788707789,0.465108081815869,"ADCY9",55,FALSE,FALSE
+"5mC","KEGG","hsa04714","Glycolysis / Gluconeogenesis","","","Thermogenesis",213,1,0.071226185312382,0.465108081815869,"ADCY9",56,FALSE,FALSE
+"5mC","KEGG","hsa04390","Glycolysis / Gluconeogenesis","","","Hippo signaling pathway",154,1,0.0712665609233993,0.465108081815869,"FZD9",57,FALSE,FALSE
+"5mC","KEGG","hsa04081","Glycolysis / Gluconeogenesis","","","Hormone signaling",209,1,0.0726418637424291,0.465909884692821,"ADCY9",58,FALSE,FALSE
+"5mC","KEGG","hsa04082","Glycolysis / Gluconeogenesis","","","Neuroactive ligand signaling",192,1,0.0760518235999785,0.472296606060859,"ADCY9",59,FALSE,FALSE
+"5mC","KEGG","hsa05206","Glycolysis / Gluconeogenesis","","","MicroRNAs in cancer",301,1,0.0780331265930134,0.472296606060859,"NOTCH1",60,FALSE,FALSE
+"5mC","KEGG","hsa05020","Glycolysis / Gluconeogenesis","","","Prion disease",252,1,0.0783171313080444,0.472296606060859,"NOTCH1",61,FALSE,FALSE
+"5mC","KEGG","hsa04310","Glycolysis / Gluconeogenesis","","","Wnt signaling pathway",172,1,0.0787161010101431,0.472296606060859,"FZD9",62,FALSE,FALSE
+"5mC","KEGG","hsa05166","Glycolysis / Gluconeogenesis","","","Human T-cell leukemia virus 1 infection",215,1,0.0819907030849642,0.484135580120741,"ADCY9",63,FALSE,FALSE
+"5mC","KEGG","hsa05205","Glycolysis / Gluconeogenesis","","","Proteoglycans in cancer",197,1,0.0845479248285754,0.489976207236928,"FZD9",64,FALSE,FALSE
+"5mC","KEGG","hsa05163","Glycolysis / Gluconeogenesis","","","Human cytomegalovirus infection",216,1,0.0856141222322589,0.489976207236928,"ADCY9",65,FALSE,FALSE
+"5mC","KEGG","hsa04024","Glycolysis / Gluconeogenesis","","","cAMP signaling pathway",218,1,0.089804659031457,0.506171714540939,"ADCY9",66,FALSE,FALSE
+"5mC","KEGG","hsa04015","Glycolysis / Gluconeogenesis","","","Rap1 signaling pathway",207,1,0.0945310725764811,0.524859089529119,"ADCY9",67,FALSE,FALSE
+"5mC","KEGG","hsa04020","Glycolysis / Gluconeogenesis","","","Calcium signaling pathway",241,1,0.106046051214269,0.580134280172179,"ADCY9",68,FALSE,FALSE
+"5mC","KEGG","hsa05010","Glycolysis / Gluconeogenesis","","","Alzheimer disease",360,1,0.120140669780054,0.647714915335944,"FZD9",69,FALSE,FALSE
+"5mC","KEGG","hsa04519","Glycolysis / Gluconeogenesis","","","Cadherin signaling",393,1,0.141485141022059,0.751892463717228,"FZD9",70,FALSE,FALSE
+"5mC","KEGG","hsa05022","Glycolysis / Gluconeogenesis","","","Pathways of neurodegeneration - multiple diseases",450,1,0.15301845451371,0.801730494071834,"FZD9",71,FALSE,FALSE
+"5mC","KEGG","hsa01100","Glycolysis / Gluconeogenesis","","","Metabolic pathways",1489,1,0.398910150619252,1,"ADCY9",72,FALSE,FALSE
+"5mC","KEGG","hsa00533","Glycolysis / Gluconeogenesis","","","Glycosaminoglycan biosynthesis - keratan sulfate",14,0,0.999999999999999,1,"",73,FALSE,FALSE
+"5mC","KEGG","hsa00601","Glycolysis / Gluconeogenesis","","","Glycosphingolipid biosynthesis - lacto and neolacto series",28,0,0.999999999999999,1,"",74,FALSE,FALSE
+"5mC","KEGG","hsa04728","Glycolysis / Gluconeogenesis","","","Dopaminergic synapse",128,0,0.999999999999999,1,"",75,FALSE,FALSE
+"5mC","KEGG","hsa00010","Glycolysis / Gluconeogenesis","","","Glycolysis / Gluconeogenesis",64,0,1,1,"",76,FALSE,FALSE
+"5mC","KEGG","hsa00020","Glycolysis / Gluconeogenesis","","","Citrate cycle (TCA cycle)",28,0,1,1,"",77,FALSE,FALSE
+"5mC","KEGG","hsa00030","Glycolysis / Gluconeogenesis","","","Pentose phosphate pathway",26,0,1,1,"",78,FALSE,FALSE
+"5mC","KEGG","hsa00040","Glycolysis / Gluconeogenesis","","","Pentose and glucuronate interconversions",34,0,1,1,"",79,FALSE,FALSE
+"5mC","KEGG","hsa00051","Glycolysis / Gluconeogenesis","","","Fructose and mannose metabolism",35,0,1,1,"",80,FALSE,FALSE
+"5mC","KEGG","hsa00052","Glycolysis / Gluconeogenesis","","","Galactose metabolism",30,0,1,1,"",81,FALSE,FALSE
+"5mC","KEGG","hsa00053","Glycolysis / Gluconeogenesis","","","Ascorbate and aldarate metabolism",27,0,1,1,"",82,FALSE,FALSE
+"5mC","KEGG","hsa00061","Glycolysis / Gluconeogenesis","","","Fatty acid biosynthesis",16,0,1,1,"",83,FALSE,FALSE
+"5mC","KEGG","hsa00062","Glycolysis / Gluconeogenesis","","","Fatty acid elongation",28,0,1,1,"",84,FALSE,FALSE
+"5mC","KEGG","hsa00071","Glycolysis / Gluconeogenesis","","","Fatty acid degradation",42,0,1,1,"",85,FALSE,FALSE
+"5mC","KEGG","hsa00100","Glycolysis / Gluconeogenesis","","","Steroid biosynthesis",18,0,1,1,"",86,FALSE,FALSE
+"5mC","KEGG","hsa00120","Glycolysis / Gluconeogenesis","","","Primary bile acid biosynthesis",17,0,1,1,"",87,FALSE,FALSE
+"5mC","KEGG","hsa00130","Glycolysis / Gluconeogenesis","","","Ubiquinone and other terpenoid-quinone biosynthesis",12,0,1,1,"",88,FALSE,FALSE
+"5mC","KEGG","hsa00140","Glycolysis / Gluconeogenesis","","","Steroid hormone biosynthesis",60,0,1,1,"",89,FALSE,FALSE
+"5mC","KEGG","hsa00190","Glycolysis / Gluconeogenesis","","","Oxidative phosphorylation",118,0,1,1,"",90,FALSE,FALSE
+"5mC","KEGG","hsa00220","Glycolysis / Gluconeogenesis","","","Arginine biosynthesis",21,0,1,1,"",91,FALSE,FALSE
+"5mC","KEGG","hsa00232","Glycolysis / Gluconeogenesis","","","Caffeine metabolism",5,0,1,1,"",92,FALSE,FALSE
+"5mC","KEGG","hsa00240","Glycolysis / Gluconeogenesis","","","Pyrimidine metabolism",56,0,1,1,"",93,FALSE,FALSE
+"5mC","KEGG","hsa00250","Glycolysis / Gluconeogenesis","","","Alanine, aspartate and glutamate metabolism",36,0,1,1,"",94,FALSE,FALSE
+"5mC","KEGG","hsa00260","Glycolysis / Gluconeogenesis","","","Glycine, serine and threonine metabolism",35,0,1,1,"",95,FALSE,FALSE
+"5mC","KEGG","hsa00270","Glycolysis / Gluconeogenesis","","","Cysteine and methionine metabolism",51,0,1,1,"",96,FALSE,FALSE
+"5mC","KEGG","hsa00280","Glycolysis / Gluconeogenesis","","","Valine, leucine and isoleucine degradation",46,0,1,1,"",97,FALSE,FALSE
+"5mC","KEGG","hsa00290","Glycolysis / Gluconeogenesis","","","Valine, leucine and isoleucine biosynthesis",4,0,1,1,"",98,FALSE,FALSE
+"5mC","KEGG","hsa00310","Glycolysis / Gluconeogenesis","","","Lysine degradation",61,0,1,1,"",99,FALSE,FALSE
+"5mC","KEGG","hsa00330","Glycolysis / Gluconeogenesis","","","Arginine and proline metabolism",45,0,1,1,"",100,FALSE,FALSE
+"5mC","KEGG","hsa00340","Glycolysis / Gluconeogenesis","","","Histidine metabolism",20,0,1,1,"",101,FALSE,FALSE
+"5mC","KEGG","hsa00350","Glycolysis / Gluconeogenesis","","","Tyrosine metabolism",34,0,1,1,"",102,FALSE,FALSE
+"5mC","KEGG","hsa00360","Glycolysis / Gluconeogenesis","","","Phenylalanine metabolism",14,0,1,1,"",103,FALSE,FALSE
+"5mC","KEGG","hsa00380","Glycolysis / Gluconeogenesis","","","Tryptophan metabolism",39,0,1,1,"",104,FALSE,FALSE
+"5mC","KEGG","hsa00400","Glycolysis / Gluconeogenesis","","","Phenylalanine, tyrosine and tryptophan biosynthesis",6,0,1,1,"",105,FALSE,FALSE
+"5mC","KEGG","hsa00410","Glycolysis / Gluconeogenesis","","","beta-Alanine metabolism",31,0,1,1,"",106,FALSE,FALSE
+"5mC","KEGG","hsa00430","Glycolysis / Gluconeogenesis","","","Taurine and hypotaurine metabolism",16,0,1,1,"",107,FALSE,FALSE
+"5mC","KEGG","hsa00440","Glycolysis / Gluconeogenesis","","","Phosphonate and phosphinate metabolism",5,0,1,1,"",108,FALSE,FALSE
+"5mC","KEGG","hsa00450","Glycolysis / Gluconeogenesis","","","Selenocompound metabolism",17,0,1,1,"",109,FALSE,FALSE
+"5mC","KEGG","hsa00470","Glycolysis / Gluconeogenesis","","","D-Amino acid metabolism",6,0,1,1,"",110,FALSE,FALSE
+"5mC","KEGG","hsa00480","Glycolysis / Gluconeogenesis","","","Glutathione metabolism",50,0,1,1,"",111,FALSE,FALSE
+"5mC","KEGG","hsa00500","Glycolysis / Gluconeogenesis","","","Starch and sucrose metabolism",31,0,1,1,"",112,FALSE,FALSE
+"5mC","KEGG","hsa00510","Glycolysis / Gluconeogenesis","","","N-Glycan biosynthesis",53,0,1,1,"",113,FALSE,FALSE
+"5mC","KEGG","hsa00511","Glycolysis / Gluconeogenesis","","","Other glycan degradation",18,0,1,1,"",114,FALSE,FALSE
+"5mC","KEGG","hsa00512","Glycolysis / Gluconeogenesis","","","Mucin type O-glycan biosynthesis",35,0,1,1,"",115,FALSE,FALSE
+"5mC","KEGG","hsa00513","Glycolysis / Gluconeogenesis","","","Various types of N-glycan biosynthesis",42,0,1,1,"",116,FALSE,FALSE
+"5mC","KEGG","hsa00514","Glycolysis / Gluconeogenesis","","","Other types of O-glycan biosynthesis",47,0,1,1,"",117,FALSE,FALSE
+"5mC","KEGG","hsa00515","Glycolysis / Gluconeogenesis","","","Mannose type O-glycan biosynthesis",23,0,1,1,"",118,FALSE,FALSE
+"5mC","KEGG","hsa00520","Glycolysis / Gluconeogenesis","","","Amino sugar and nucleotide sugar metabolism",37,0,1,1,"",119,FALSE,FALSE
+"5mC","KEGG","hsa00524","Glycolysis / Gluconeogenesis","","","Neomycin, kanamycin and gentamicin biosynthesis",5,0,1,1,"",120,FALSE,FALSE
+"5mC","KEGG","hsa00531","Glycolysis / Gluconeogenesis","","","Glycosaminoglycan degradation",18,0,1,1,"",121,FALSE,FALSE
+"5mC","KEGG","hsa00532","Glycolysis / Gluconeogenesis","","","Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate",20,0,1,1,"",122,FALSE,FALSE
+"5mC","KEGG","hsa00534","Glycolysis / Gluconeogenesis","","","Glycosaminoglycan biosynthesis - heparan sulfate / heparin",23,0,1,1,"",123,FALSE,FALSE
+"5mC","KEGG","hsa00541","Glycolysis / Gluconeogenesis","","","Biosynthesis of various nucleotide sugars",19,0,1,1,"",124,FALSE,FALSE
+"5mC","KEGG","hsa00561","Glycolysis / Gluconeogenesis","","","Glycerolipid metabolism",59,0,1,1,"",125,FALSE,FALSE
+"5mC","KEGG","hsa00562","Glycolysis / Gluconeogenesis","","","Inositol phosphate metabolism",74,0,1,1,"",126,FALSE,FALSE
+"5mC","KEGG","hsa00563","Glycolysis / Gluconeogenesis","","","Glycosylphosphatidylinositol (GPI)-anchor biosynthesis",29,0,1,1,"",127,FALSE,FALSE
+"5mC","KEGG","hsa00564","Glycolysis / Gluconeogenesis","","","Glycerophospholipid metabolism",98,0,1,1,"",128,FALSE,FALSE
+"5mC","KEGG","hsa00565","Glycolysis / Gluconeogenesis","","","Ether lipid metabolism",51,0,1,1,"",129,FALSE,FALSE
+"5mC","KEGG","hsa00590","Glycolysis / Gluconeogenesis","","","Arachidonic acid metabolism",62,0,1,1,"",130,FALSE,FALSE
+"5mC","KEGG","hsa00591","Glycolysis / Gluconeogenesis","","","Linoleic acid metabolism",30,0,1,1,"",131,FALSE,FALSE
+"5mC","KEGG","hsa00592","Glycolysis / Gluconeogenesis","","","alpha-Linolenic acid metabolism",26,0,1,1,"",132,FALSE,FALSE
+"5mC","KEGG","hsa00600","Glycolysis / Gluconeogenesis","","","Sphingolipid metabolism",54,0,1,1,"",133,FALSE,FALSE
+"5mC","KEGG","hsa00603","Glycolysis / Gluconeogenesis","","","Glycosphingolipid biosynthesis - globo and isoglobo series",15,0,1,1,"",134,FALSE,FALSE
+"5mC","KEGG","hsa00604","Glycolysis / Gluconeogenesis","","","Glycosphingolipid biosynthesis - ganglio series",15,0,1,1,"",135,FALSE,FALSE
+"5mC","KEGG","hsa00620","Glycolysis / Gluconeogenesis","","","Pyruvate metabolism",47,0,1,1,"",136,FALSE,FALSE
+"5mC","KEGG","hsa00630","Glycolysis / Gluconeogenesis","","","Glyoxylate and dicarboxylate metabolism",31,0,1,1,"",137,FALSE,FALSE
+"5mC","KEGG","hsa00640","Glycolysis / Gluconeogenesis","","","Propanoate metabolism",32,0,1,1,"",138,FALSE,FALSE
+"5mC","KEGG","hsa00650","Glycolysis / Gluconeogenesis","","","Butanoate metabolism",25,0,1,1,"",139,FALSE,FALSE
+"5mC","KEGG","hsa00660","Glycolysis / Gluconeogenesis","","","C5-Branched dibasic acid metabolism",2,0,1,1,"",140,FALSE,FALSE
+"5mC","KEGG","hsa00670","Glycolysis / Gluconeogenesis","","","One carbon pool by folate",37,0,1,1,"",141,FALSE,FALSE
+"5mC","KEGG","hsa00730","Glycolysis / Gluconeogenesis","","","Thiamine metabolism",15,0,1,1,"",142,FALSE,FALSE
+"5mC","KEGG","hsa00740","Glycolysis / Gluconeogenesis","","","Riboflavin metabolism",8,0,1,1,"",143,FALSE,FALSE
+"5mC","KEGG","hsa00750","Glycolysis / Gluconeogenesis","","","Vitamin B6 metabolism",6,0,1,1,"",144,FALSE,FALSE
+"5mC","KEGG","hsa00760","Glycolysis / Gluconeogenesis","","","Nicotinate and nicotinamide metabolism",37,0,1,1,"",145,FALSE,FALSE
+"5mC","KEGG","hsa00770","Glycolysis / Gluconeogenesis","","","Pantothenate and CoA biosynthesis",21,0,1,1,"",146,FALSE,FALSE
+"5mC","KEGG","hsa00780","Glycolysis / Gluconeogenesis","","","Biotin metabolism",3,0,1,1,"",147,FALSE,FALSE
+"5mC","KEGG","hsa00785","Glycolysis / Gluconeogenesis","","","Lipoic acid metabolism",18,0,1,1,"",148,FALSE,FALSE
+"5mC","KEGG","hsa00790","Glycolysis / Gluconeogenesis","","","Folate biosynthesis",28,0,1,1,"",149,FALSE,FALSE
+"5mC","KEGG","hsa00830","Glycolysis / Gluconeogenesis","","","Retinol metabolism",63,0,1,1,"",150,FALSE,FALSE
+"5mC","KEGG","hsa00860","Glycolysis / Gluconeogenesis","","","Porphyrin metabolism",40,0,1,1,"",151,FALSE,FALSE
+"5mC","KEGG","hsa00900","Glycolysis / Gluconeogenesis","","","Terpenoid backbone biosynthesis",24,0,1,1,"",152,FALSE,FALSE
+"5mC","KEGG","hsa00910","Glycolysis / Gluconeogenesis","","","Nitrogen metabolism",15,0,1,1,"",153,FALSE,FALSE
+"5mC","KEGG","hsa00920","Glycolysis / Gluconeogenesis","","","Sulfur metabolism",10,0,1,1,"",154,FALSE,FALSE
+"5mC","KEGG","hsa00970","Glycolysis / Gluconeogenesis","","","Aminoacyl-tRNA biosynthesis",43,0,1,1,"",155,FALSE,FALSE
+"5mC","KEGG","hsa00980","Glycolysis / Gluconeogenesis","","","Metabolism of xenobiotics by cytochrome P450",67,0,1,1,"",156,FALSE,FALSE
+"5mC","KEGG","hsa00982","Glycolysis / Gluconeogenesis","","","Drug metabolism - cytochrome P450",59,0,1,1,"",157,FALSE,FALSE
+"5mC","KEGG","hsa00983","Glycolysis / Gluconeogenesis","","","Drug metabolism - other enzymes",71,0,1,1,"",158,FALSE,FALSE
+"5mC","KEGG","hsa01040","Glycolysis / Gluconeogenesis","","","Biosynthesis of unsaturated fatty acids",27,0,1,1,"",159,FALSE,FALSE
+"5mC","KEGG","hsa01200","Glycolysis / Gluconeogenesis","","","Carbon metabolism",106,0,1,1,"",160,FALSE,FALSE
+"5mC","KEGG","hsa01210","Glycolysis / Gluconeogenesis","","","2-Oxocarboxylic acid metabolism",31,0,1,1,"",161,FALSE,FALSE
+"5mC","KEGG","hsa01212","Glycolysis / Gluconeogenesis","","","Fatty acid metabolism",55,0,1,1,"",162,FALSE,FALSE
+"5mC","KEGG","hsa01230","Glycolysis / Gluconeogenesis","","","Biosynthesis of amino acids",67,0,1,1,"",163,FALSE,FALSE
+"5mC","KEGG","hsa01232","Glycolysis / Gluconeogenesis","","","Nucleotide metabolism",81,0,1,1,"",164,FALSE,FALSE
+"5mC","KEGG","hsa01240","Glycolysis / Gluconeogenesis","","","Biosynthesis of cofactors",148,0,1,1,"",165,FALSE,FALSE
+"5mC","KEGG","hsa01250","Glycolysis / Gluconeogenesis","","","Biosynthesis of nucleotide sugars",37,0,1,1,"",166,FALSE,FALSE
+"5mC","KEGG","hsa01320","Glycolysis / Gluconeogenesis","","","Sulfur cycle",2,0,1,1,"",167,FALSE,FALSE
+"5mC","KEGG","hsa01521","Glycolysis / Gluconeogenesis","","","EGFR tyrosine kinase inhibitor resistance",77,0,1,1,"",168,FALSE,FALSE
+"5mC","KEGG","hsa01523","Glycolysis / Gluconeogenesis","","","Antifolate resistance",29,0,1,1,"",169,FALSE,FALSE
+"5mC","KEGG","hsa01524","Glycolysis / Gluconeogenesis","","","Platinum drug resistance",66,0,1,1,"",170,FALSE,FALSE
+"5mC","KEGG","hsa02010","Glycolysis / Gluconeogenesis","","","ABC transporters",43,0,1,1,"",171,FALSE,FALSE
+"5mC","KEGG","hsa03008","Glycolysis / Gluconeogenesis","","","Ribosome biogenesis in eukaryotes",69,0,1,1,"",172,FALSE,FALSE
+"5mC","KEGG","hsa03010","Glycolysis / Gluconeogenesis","","","Ribosome",169,0,1,1,"",173,FALSE,FALSE
+"5mC","KEGG","hsa03013","Glycolysis / Gluconeogenesis","","","Nucleocytoplasmic transport",100,0,1,1,"",174,FALSE,FALSE
+"5mC","KEGG","hsa03015","Glycolysis / Gluconeogenesis","","","mRNA surveillance pathway",85,0,1,1,"",175,FALSE,FALSE
+"5mC","KEGG","hsa03018","Glycolysis / Gluconeogenesis","","","RNA degradation",75,0,1,1,"",176,FALSE,FALSE
+"5mC","KEGG","hsa03020","Glycolysis / Gluconeogenesis","","","RNA polymerase",32,0,1,1,"",177,FALSE,FALSE
+"5mC","KEGG","hsa03022","Glycolysis / Gluconeogenesis","","","Basal transcription factors",38,0,1,1,"",178,FALSE,FALSE
+"5mC","KEGG","hsa03030","Glycolysis / Gluconeogenesis","","","DNA replication",34,0,1,1,"",179,FALSE,FALSE
+"5mC","KEGG","hsa03040","Glycolysis / Gluconeogenesis","","","Spliceosome",139,0,1,1,"",180,FALSE,FALSE
+"5mC","KEGG","hsa03050","Glycolysis / Gluconeogenesis","","","Proteasome",46,0,1,1,"",181,FALSE,FALSE
+"5mC","KEGG","hsa03060","Glycolysis / Gluconeogenesis","","","Protein export",30,0,1,1,"",182,FALSE,FALSE
+"5mC","KEGG","hsa03082","Glycolysis / Gluconeogenesis","","","ATP-dependent chromatin remodeling",108,0,1,1,"",183,FALSE,FALSE
+"5mC","KEGG","hsa03083","Glycolysis / Gluconeogenesis","","","Polycomb repressive complex",75,0,1,1,"",184,FALSE,FALSE
+"5mC","KEGG","hsa03250","Glycolysis / Gluconeogenesis","","","Viral life cycle - HIV-1",64,0,1,1,"",185,FALSE,FALSE
+"5mC","KEGG","hsa03260","Glycolysis / Gluconeogenesis","","","Virion - Human immunodeficiency virus",5,0,1,1,"",186,FALSE,FALSE
+"5mC","KEGG","hsa03264","Glycolysis / Gluconeogenesis","","","Virion - Flavivirus and Alphavirus",6,0,1,1,"",187,FALSE,FALSE
+"5mC","KEGG","hsa03265","Glycolysis / Gluconeogenesis","","","Virion - Ebolavirus, Lyssavirus and Morbillivirus",11,0,1,1,"",188,FALSE,FALSE
+"5mC","KEGG","hsa03266","Glycolysis / Gluconeogenesis","","","Virion - Herpesvirus",8,0,1,1,"",189,FALSE,FALSE
+"5mC","KEGG","hsa03267","Glycolysis / Gluconeogenesis","","","Virion - Adenovirus",4,0,1,1,"",190,FALSE,FALSE
+"5mC","KEGG","hsa03271","Glycolysis / Gluconeogenesis","","","Virion - Rotavirus",2,0,1,1,"",191,FALSE,FALSE
+"5mC","KEGG","hsa03272","Glycolysis / Gluconeogenesis","","","Virion - Hepatitis viruses",45,0,1,1,"",192,FALSE,FALSE
+"5mC","KEGG","hsa03273","Glycolysis / Gluconeogenesis","","","Virion - Lassa virus and SFTS virus",14,0,1,1,"",193,FALSE,FALSE
+"5mC","KEGG","hsa03320","Glycolysis / Gluconeogenesis","","","PPAR signaling pathway",73,0,1,1,"",194,FALSE,FALSE
+"5mC","KEGG","hsa03410","Glycolysis / Gluconeogenesis","","","Base excision repair",44,0,1,1,"",195,FALSE,FALSE
+"5mC","KEGG","hsa03420","Glycolysis / Gluconeogenesis","","","Nucleotide excision repair",55,0,1,1,"",196,FALSE,FALSE
+"5mC","KEGG","hsa03430","Glycolysis / Gluconeogenesis","","","Mismatch repair",22,0,1,1,"",197,FALSE,FALSE
+"5mC","KEGG","hsa03440","Glycolysis / Gluconeogenesis","","","Homologous recombination",39,0,1,1,"",198,FALSE,FALSE
+"5mC","KEGG","hsa03450","Glycolysis / Gluconeogenesis","","","Non-homologous end-joining",13,0,1,1,"",199,FALSE,FALSE
+"5mC","KEGG","hsa03460","Glycolysis / Gluconeogenesis","","","Fanconi anemia pathway",49,0,1,1,"",200,FALSE,FALSE
+"5mC","KEGG","hsa04010","Glycolysis / Gluconeogenesis","","","MAPK signaling pathway",287,0,1,1,"",201,FALSE,FALSE
+"5mC","KEGG","hsa04012","Glycolysis / Gluconeogenesis","","","ErbB signaling pathway",80,0,1,1,"",202,FALSE,FALSE
+"5mC","KEGG","hsa04014","Glycolysis / Gluconeogenesis","","","Ras signaling pathway",227,0,1,1,"",203,FALSE,FALSE
+"5mC","KEGG","hsa04060","Glycolysis / Gluconeogenesis","","","Cytokine-cytokine receptor interaction",272,0,1,1,"",204,FALSE,FALSE
+"5mC","KEGG","hsa04061","Glycolysis / Gluconeogenesis","","","Viral protein interaction with cytokine and cytokine receptor",92,0,1,1,"",205,FALSE,FALSE
+"5mC","KEGG","hsa04064","Glycolysis / Gluconeogenesis","","","NF-kappa B signaling pathway",94,0,1,1,"",206,FALSE,FALSE
+"5mC","KEGG","hsa04066","Glycolysis / Gluconeogenesis","","","HIF-1 signaling pathway",105,0,1,1,"",207,FALSE,FALSE
+"5mC","KEGG","hsa04068","Glycolysis / Gluconeogenesis","","","FoxO signaling pathway",128,0,1,1,"",208,FALSE,FALSE
+"5mC","KEGG","hsa04070","Glycolysis / Gluconeogenesis","","","Phosphatidylinositol signaling system",92,0,1,1,"",209,FALSE,FALSE
+"5mC","KEGG","hsa04071","Glycolysis / Gluconeogenesis","","","Sphingolipid signaling pathway",123,0,1,1,"",210,FALSE,FALSE
+"5mC","KEGG","hsa04080","Glycolysis / Gluconeogenesis","","","Neuroactive ligand-receptor interaction",345,0,1,1,"",211,FALSE,FALSE
+"5mC","KEGG","hsa04110","Glycolysis / Gluconeogenesis","","","Cell cycle",152,0,1,1,"",212,FALSE,FALSE
+"5mC","KEGG","hsa04115","Glycolysis / Gluconeogenesis","","","p53 signaling pathway",75,0,1,1,"",213,FALSE,FALSE
+"5mC","KEGG","hsa04120","Glycolysis / Gluconeogenesis","","","Ubiquitin mediated proteolysis",134,0,1,1,"",214,FALSE,FALSE
+"5mC","KEGG","hsa04122","Glycolysis / Gluconeogenesis","","","Sulfur relay system",8,0,1,1,"",215,FALSE,FALSE
+"5mC","KEGG","hsa04130","Glycolysis / Gluconeogenesis","","","SNARE interactions in vesicular transport",32,0,1,1,"",216,FALSE,FALSE
+"5mC","KEGG","hsa04136","Glycolysis / Gluconeogenesis","","","Autophagy - other",30,0,1,1,"",217,FALSE,FALSE
+"5mC","KEGG","hsa04137","Glycolysis / Gluconeogenesis","","","Mitophagy - animal",98,0,1,1,"",218,FALSE,FALSE
+"5mC","KEGG","hsa04140","Glycolysis / Gluconeogenesis","","","Autophagy - animal",157,0,1,1,"",219,FALSE,FALSE
+"5mC","KEGG","hsa04141","Glycolysis / Gluconeogenesis","","","Protein processing in endoplasmic reticulum",165,0,1,1,"",220,FALSE,FALSE
+"5mC","KEGG","hsa04142","Glycolysis / Gluconeogenesis","","","Lysosome biogenesis",239,0,1,1,"",221,FALSE,FALSE
+"5mC","KEGG","hsa04144","Glycolysis / Gluconeogenesis","","","Endocytosis",240,0,1,1,"",222,FALSE,FALSE
+"5mC","KEGG","hsa04145","Glycolysis / Gluconeogenesis","","","Phagocytosis",239,0,1,1,"",223,FALSE,FALSE
+"5mC","KEGG","hsa04146","Glycolysis / Gluconeogenesis","","","Peroxisome",81,0,1,1,"",224,FALSE,FALSE
+"5mC","KEGG","hsa04148","Glycolysis / Gluconeogenesis","","","Efferocytosis",153,0,1,1,"",225,FALSE,FALSE
+"5mC","KEGG","hsa04151","Glycolysis / Gluconeogenesis","","","PI3K-Akt signaling pathway",341,0,1,1,"",226,FALSE,FALSE
+"5mC","KEGG","hsa04152","Glycolysis / Gluconeogenesis","","","AMPK signaling pathway",118,0,1,1,"",227,FALSE,FALSE
+"5mC","KEGG","hsa04156","Glycolysis / Gluconeogenesis","","","Integrated stress response (ISR) signaling pathway",50,0,1,1,"",228,FALSE,FALSE
+"5mC","KEGG","hsa04210","Glycolysis / Gluconeogenesis","","","Apoptosis",133,0,1,1,"",229,FALSE,FALSE
+"5mC","KEGG","hsa04215","Glycolysis / Gluconeogenesis","","","Apoptosis - multiple species",31,0,1,1,"",230,FALSE,FALSE
+"5mC","KEGG","hsa04216","Glycolysis / Gluconeogenesis","","","Ferroptosis",38,0,1,1,"",231,FALSE,FALSE
+"5mC","KEGG","hsa04217","Glycolysis / Gluconeogenesis","","","Necroptosis",145,0,1,1,"",232,FALSE,FALSE
+"5mC","KEGG","hsa04218","Glycolysis / Gluconeogenesis","","","Cellular senescence",153,0,1,1,"",233,FALSE,FALSE
+"5mC","KEGG","hsa04260","Glycolysis / Gluconeogenesis","","","Cardiac muscle contraction",78,0,1,1,"",234,FALSE,FALSE
+"5mC","KEGG","hsa04340","Glycolysis / Gluconeogenesis","","","Hedgehog signaling pathway",56,0,1,1,"",235,FALSE,FALSE
+"5mC","KEGG","hsa04350","Glycolysis / Gluconeogenesis","","","TGF-beta signaling pathway",109,0,1,1,"",236,FALSE,FALSE
+"5mC","KEGG","hsa04360","Glycolysis / Gluconeogenesis","","","Axon guidance",175,0,1,1,"",237,FALSE,FALSE
+"5mC","KEGG","hsa04370","Glycolysis / Gluconeogenesis","","","VEGF signaling pathway",59,0,1,1,"",238,FALSE,FALSE
+"5mC","KEGG","hsa04380","Glycolysis / Gluconeogenesis","","","Osteoclast differentiation",125,0,1,1,"",239,FALSE,FALSE
+"5mC","KEGG","hsa04382","Glycolysis / Gluconeogenesis","","","Cornified envelope formation",203,0,1,1,"",240,FALSE,FALSE
+"5mC","KEGG","hsa04392","Glycolysis / Gluconeogenesis","","","Hippo signaling pathway - multiple species",29,0,1,1,"",241,FALSE,FALSE
+"5mC","KEGG","hsa04510","Glycolysis / Gluconeogenesis","","","Focal adhesion",194,0,1,1,"",242,FALSE,FALSE
+"5mC","KEGG","hsa04512","Glycolysis / Gluconeogenesis","","","ECM-receptor interaction",87,0,1,1,"",243,FALSE,FALSE
+"5mC","KEGG","hsa04514","Glycolysis / Gluconeogenesis","","","Cell adhesion molecule (CAM) interaction",145,0,1,1,"",244,FALSE,FALSE
+"5mC","KEGG","hsa04517","Glycolysis / Gluconeogenesis","","","IgSF CAM signaling",283,0,1,1,"",245,FALSE,FALSE
+"5mC","KEGG","hsa04518","Glycolysis / Gluconeogenesis","","","Integrin signaling",148,0,1,1,"",246,FALSE,FALSE
+"5mC","KEGG","hsa04520","Glycolysis / Gluconeogenesis","","","Adherens junction",92,0,1,1,"",247,FALSE,FALSE
+"5mC","KEGG","hsa04530","Glycolysis / Gluconeogenesis","","","Tight junction",164,0,1,1,"",248,FALSE,FALSE
+"5mC","KEGG","hsa04610","Glycolysis / Gluconeogenesis","","","Complement and coagulation cascades",80,0,1,1,"",249,FALSE,FALSE
+"5mC","KEGG","hsa04612","Glycolysis / Gluconeogenesis","","","Antigen processing and presentation",68,0,1,1,"",250,FALSE,FALSE
+"5mC","KEGG","hsa04613","Glycolysis / Gluconeogenesis","","","Neutrophil extracellular trap formation",158,0,1,1,"",251,FALSE,FALSE
+"5mC","KEGG","hsa04614","Glycolysis / Gluconeogenesis","","","Renin-angiotensin system",20,0,1,1,"",252,FALSE,FALSE
+"5mC","KEGG","hsa04620","Glycolysis / Gluconeogenesis","","","Toll-like receptor signaling pathway",96,0,1,1,"",253,FALSE,FALSE
+"5mC","KEGG","hsa04621","Glycolysis / Gluconeogenesis","","","NOD-like receptor signaling pathway",172,0,1,1,"",254,FALSE,FALSE
+"5mC","KEGG","hsa04622","Glycolysis / Gluconeogenesis","","","RIG-I-like receptor signaling pathway",65,0,1,1,"",255,FALSE,FALSE
+"5mC","KEGG","hsa04623","Glycolysis / Gluconeogenesis","","","Cytosolic DNA-sensing pathway",75,0,1,1,"",256,FALSE,FALSE
+"5mC","KEGG","hsa04625","Glycolysis / Gluconeogenesis","","","C-type lectin receptor signaling pathway",103,0,1,1,"",257,FALSE,FALSE
+"5mC","KEGG","hsa04630","Glycolysis / Gluconeogenesis","","","JAK-STAT signaling pathway",151,0,1,1,"",258,FALSE,FALSE
+"5mC","KEGG","hsa04640","Glycolysis / Gluconeogenesis","","","Hematopoietic cell lineage",91,0,1,1,"",259,FALSE,FALSE
+"5mC","KEGG","hsa04650","Glycolysis / Gluconeogenesis","","","Natural killer cell mediated cytotoxicity",115,0,1,1,"",260,FALSE,FALSE
+"5mC","KEGG","hsa04657","Glycolysis / Gluconeogenesis","","","IL-17 signaling pathway",90,0,1,1,"",261,FALSE,FALSE
+"5mC","KEGG","hsa04659","Glycolysis / Gluconeogenesis","","","Th17 cell differentiation",104,0,1,1,"",262,FALSE,FALSE
+"5mC","KEGG","hsa04660","Glycolysis / Gluconeogenesis","","","T cell receptor signaling pathway",115,0,1,1,"",263,FALSE,FALSE
+"5mC","KEGG","hsa04662","Glycolysis / Gluconeogenesis","","","B cell receptor signaling pathway",78,0,1,1,"",264,FALSE,FALSE
+"5mC","KEGG","hsa04664","Glycolysis / Gluconeogenesis","","","Fc epsilon RI signaling pathway",66,0,1,1,"",265,FALSE,FALSE
+"5mC","KEGG","hsa04666","Glycolysis / Gluconeogenesis","","","Fc gamma R-mediated phagosome formation",91,0,1,1,"",266,FALSE,FALSE
+"5mC","KEGG","hsa04668","Glycolysis / Gluconeogenesis","","","TNF signaling pathway",114,0,1,1,"",267,FALSE,FALSE
+"5mC","KEGG","hsa04670","Glycolysis / Gluconeogenesis","","","Leukocyte transendothelial migration",108,0,1,1,"",268,FALSE,FALSE
+"5mC","KEGG","hsa04672","Glycolysis / Gluconeogenesis","","","Intestinal immune network for IgA production",45,0,1,1,"",269,FALSE,FALSE
+"5mC","KEGG","hsa04710","Glycolysis / Gluconeogenesis","","","Circadian rhythm",34,0,1,1,"",270,FALSE,FALSE
+"5mC","KEGG","hsa04720","Glycolysis / Gluconeogenesis","","","Long-term potentiation",64,0,1,1,"",271,FALSE,FALSE
+"5mC","KEGG","hsa04721","Glycolysis / Gluconeogenesis","","","Synaptic vesicle cycle",78,0,1,1,"",272,FALSE,FALSE
+"5mC","KEGG","hsa04722","Glycolysis / Gluconeogenesis","","","Neurotrophin signaling pathway",114,0,1,1,"",273,FALSE,FALSE
+"5mC","KEGG","hsa04726","Glycolysis / Gluconeogenesis","","","Serotonergic synapse",108,0,1,1,"",274,FALSE,FALSE
+"5mC","KEGG","hsa04730","Glycolysis / Gluconeogenesis","","","Long-term depression",58,0,1,1,"",275,FALSE,FALSE
+"5mC","KEGG","hsa04740","Glycolysis / Gluconeogenesis","","","Olfactory transduction",366,0,1,1,"",276,FALSE,FALSE
+"5mC","KEGG","hsa04742","Glycolysis / Gluconeogenesis","","","Taste transduction",82,0,1,1,"",277,FALSE,FALSE
+"5mC","KEGG","hsa04744","Glycolysis / Gluconeogenesis","","","Phototransduction",27,0,1,1,"",278,FALSE,FALSE
+"5mC","KEGG","hsa04810","Glycolysis / Gluconeogenesis","","","Regulation of actin cytoskeleton",220,0,1,1,"",279,FALSE,FALSE
+"5mC","KEGG","hsa04814","Glycolysis / Gluconeogenesis","","","Motor proteins",192,0,1,1,"",280,FALSE,FALSE
+"5mC","KEGG","hsa04820","Glycolysis / Gluconeogenesis","","","Cytoskeleton in muscle cells",225,0,1,1,"",281,FALSE,FALSE
+"5mC","KEGG","hsa04910","Glycolysis / Gluconeogenesis","","","Insulin signaling pathway",131,0,1,1,"",282,FALSE,FALSE
+"5mC","KEGG","hsa04917","Glycolysis / Gluconeogenesis","","","Prolactin signaling pathway",70,0,1,1,"",283,FALSE,FALSE
+"5mC","KEGG","hsa04920","Glycolysis / Gluconeogenesis","","","Adipocytokine signaling pathway",67,0,1,1,"",284,FALSE,FALSE
+"5mC","KEGG","hsa04922","Glycolysis / Gluconeogenesis","","","Glucagon signaling pathway",99,0,1,1,"",285,FALSE,FALSE
+"5mC","KEGG","hsa04924","Glycolysis / Gluconeogenesis","","","Renin secretion",68,0,1,1,"",286,FALSE,FALSE
+"5mC","KEGG","hsa04929","Glycolysis / Gluconeogenesis","","","GnRH secretion",62,0,1,1,"",287,FALSE,FALSE
+"5mC","KEGG","hsa04930","Glycolysis / Gluconeogenesis","","","Type II diabetes mellitus",45,0,1,1,"",288,FALSE,FALSE
+"5mC","KEGG","hsa04931","Glycolysis / Gluconeogenesis","","","Insulin resistance",105,0,1,1,"",289,FALSE,FALSE
+"5mC","KEGG","hsa04932","Glycolysis / Gluconeogenesis","","","Non-alcoholic fatty liver disease",148,0,1,1,"",290,FALSE,FALSE
+"5mC","KEGG","hsa04933","Glycolysis / Gluconeogenesis","","","AGE-RAGE signaling pathway in diabetic complications",95,0,1,1,"",291,FALSE,FALSE
+"5mC","KEGG","hsa04936","Glycolysis / Gluconeogenesis","","","Alcoholic liver disease",133,0,1,1,"",292,FALSE,FALSE
+"5mC","KEGG","hsa04940","Glycolysis / Gluconeogenesis","","","Type I diabetes mellitus",42,0,1,1,"",293,FALSE,FALSE
+"5mC","KEGG","hsa04950","Glycolysis / Gluconeogenesis","","","Maturity onset diabetes of the young",26,0,1,1,"",294,FALSE,FALSE
+"5mC","KEGG","hsa04960","Glycolysis / Gluconeogenesis","","","Aldosterone-regulated sodium reabsorption",36,0,1,1,"",295,FALSE,FALSE
+"5mC","KEGG","hsa04964","Glycolysis / Gluconeogenesis","","","Proximal tubule bicarbonate reclamation",21,0,1,1,"",296,FALSE,FALSE
+"5mC","KEGG","hsa04966","Glycolysis / Gluconeogenesis","","","Collecting duct acid secretion",27,0,1,1,"",297,FALSE,FALSE
+"5mC","KEGG","hsa04973","Glycolysis / Gluconeogenesis","","","Carbohydrate digestion and absorption",42,0,1,1,"",298,FALSE,FALSE
+"5mC","KEGG","hsa04974","Glycolysis / Gluconeogenesis","","","Protein digestion and absorption",96,0,1,1,"",299,FALSE,FALSE
+"5mC","KEGG","hsa04975","Glycolysis / Gluconeogenesis","","","Fat digestion and absorption",43,0,1,1,"",300,FALSE,FALSE
+"5mC","KEGG","hsa04977","Glycolysis / Gluconeogenesis","","","Vitamin digestion and absorption",25,0,1,1,"",301,FALSE,FALSE
+"5mC","KEGG","hsa04978","Glycolysis / Gluconeogenesis","","","Mineral absorption",55,0,1,1,"",302,FALSE,FALSE
+"5mC","KEGG","hsa04979","Glycolysis / Gluconeogenesis","","","Cholesterol metabolism",52,0,1,1,"",303,FALSE,FALSE
+"5mC","KEGG","hsa04980","Glycolysis / Gluconeogenesis","","","Cobalamin transport and metabolism",17,0,1,1,"",304,FALSE,FALSE
+"5mC","KEGG","hsa04981","Glycolysis / Gluconeogenesis","","","Folate transport and metabolism",30,0,1,1,"",305,FALSE,FALSE
+"5mC","KEGG","hsa05012","Glycolysis / Gluconeogenesis","","","Parkinson disease",246,0,1,1,"",306,FALSE,FALSE
+"5mC","KEGG","hsa05014","Glycolysis / Gluconeogenesis","","","Amyotrophic lateral sclerosis",342,0,1,1,"",307,FALSE,FALSE
+"5mC","KEGG","hsa05016","Glycolysis / Gluconeogenesis","","","Huntington disease",286,0,1,1,"",308,FALSE,FALSE
+"5mC","KEGG","hsa05017","Glycolysis / Gluconeogenesis","","","Spinocerebellar ataxia",139,0,1,1,"",309,FALSE,FALSE
+"5mC","KEGG","hsa05030","Glycolysis / Gluconeogenesis","","","Cocaine addiction",47,0,1,1,"",310,FALSE,FALSE
+"5mC","KEGG","hsa05031","Glycolysis / Gluconeogenesis","","","Amphetamine addiction",66,0,1,1,"",311,FALSE,FALSE
+"5mC","KEGG","hsa05033","Glycolysis / Gluconeogenesis","","","Nicotine addiction",36,0,1,1,"",312,FALSE,FALSE
+"5mC","KEGG","hsa05034","Glycolysis / Gluconeogenesis","","","Alcoholism",163,0,1,1,"",313,FALSE,FALSE
+"5mC","KEGG","hsa05100","Glycolysis / Gluconeogenesis","","","Bacterial invasion of epithelial cells",76,0,1,1,"",314,FALSE,FALSE
+"5mC","KEGG","hsa05120","Glycolysis / Gluconeogenesis","","","Epithelial cell signaling in Helicobacter pylori infection",68,0,1,1,"",315,FALSE,FALSE
+"5mC","KEGG","hsa05130","Glycolysis / Gluconeogenesis","","","Pathogenic Escherichia coli infection",191,0,1,1,"",316,FALSE,FALSE
+"5mC","KEGG","hsa05131","Glycolysis / Gluconeogenesis","","","Shigellosis",237,0,1,1,"",317,FALSE,FALSE
+"5mC","KEGG","hsa05132","Glycolysis / Gluconeogenesis","","","Salmonella infection",239,0,1,1,"",318,FALSE,FALSE
+"5mC","KEGG","hsa05133","Glycolysis / Gluconeogenesis","","","Pertussis",73,0,1,1,"",319,FALSE,FALSE
+"5mC","KEGG","hsa05134","Glycolysis / Gluconeogenesis","","","Legionellosis",56,0,1,1,"",320,FALSE,FALSE
+"5mC","KEGG","hsa05135","Glycolysis / Gluconeogenesis","","","Yersinia infection",130,0,1,1,"",321,FALSE,FALSE
+"5mC","KEGG","hsa05140","Glycolysis / Gluconeogenesis","","","Leishmaniasis",68,0,1,1,"",322,FALSE,FALSE
+"5mC","KEGG","hsa05142","Glycolysis / Gluconeogenesis","","","Chagas disease",98,0,1,1,"",323,FALSE,FALSE
+"5mC","KEGG","hsa05143","Glycolysis / Gluconeogenesis","","","African trypanosomiasis",36,0,1,1,"",324,FALSE,FALSE
+"5mC","KEGG","hsa05144","Glycolysis / Gluconeogenesis","","","Malaria",48,0,1,1,"",325,FALSE,FALSE
+"5mC","KEGG","hsa05145","Glycolysis / Gluconeogenesis","","","Toxoplasmosis",106,0,1,1,"",326,FALSE,FALSE
+"5mC","KEGG","hsa05146","Glycolysis / Gluconeogenesis","","","Amoebiasis",97,0,1,1,"",327,FALSE,FALSE
+"5mC","KEGG","hsa05150","Glycolysis / Gluconeogenesis","","","Staphylococcus aureus infection",82,0,1,1,"",328,FALSE,FALSE
+"5mC","KEGG","hsa05152","Glycolysis / Gluconeogenesis","","","Tuberculosis",166,0,1,1,"",329,FALSE,FALSE
+"5mC","KEGG","hsa05160","Glycolysis / Gluconeogenesis","","","Hepatitis C",147,0,1,1,"",330,FALSE,FALSE
+"5mC","KEGG","hsa05161","Glycolysis / Gluconeogenesis","","","Hepatitis B",152,0,1,1,"",331,FALSE,FALSE
+"5mC","KEGG","hsa05162","Glycolysis / Gluconeogenesis","","","Measles",123,0,1,1,"",332,FALSE,FALSE
+"5mC","KEGG","hsa05164","Glycolysis / Gluconeogenesis","","","Influenza A",155,0,1,1,"",333,FALSE,FALSE
+"5mC","KEGG","hsa05167","Glycolysis / Gluconeogenesis","","","Kaposi sarcoma-associated herpesvirus infection",189,0,1,1,"",334,FALSE,FALSE
+"5mC","KEGG","hsa05168","Glycolysis / Gluconeogenesis","","","Herpes simplex virus 1 infection",165,0,1,1,"",335,FALSE,FALSE
+"5mC","KEGG","hsa05169","Glycolysis / Gluconeogenesis","","","Epstein-Barr virus infection",193,0,1,1,"",336,FALSE,FALSE
+"5mC","KEGG","hsa05170","Glycolysis / Gluconeogenesis","","","Human immunodeficiency virus 1 infection",202,0,1,1,"",337,FALSE,FALSE
+"5mC","KEGG","hsa05171","Glycolysis / Gluconeogenesis","","","Coronavirus disease",213,0,1,1,"",338,FALSE,FALSE
+"5mC","KEGG","hsa05202","Glycolysis / Gluconeogenesis","","","Transcriptional misregulation in cancer",181,0,1,1,"",339,FALSE,FALSE
+"5mC","KEGG","hsa05203","Glycolysis / Gluconeogenesis","","","Viral carcinogenesis",184,0,1,1,"",340,FALSE,FALSE
+"5mC","KEGG","hsa05204","Glycolysis / Gluconeogenesis","","","Chemical carcinogenesis - DNA adducts",58,0,1,1,"",341,FALSE,FALSE
+"5mC","KEGG","hsa05208","Glycolysis / Gluconeogenesis","","","Chemical carcinogenesis - reactive oxygen species",197,0,1,1,"",342,FALSE,FALSE
+"5mC","KEGG","hsa05210","Glycolysis / Gluconeogenesis","","","Colorectal cancer",84,0,1,1,"",343,FALSE,FALSE
+"5mC","KEGG","hsa05211","Glycolysis / Gluconeogenesis","","","Renal cell carcinoma",65,0,1,1,"",344,FALSE,FALSE
+"5mC","KEGG","hsa05212","Glycolysis / Gluconeogenesis","","","Pancreatic cancer",73,0,1,1,"",345,FALSE,FALSE
+"5mC","KEGG","hsa05213","Glycolysis / Gluconeogenesis","","","Endometrial cancer",56,0,1,1,"",346,FALSE,FALSE
+"5mC","KEGG","hsa05214","Glycolysis / Gluconeogenesis","","","Glioma",74,0,1,1,"",347,FALSE,FALSE
+"5mC","KEGG","hsa05215","Glycolysis / Gluconeogenesis","","","Prostate cancer",102,0,1,1,"",348,FALSE,FALSE
+"5mC","KEGG","hsa05216","Glycolysis / Gluconeogenesis","","","Thyroid cancer",37,0,1,1,"",349,FALSE,FALSE
+"5mC","KEGG","hsa05218","Glycolysis / Gluconeogenesis","","","Melanoma",70,0,1,1,"",350,FALSE,FALSE
+"5mC","KEGG","hsa05219","Glycolysis / Gluconeogenesis","","","Bladder cancer",40,0,1,1,"",351,FALSE,FALSE
+"5mC","KEGG","hsa05220","Glycolysis / Gluconeogenesis","","","Chronic myeloid leukemia",74,0,1,1,"",352,FALSE,FALSE
+"5mC","KEGG","hsa05221","Glycolysis / Gluconeogenesis","","","Acute myeloid leukemia",63,0,1,1,"",353,FALSE,FALSE
+"5mC","KEGG","hsa05222","Glycolysis / Gluconeogenesis","","","Small cell lung cancer",88,0,1,1,"",354,FALSE,FALSE
+"5mC","KEGG","hsa05223","Glycolysis / Gluconeogenesis","","","Non-small cell lung cancer",71,0,1,1,"",355,FALSE,FALSE
+"5mC","KEGG","hsa05230","Glycolysis / Gluconeogenesis","","","Central carbon metabolism in cancer",67,0,1,1,"",356,FALSE,FALSE
+"5mC","KEGG","hsa05231","Glycolysis / Gluconeogenesis","","","Choline metabolism in cancer",95,0,1,1,"",357,FALSE,FALSE
+"5mC","KEGG","hsa05235","Glycolysis / Gluconeogenesis","","","PD-L1 expression and PD-1 checkpoint pathway in cancer",88,0,1,1,"",358,FALSE,FALSE
+"5mC","KEGG","hsa05310","Glycolysis / Gluconeogenesis","","","Asthma",28,0,1,1,"",359,FALSE,FALSE
+"5mC","KEGG","hsa05320","Glycolysis / Gluconeogenesis","","","Autoimmune thyroid disease",46,0,1,1,"",360,FALSE,FALSE
+"5mC","KEGG","hsa05321","Glycolysis / Gluconeogenesis","","","Inflammatory bowel disease",62,0,1,1,"",361,FALSE,FALSE
+"5mC","KEGG","hsa05322","Glycolysis / Gluconeogenesis","","","Systemic lupus erythematosus",110,0,1,1,"",362,FALSE,FALSE
+"5mC","KEGG","hsa05323","Glycolysis / Gluconeogenesis","","","Rheumatoid arthritis",88,0,1,1,"",363,FALSE,FALSE
+"5mC","KEGG","hsa05330","Glycolysis / Gluconeogenesis","","","Allograft rejection",35,0,1,1,"",364,FALSE,FALSE
+"5mC","KEGG","hsa05332","Glycolysis / Gluconeogenesis","","","Graft-versus-host disease",38,0,1,1,"",365,FALSE,FALSE
+"5mC","KEGG","hsa05340","Glycolysis / Gluconeogenesis","","","Primary immunodeficiency",32,0,1,1,"",366,FALSE,FALSE
+"5mC","KEGG","hsa05410","Glycolysis / Gluconeogenesis","","","Hypertrophic cardiomyopathy",96,0,1,1,"",367,FALSE,FALSE
+"5mC","KEGG","hsa05412","Glycolysis / Gluconeogenesis","","","Arrhythmogenic right ventricular cardiomyopathy",83,0,1,1,"",368,FALSE,FALSE
+"5mC","KEGG","hsa05415","Glycolysis / Gluconeogenesis","","","Diabetic cardiomyopathy",179,0,1,1,"",369,FALSE,FALSE
+"5mC","KEGG","hsa05416","Glycolysis / Gluconeogenesis","","","Viral myocarditis",65,0,1,1,"",370,FALSE,FALSE
+"5mC","KEGG","hsa05417","Glycolysis / Gluconeogenesis","","","Lipid and atherosclerosis",202,0,1,1,"",371,FALSE,FALSE
+"5mC","KEGG","hsa05418","Glycolysis / Gluconeogenesis","","","Fluid shear stress and atherosclerosis",132,0,1,1,"",372,FALSE,FALSE

@@ -1,0 +1,89 @@
+{
+  "pipeline": {
+    "name": "GSE143157 Step 8 bias-aware exploratory pathway enrichment",
+    "version": "1.0.4",
+    "completed_utc": "2026-08-20 03:56:39 UTC",
+    "elapsed_seconds": 895.55584812164307
+  },
+  "method": {
+    "function_name": "missMethyl::gometh",
+    "array_type": "EPIC",
+    "annotation": "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
+    "genome_build": "hg19",
+    "prior_prob": true,
+    "equiv_cpg": true,
+    "fract_counts": true,
+    "collections": ["GO", "KEGG"],
+    "fdr_threshold": 0.050000000000000003
+  },
+  "inputs": [
+    {
+      "modality": "5mC",
+      "selected_cpgs": 7,
+      "background_cpgs": 731661,
+      "selected_unique": true,
+      "background_unique": true,
+      "selected_subset_of_background": true,
+      "selected_file_md5": "f501299a3c5ec7270f6d81de40faab7d",
+      "background_file_md5": "9c6bf8b9bb7c87cfbe9ce00f4a43207b"
+    },
+    {
+      "modality": "5hmC",
+      "selected_cpgs": 7,
+      "background_cpgs": 405408,
+      "selected_unique": true,
+      "background_unique": true,
+      "selected_subset_of_background": true,
+      "selected_file_md5": "1291acceccaa290f7216d074a3451796",
+      "background_file_md5": "199223fdaeee125542ab1e4deec97d3c"
+    }
+  ],
+  "results": [
+    {
+      "modality": "5mC",
+      "collection": "GO",
+      "selected_cpgs": 7,
+      "background_cpgs": 731661,
+      "tested_terms": 21165,
+      "nominal_p_lt_0_05": 409,
+      "fdr_lt_0_05": 0,
+      "minimum_p_value": 7.3464673257702003e-05,
+      "minimum_fdr": 1
+    },
+    {
+      "modality": "5mC",
+      "collection": "KEGG",
+      "selected_cpgs": 7,
+      "background_cpgs": 731661,
+      "tested_terms": 372,
+      "nominal_p_lt_0_05": 34,
+      "fdr_lt_0_05": 0,
+      "minimum_p_value": 0.00081011755091091005,
+      "minimum_fdr": 0.104805564537736
+    },
+    {
+      "modality": "5hmC",
+      "collection": "GO",
+      "selected_cpgs": 7,
+      "background_cpgs": 405408,
+      "tested_terms": 21140,
+      "nominal_p_lt_0_05": 54,
+      "fdr_lt_0_05": 0,
+      "minimum_p_value": 0.00075677610980869905,
+      "minimum_fdr": 1
+    },
+    {
+      "modality": "5hmC",
+      "collection": "KEGG",
+      "selected_cpgs": 7,
+      "background_cpgs": 405408,
+      "tested_terms": 372,
+      "nominal_p_lt_0_05": 5,
+      "fdr_lt_0_05": 0,
+      "minimum_p_value": 0.0051544123366591803,
+      "minimum_fdr": 1
+    }
+  ],
+  "total_fdr_significant_terms": 0,
+  "interpretation_guardrails": ["The input CpGs were ML-stable candidates, not EWAS-significant CpGs.", "GOmeth corrects for differing probes per gene and multi-gene annotated probes.", "5mC and 5hmC used separate tested-probe backgrounds.", "Only FDR below 0.05 is called statistically significant.", "Nominally ranked pathways are exploratory and must not be presented as confirmed mechanisms.", "The selected sets contain only seven CpGs per modality, so power is limited."]
+}

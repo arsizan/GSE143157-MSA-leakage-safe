@@ -1,0 +1,210 @@
+{
+  "pipeline": {
+    "name": "GSE143157 Step 3 confounder audit and nested-CV freeze",
+    "version": "1.0.0",
+    "completed_utc": "2026-08-18T21:15:25.391805+00:00",
+    "elapsed_seconds": 215.90481638908386
+  },
+  "input": {
+    "step2b_dir": "D:\\Paper\\MSA_Research\\02_Epigenetics\\GSE143157\\02_Preprocessing\\Step2B_Cohorts",
+    "cohort_decision_sha256": "71917bdb0b3637263fa02f4490c1f41743a772818c2a2f9325dbf42bc153b9c1",
+    "primary_hdf5_file": "GSE143157_primary_clean77.h5",
+    "primary_hdf5_shapes": {
+      "5mC": {
+        "shape": [
+          731661,
+          77
+        ],
+        "dtype": "float32",
+        "missing_cells": 0,
+        "missing_fraction": 0.0,
+        "finite_min": 1.6710169359335225e-10,
+        "finite_max": 0.999474823474884
+      },
+      "5hmC": {
+        "shape": [
+          405408,
+          77
+        ],
+        "dtype": "float32",
+        "missing_cells": 1413641,
+        "missing_fraction": 0.04528517943892085,
+        "finite_min": 0.0,
+        "finite_max": 0.9737353324890137
+      }
+    }
+  },
+  "parameters": {
+    "outer_folds": 5,
+    "outer_repeats": 10,
+    "inner_folds": 4,
+    "fold_candidates_per_outer_repeat": 200,
+    "permutations": 20000,
+    "random_seed": 143157,
+    "p_value_adjustment": "Benjamini-Hochberg across four covariates within each cohort"
+  },
+  "cohorts": {
+    "primary_clean77": {
+      "donors": 77,
+      "condition_counts": {
+        "MSA": 40,
+        "Control": 37
+      },
+      "outer_assignment_rows": 770,
+      "inner_assignment_rows": 3080,
+      "outer_balance_rows": 50,
+      "cv_details": {
+        "outer_partition_seeds": [
+          1609363,
+          1247889,
+          22251131,
+          3771540,
+          9170161,
+          10170164,
+          14102579,
+          14997853,
+          10342490,
+          10085745
+        ],
+        "unique_outer_partitions": 10,
+        "mean_outer_partition_balance_score": 0.19275755781962922,
+        "max_abs_outer_age_test_minus_train": 2.0819672131147513,
+        "max_abs_outer_pmi_test_minus_train": 6.103483606557376
+      }
+    },
+    "sensitivity_full78": {
+      "donors": 78,
+      "condition_counts": {
+        "MSA": 41,
+        "Control": 37
+      },
+      "outer_assignment_rows": 780,
+      "inner_assignment_rows": 3120,
+      "outer_balance_rows": 50,
+      "cv_details": {
+        "outer_partition_seeds": [
+          28784938,
+          20882976,
+          18531651,
+          31156573,
+          20636386,
+          16504668,
+          18866148,
+          35470772,
+          30291764,
+          39146442
+        ],
+        "unique_outer_partitions": 10,
+        "mean_outer_partition_balance_score": 0.188165440577691,
+        "max_abs_outer_age_test_minus_train": 2.0806451612903203,
+        "max_abs_outer_pmi_test_minus_train": 5.530158730158732
+      }
+    },
+    "sensitivity_no_MSA30_Control11_76": {
+      "donors": 76,
+      "condition_counts": {
+        "MSA": 40,
+        "Control": 36
+      },
+      "outer_assignment_rows": 760,
+      "inner_assignment_rows": 3040,
+      "outer_balance_rows": 50,
+      "cv_details": {
+        "outer_partition_seeds": [
+          21190485,
+          23028320,
+          31568811,
+          43251172,
+          38072164,
+          41062018,
+          32531682,
+          39396509,
+          34741146,
+          47575526
+        ],
+        "unique_outer_partitions": 10,
+        "mean_outer_partition_balance_score": 0.18706799553952444,
+        "max_abs_outer_age_test_minus_train": 2.58469945355192,
+        "max_abs_outer_pmi_test_minus_train": 6.718032786885246
+      }
+    }
+  },
+  "primary_covariate_audit": [
+    {
+      "covariate": "age",
+      "covariate_type": "continuous",
+      "n_control_nonmissing": 37,
+      "n_msa_nonmissing": 40,
+      "control_summary": "mean=72.973; sd=10.452; median=74.000",
+      "msa_summary": "mean=66.000; sd=5.756; median=66.000",
+      "difference_msa_minus_control": -6.972972972972968,
+      "effect_name": "Hedges g",
+      "effect_size": -0.8270411375297008,
+      "permutation_p_two_sided": 0.0004999750012499375,
+      "category_counts_control": "",
+      "category_counts_msa": "",
+      "fdr_bh": 0.00199990000499975,
+      "effect_magnitude": "large",
+      "model_policy": "Prespecified adjustment plus covariate-only baseline"
+    },
+    {
+      "covariate": "pmi_hours",
+      "covariate_type": "continuous",
+      "n_control_nonmissing": 37,
+      "n_msa_nonmissing": 40,
+      "control_summary": "mean=41.946; sd=19.245; median=45.000",
+      "msa_summary": "mean=42.575; sd=26.425; median=31.500",
+      "difference_msa_minus_control": 0.629054054054059,
+      "effect_name": "Hedges g",
+      "effect_size": 0.02677620992802302,
+      "permutation_p_two_sided": 0.9053547322633868,
+      "category_counts_control": "",
+      "category_counts_msa": "",
+      "fdr_bh": 0.9053547322633868,
+      "effect_magnitude": "negligible",
+      "model_policy": "Prespecified adjustment plus covariate-only baseline"
+    },
+    {
+      "covariate": "sex",
+      "covariate_type": "categorical",
+      "n_control_nonmissing": 37,
+      "n_msa_nonmissing": 40,
+      "control_summary": "{\"Female\": 18, \"Male\": 19}",
+      "msa_summary": "{\"Female\": 23, \"Male\": 17}",
+      "difference_msa_minus_control": 0.0885135135135135,
+      "effect_name": "Cramer's V",
+      "effect_size": 0.08863336937547714,
+      "permutation_p_two_sided": 0.496075196240188,
+      "category_counts_control": "{\"Female\": 18, \"Male\": 19}",
+      "category_counts_msa": "{\"Female\": 23, \"Male\": 17}",
+      "fdr_bh": 0.6614335949869173,
+      "effect_magnitude": "negligible",
+      "model_policy": "Prespecified adjustment plus covariate-only baseline"
+    },
+    {
+      "covariate": "brain_bank",
+      "covariate_type": "categorical",
+      "n_control_nonmissing": 37,
+      "n_msa_nonmissing": 40,
+      "control_summary": "{\"Bispebjerg Brain Bank\": 9, \"MRC London Neurodegenerative Diseases Brain Bank\": 28}",
+      "msa_summary": "{\"Bispebjerg Brain Bank\": 17, \"MRC London Neurodegenerative Diseases Brain Bank\": 23}",
+      "difference_msa_minus_control": 0.18175675675675684,
+      "effect_name": "Cramer's V",
+      "effect_size": 0.19202141261233,
+      "permutation_p_two_sided": 0.14189290535473226,
+      "category_counts_control": "{\"Bispebjerg Brain Bank\": 9, \"MRC London Neurodegenerative Diseases Brain Bank\": 28}",
+      "category_counts_msa": "{\"Bispebjerg Brain Bank\": 17, \"MRC London Neurodegenerative Diseases Brain Bank\": 23}",
+      "fdr_bh": 0.2837858107094645,
+      "effect_magnitude": "small",
+      "model_policy": "Prespecified adjustment plus covariate-only baseline"
+    }
+  ],
+  "frozen_policy_file": "model_input_policy.json",
+  "guardrails": [
+    "No CpG values were read to create or optimize folds.",
+    "The same frozen donor folds must be used for 5mC, 5hmC, and combined models.",
+    "All imputation, feature filtering/selection, scaling, residualization, and tuning occur inside training data only.",
+    "Outer-test data are used once for final prediction and never for model selection.",
+    "Full-78 is a required sensitivity analysis; the 76-donor cohort is an optional stress-test."
+  ]
+}

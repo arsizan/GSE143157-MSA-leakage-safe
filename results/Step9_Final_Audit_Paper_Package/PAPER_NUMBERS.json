@@ -1,0 +1,76 @@
+{
+  "dataset": {
+    "accession": "GSE143157",
+    "paired_donors_full": 78,
+    "control_full": 37,
+    "msa_full": 41,
+    "primary_donors": 77,
+    "primary_control": 37,
+    "primary_msa": 40,
+    "primary_excluded": [
+      "MSA 30"
+    ],
+    "5mC_cpgs": 731661,
+    "5hmC_cpgs_after_missingness_filter": 405408
+  },
+  "primary_roc_auc": {
+    "All covariates": {
+      "estimate": 0.6932432432432433,
+      "ci_low": 0.5601351351351351,
+      "ci_high": 0.8094763513513512
+    },
+    "5mC + covariates": {
+      "estimate": 0.6317567567567568,
+      "ci_low": 0.5006587837837837,
+      "ci_high": 0.7473141891891891
+    },
+    "5hmC + covariates": {
+      "estimate": 0.6628378378378378,
+      "ci_low": 0.5411993243243243,
+      "ci_high": 0.7777195945945945
+    },
+    "Combined + covariates": {
+      "estimate": 0.6527027027027027,
+      "ci_low": 0.5344594594594595,
+      "ci_high": 0.7696114864864865
+    }
+  },
+  "combined_sensitivity_roc_auc": {
+    "Primary Clean-77": {
+      "estimate": 0.6527027027027027,
+      "ci_low": 0.5344594594594595,
+      "ci_high": 0.7696114864864865
+    },
+    "Sensitivity Full-78": {
+      "estimate": 0.7046802900461437,
+      "ci_low": 0.5840145023071851,
+      "ci_high": 0.8134475939353988
+    },
+    "Sensitivity Clean-76": {
+      "estimate": 0.6847222222222222,
+      "ci_low": 0.5583333333333333,
+      "ci_high": 0.8042013888888887
+    }
+  },
+  "combined_vs_all_covariates_primary": {
+    "roc_auc_difference": -0.0405405405405405,
+    "bootstrap_ci_low": -0.2047297297297297,
+    "bootstrap_ci_high": 0.1243412162162161,
+    "bootstrap_two_sided_p": 0.6636681659170415,
+    "fdr_bh_within_family": 0.7027074697945145
+  },
+  "candidate_stability": {
+    "primary_candidates": 20,
+    "supported_in_both_sensitivity_cohorts": 15,
+    "all_effect_directions_match_both": true,
+    "jaccard_primary_vs_full78": 0.7407407407407407,
+    "jaccard_primary_vs_clean76": 0.5769230769230769
+  },
+  "pathway_enrichment": {
+    "method": "missMethyl::gometh",
+    "selected_5mC_cpgs": 7,
+    "selected_5hmC_cpgs": 7,
+    "fdr_significant_terms": 0,
+    "interpretation": "exploratory; selected CpGs were ML-stable, not EWAS-significant"
+  }
+}

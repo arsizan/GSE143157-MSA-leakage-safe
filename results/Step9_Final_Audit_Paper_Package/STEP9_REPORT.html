@@ -1,0 +1,412 @@
+<!doctype html><html><head><meta charset='utf-8'><title>GSE143157 Step 9</title>
+<style>body{font-family:Segoe UI,Arial,sans-serif;max-width:1200px;margin:32px auto;line-height:1.45;color:#202124}h1,h2{color:#17365d}.ok{background:#e8f5e9;border-left:5px solid #2e7d32;padding:12px}.warn{background:#fff8e1;border-left:5px solid #f9a825;padding:12px}table{border-collapse:collapse;width:100%;font-size:13px;margin:14px 0}th,td{border:1px solid #ccc;padding:6px;text-align:left}th{background:#eef3f8}img{max-width:100%;height:auto;border:1px solid #ddd}</style></head><body>
+<h1>GSE143157 Step 9: Final verified analysis freeze</h1>
+<div class='ok'><b>All locked method checks passed.</b> The tables and figures below are the paper-number source of truth.</div>
+<div class='warn'><b>Central interpretation:</b> Molecular signatures showed moderate discrimination and candidate-direction stability, but incremental performance beyond covariates and external generalization were not established.</div>
+<h2>Table 1. Cohorts</h2><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>cohort</th>
+      <th>role</th>
+      <th>donors_n</th>
+      <th>control_n</th>
+      <th>msa_n</th>
+      <th>female_n</th>
+      <th>male_n</th>
+      <th>age_mean_years</th>
+      <th>age_range_years</th>
+      <th>excluded_donors</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Primary Clean-77</td>
+      <td>Primary analysis</td>
+      <td>77</td>
+      <td>37</td>
+      <td>40</td>
+      <td>41</td>
+      <td>36</td>
+      <td>69.350649</td>
+      <td>51-91</td>
+      <td>MSA 30</td>
+    </tr>
+    <tr>
+      <td>Sensitivity Full-78</td>
+      <td>Outlier-inclusion sensitivity</td>
+      <td>78</td>
+      <td>37</td>
+      <td>41</td>
+      <td>42</td>
+      <td>36</td>
+      <td>69.346154</td>
+      <td>51-91</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Sensitivity Clean-76</td>
+      <td>Strict outlier stress-test</td>
+      <td>76</td>
+      <td>36</td>
+      <td>40</td>
+      <td>41</td>
+      <td>35</td>
+      <td>69.407895</td>
+      <td>51-91</td>
+      <td>MSA 30; Control 11</td>
+    </tr>
+  </tbody>
+</table>
+<h2>Table 2. Locked performance</h2><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>cohort</th>
+      <th>model</th>
+      <th>roc_auc_95ci</th>
+      <th>pr_auc</th>
+      <th>balanced_accuracy</th>
+      <th>delta_roc_auc_vs_all_covariates</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Primary Clean-77</td>
+      <td>5hmC + covariates</td>
+      <td>0.663 (0.541-0.778)</td>
+      <td>0.677</td>
+      <td>0.571</td>
+      <td>-0.030</td>
+    </tr>
+    <tr>
+      <td>Primary Clean-77</td>
+      <td>5mC + covariates</td>
+      <td>0.632 (0.501-0.747)</td>
+      <td>0.670</td>
+      <td>0.632</td>
+      <td>-0.061</td>
+    </tr>
+    <tr>
+      <td>Primary Clean-77</td>
+      <td>All covariates</td>
+      <td>0.693 (0.560-0.809)</td>
+      <td>0.617</td>
+      <td>0.622</td>
+      <td>0.000</td>
+    </tr>
+    <tr>
+      <td>Primary Clean-77</td>
+      <td>Combined + covariates</td>
+      <td>0.653 (0.534-0.770)</td>
+      <td>0.694</td>
+      <td>0.598</td>
+      <td>-0.041</td>
+    </tr>
+    <tr>
+      <td>Sensitivity Full-78</td>
+      <td>5hmC + covariates</td>
+      <td>0.730 (0.608-0.835)</td>
+      <td>0.747</td>
+      <td>0.640</td>
+      <td>0.069</td>
+    </tr>
+    <tr>
+      <td>Sensitivity Full-78</td>
+      <td>5mC + covariates</td>
+      <td>0.664 (0.543-0.777)</td>
+      <td>0.721</td>
+      <td>0.597</td>
+      <td>0.004</td>
+    </tr>
+    <tr>
+      <td>Sensitivity Full-78</td>
+      <td>All covariates</td>
+      <td>0.661 (0.524-0.778)</td>
+      <td>0.607</td>
+      <td>0.625</td>
+      <td>0.000</td>
+    </tr>
+    <tr>
+      <td>Sensitivity Full-78</td>
+      <td>Combined + covariates</td>
+      <td>0.705 (0.584-0.813)</td>
+      <td>0.736</td>
+      <td>0.602</td>
+      <td>0.044</td>
+    </tr>
+    <tr>
+      <td>Sensitivity Clean-76</td>
+      <td>5hmC + covariates</td>
+      <td>0.659 (0.528-0.775)</td>
+      <td>0.660</td>
+      <td>0.606</td>
+      <td>0.010</td>
+    </tr>
+    <tr>
+      <td>Sensitivity Clean-76</td>
+      <td>5mC + covariates</td>
+      <td>0.588 (0.453-0.710)</td>
+      <td>0.620</td>
+      <td>0.553</td>
+      <td>-0.060</td>
+    </tr>
+    <tr>
+      <td>Sensitivity Clean-76</td>
+      <td>All covariates</td>
+      <td>0.649 (0.516-0.771)</td>
+      <td>0.587</td>
+      <td>0.629</td>
+      <td>0.000</td>
+    </tr>
+    <tr>
+      <td>Sensitivity Clean-76</td>
+      <td>Combined + covariates</td>
+      <td>0.685 (0.558-0.804)</td>
+      <td>0.661</td>
+      <td>0.647</td>
+      <td>0.036</td>
+    </tr>
+  </tbody>
+</table>
+<h2>Table 3. Primary CpG candidates</h2><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source_modality</th>
+      <th>cpg_id</th>
+      <th>gene_symbols</th>
+      <th>stability_tier</th>
+      <th>primary_model_selection_frequency</th>
+      <th>minimum_sensitivity_selection_frequency</th>
+      <th>sensitivity_supported_both</th>
+      <th>manifest_qc_status</th>
+      <th>paper_priority</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>5mC</td>
+      <td>cg05666820</td>
+      <td>FZD9</td>
+      <td>B_moderate_stability</td>
+      <td>0.920</td>
+      <td>0.820</td>
+      <td>True</td>
+      <td>pass_manifest_audit</td>
+      <td>Core robust, manifest-audited (Tier B)</td>
+    </tr>
+    <tr>
+      <td>5hmC</td>
+      <td>cg11778876</td>
+      <td>RSL24D1</td>
+      <td>A_high_stability</td>
+      <td>0.860</td>
+      <td>0.820</td>
+      <td>True</td>
+      <td>pass_manifest_audit</td>
+      <td>Core robust, manifest-audited (Tier A)</td>
+    </tr>
+    <tr>
+      <td>5mC</td>
+      <td>cg22190721</td>
+      <td>ESRP2</td>
+      <td>A_high_stability</td>
+      <td>0.820</td>
+      <td>0.800</td>
+      <td>True</td>
+      <td>pass_manifest_audit</td>
+      <td>Core robust, manifest-audited (Tier A)</td>
+    </tr>
+    <tr>
+      <td>5mC</td>
+      <td>cg14225168</td>
+      <td>NOTCH1</td>
+      <td>A_high_stability</td>
+      <td>0.920</td>
+      <td>0.780</td>
+      <td>True</td>
+      <td>pass_manifest_audit</td>
+      <td>Core robust, manifest-audited (Tier A)</td>
+    </tr>
+    <tr>
+      <td>5hmC</td>
+      <td>cg24800754</td>
+      <td>MLLT1</td>
+      <td>A_high_stability</td>
+      <td>0.920</td>
+      <td>0.780</td>
+      <td>True</td>
+      <td>pass_manifest_audit</td>
+      <td>Core robust, manifest-audited (Tier A)</td>
+    </tr>
+    <tr>
+      <td>5mC</td>
+      <td>cg01883408</td>
+      <td>CCNI2</td>
+      <td>A_high_stability</td>
+      <td>0.800</td>
+      <td>0.740</td>
+      <td>True</td>
+      <td>review_common_manifest_snp</td>
+      <td>Robust but manifest-SNP review required (Tier A)</td>
+    </tr>
+    <tr>
+      <td>5mC</td>
+      <td>cg00944421</td>
+      <td>ESRP2</td>
+      <td>B_moderate_stability</td>
+      <td>0.740</td>
+      <td>0.740</td>
+      <td>True</td>
+      <td>pass_manifest_audit</td>
+      <td>Core robust, manifest-audited (Tier B)</td>
+    </tr>
+    <tr>
+      <td>5hmC</td>
+      <td>cg25938287</td>
+      <td>MIR103A1;PANK3</td>
+      <td>B_moderate_stability</td>
+      <td>0.700</td>
+      <td>0.740</td>
+      <td>True</td>
+      <td>pass_manifest_audit</td>
+      <td>Core robust, manifest-audited (Tier B)</td>
+    </tr>
+    <tr>
+      <td>5hmC</td>
+      <td>cg25681427</td>
+      <td>MYO1B</td>
+      <td>B_moderate_stability</td>
+      <td>0.680</td>
+      <td>0.720</td>
+      <td>True</td>
+      <td>pass_manifest_audit</td>
+      <td>Core robust, manifest-audited (Tier B)</td>
+    </tr>
+    <tr>
+      <td>5mC</td>
+      <td>cg18705301</td>
+      <td>NDUFAF1</td>
+      <td>B_moderate_stability</td>
+      <td>0.780</td>
+      <td>0.700</td>
+      <td>True</td>
+      <td>review_common_manifest_snp</td>
+      <td>Robust but manifest-SNP review required (Tier B)</td>
+    </tr>
+    <tr>
+      <td>5mC</td>
+      <td>cg07879897</td>
+      <td></td>
+      <td>A_high_stability</td>
+      <td>0.820</td>
+      <td>0.680</td>
+      <td>True</td>
+      <td>review_common_manifest_snp</td>
+      <td>Robust but manifest-SNP review required (Tier A)</td>
+    </tr>
+    <tr>
+      <td>5hmC</td>
+      <td>cg09165919</td>
+      <td>MLLT1</td>
+      <td>A_high_stability</td>
+      <td>0.880</td>
+      <td>0.660</td>
+      <td>True</td>
+      <td>pass_manifest_audit</td>
+      <td>Core robust, manifest-audited (Tier A)</td>
+    </tr>
+    <tr>
+      <td>5hmC</td>
+      <td>cg21185019</td>
+      <td>RP5-1007M22.2</td>
+      <td>B_moderate_stability</td>
+      <td>0.620</td>
+      <td>0.660</td>
+      <td>True</td>
+      <td>review_common_manifest_snp</td>
+      <td>Robust but manifest-SNP review required (Tier B)</td>
+    </tr>
+    <tr>
+      <td>5hmC</td>
+      <td>cg02115067</td>
+      <td>UST</td>
+      <td>B_moderate_stability</td>
+      <td>0.680</td>
+      <td>0.640</td>
+      <td>True</td>
+      <td>pass_manifest_audit</td>
+      <td>Core robust, manifest-audited (Tier B)</td>
+    </tr>
+    <tr>
+      <td>5mC</td>
+      <td>cg05765011</td>
+      <td>ADCY9</td>
+      <td>B_moderate_stability</td>
+      <td>0.620</td>
+      <td>0.640</td>
+      <td>True</td>
+      <td>pass_manifest_audit</td>
+      <td>Core robust, manifest-audited (Tier B)</td>
+    </tr>
+    <tr>
+      <td>5hmC</td>
+      <td>cg26201957</td>
+      <td>PRCP</td>
+      <td>B_moderate_stability</td>
+      <td>0.620</td>
+      <td>0.580</td>
+      <td>False</td>
+      <td>pass_manifest_audit</td>
+      <td>Secondary, cohort-sensitive (Tier B)</td>
+    </tr>
+    <tr>
+      <td>5hmC</td>
+      <td>cg14614346</td>
+      <td>FAM198B</td>
+      <td>B_moderate_stability</td>
+      <td>0.660</td>
+      <td>0.540</td>
+      <td>False</td>
+      <td>review_common_manifest_snp</td>
+      <td>Secondary, cohort-sensitive and manifest review required (Tier B)</td>
+    </tr>
+    <tr>
+      <td>5hmC</td>
+      <td>cg03174521</td>
+      <td>OSBPL5</td>
+      <td>B_moderate_stability</td>
+      <td>0.620</td>
+      <td>0.540</td>
+      <td>False</td>
+      <td>review_common_manifest_snp</td>
+      <td>Secondary, cohort-sensitive and manifest review required (Tier B)</td>
+    </tr>
+    <tr>
+      <td>5mC</td>
+      <td>cg09255157</td>
+      <td>ARHGEF38</td>
+      <td>B_moderate_stability</td>
+      <td>0.640</td>
+      <td>0.520</td>
+      <td>False</td>
+      <td>pass_manifest_audit</td>
+      <td>Secondary, cohort-sensitive (Tier B)</td>
+    </tr>
+    <tr>
+      <td>5mC</td>
+      <td>cg11874946</td>
+      <td>LINC00299</td>
+      <td>B_moderate_stability</td>
+      <td>0.740</td>
+      <td>0.440</td>
+      <td>False</td>
+      <td>pass_manifest_audit</td>
+      <td>Secondary, cohort-sensitive (Tier B)</td>
+    </tr>
+  </tbody>
+</table>
+<h2>Pathway status</h2><p>GOmeth FDR-significant terms: <b>0</b>. Selected CpGs were ML-stable candidates, not EWAS-significant loci.</p>
+<h2>Workflow</h2><img src='figures/Figure0_analysis_workflow.png' alt='Analysis workflow'>
+<h2>Sensitivity performance</h2><img src='figures/Figure2_sensitivity_performance.png' alt='Sensitivity performance'>
+<h2>Candidate robustness</h2><img src='figures/Figure3_candidate_robustness.png' alt='Candidate robustness'>
+<h2>Final files</h2><ul><li>TABLE1-4: paper-ready source tables</li><li>PAPER_NUMBERS.json: exact machine-readable numbers</li><li>METHODS_RESULTS_NUMBERS.md: data-backed drafting aid</li><li>PAPER_CLAIMS_GUARDRAILS.csv: claims that are and are not supported</li><li>FINAL_FREEZE.json: cryptographic hashes of this package</li></ul>
+</body></html>

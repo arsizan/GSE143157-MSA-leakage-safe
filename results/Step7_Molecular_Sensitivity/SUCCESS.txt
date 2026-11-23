@@ -1,0 +1,7 @@
+SUCCESS
+Completed UTC: 2026-08-19T20:43:41.758013+00:00
+Analysis mode: FULL_RESEARCH_RUN
+Cohorts: Primary Clean-77, Sensitivity Full-78, Sensitivity Clean-76
+Locked view: molecular_plus_covariates
+Primary candidates supported in both sensitivity cohorts: 15/20
+Interpretation: overlapping-cohort robustness analysis, not independent external validation

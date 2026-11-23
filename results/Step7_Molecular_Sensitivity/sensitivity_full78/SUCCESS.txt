@@ -1,0 +1,8 @@
+SUCCESS
+Completed UTC: 2026-08-19T20:31:58.050261+00:00
+Analysis mode: FULL_RESEARCH_RUN
+Outer predictions: 2340
+Outer repeats: 10
+Cohort: sensitivity_full78
+Models: 3 modalities x locked molecular-plus-covariate view
+All outer transformations and supervised selections were training-only

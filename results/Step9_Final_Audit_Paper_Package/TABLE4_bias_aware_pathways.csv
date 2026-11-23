@@ -1,0 +1,41 @@
+modality,collection,term_id,display_term,Ont,N,DE,P.DE,FDR,SigGenesInSet,reporting_status
+5hmC,GO,GO:0034482,chondroitin 2-sulfotransferase activity,MF,1,1,0.0007567761098086,1.0,UST,Exploratory ranking only
+5hmC,GO,GO:0102142,dermatan 2-sulfotransferase activity,MF,1,1,0.0007567761098086,1.0,UST,Exploratory ranking only
+5hmC,GO,GO:0004185,serine-type carboxypeptidase activity,MF,5,1,0.0017452718326338,1.0,PRCP,Exploratory ranking only
+5hmC,GO,GO:0034481,chondroitin sulfotransferase activity,MF,6,1,0.0027993127937955,1.0,UST,Exploratory ranking only
+5hmC,GO,GO:0120534,dermatan sulfotransferase activity,MF,6,1,0.0030541111862811,1.0,UST,Exploratory ranking only
+5hmC,GO,GO:0002002,regulation of angiotensin levels in blood,BP,10,1,0.0032339101712284,1.0,PRCP,Exploratory ranking only
+5hmC,GO,GO:0002003,angiotensin maturation,BP,10,1,0.0032339101712284,1.0,PRCP,Exploratory ranking only
+5hmC,GO,GO:0050656,3'-phosphoadenosine 5'-phosphosulfate binding,MF,9,1,0.0036519927743875,1.0,UST,Exploratory ranking only
+5hmC,GO,GO:0070008,serine-type exopeptidase activity,MF,12,1,0.0037503109391211,1.0,PRCP,Exploratory ranking only
+5hmC,GO,GO:0003085,negative regulation of systemic arterial blood pressure,BP,19,1,0.0050900095953656,1.0,PRCP,Exploratory ranking only
+5hmC,KEGG,hsa04614,Renin-angiotensin system,,19,1,0.0051544123366591,1.0,PRCP,Exploratory ranking only
+5hmC,KEGG,hsa00532,Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate,,20,1,0.0085406115980494,1.0,UST,Exploratory ranking only
+5hmC,KEGG,hsa03250,Viral life cycle - HIV-1,,64,1,0.0197488337090534,1.0,MLLT1,Exploratory ranking only
+5hmC,KEGG,hsa03010,Ribosome,,168,1,0.0383177382055879,1.0,RSL24D1,Exploratory ranking only
+5hmC,KEGG,hsa04974,Protein digestion and absorption,,93,1,0.0403989193787961,1.0,PRCP,Exploratory ranking only
+5hmC,KEGG,hsa05171,Coronavirus disease,,208,1,0.0589731791281017,1.0,RSL24D1,Exploratory ranking only
+5hmC,KEGG,hsa05130,Pathogenic Escherichia coli infection,,189,1,0.0681340643580653,1.0,MYO1B,Exploratory ranking only
+5hmC,KEGG,hsa04814,Motor proteins,,190,1,0.0709062756031539,1.0,MYO1B,Exploratory ranking only
+5hmC,KEGG,hsa05202,Transcriptional misregulation in cancer,,174,1,0.0720703873345754,1.0,MLLT1,Exploratory ranking only
+5hmC,KEGG,hsa04519,Cadherin signaling,,385,1,0.143077932441559,1.0,MYO1B,Exploratory ranking only
+5mC,GO,GO:2000179,positive regulation of neural precursor cell proliferation,BP,32,2,7.3464673257702e-05,1.0,"NOTCH1,FZD9",Exploratory ranking only
+5mC,GO,GO:0042246,tissue regeneration,BP,58,2,0.0001840853917387,1.0,"NOTCH1,FZD9",Exploratory ranking only
+5mC,GO,GO:2000177,regulation of neural precursor cell proliferation,BP,55,2,0.000216897380833,1.0,"NOTCH1,FZD9",Exploratory ranking only
+5mC,GO,GO:1903910,negative regulation of receptor clustering,BP,1,1,0.0002509864101271,1.0,FZD9,Exploratory ranking only
+5mC,GO,GO:1904394,negative regulation of skeletal muscle acetylcholine-gated channel clustering,BP,1,1,0.0002509864101271,1.0,FZD9,Exploratory ranking only
+5mC,GO,GO:1990523,bone regeneration,BP,2,1,0.0003998453431892,1.0,FZD9,Exploratory ranking only
+5mC,GO,GO:0070167,regulation of biomineral tissue development,BP,87,2,0.0004521029077676,1.0,"NOTCH1,FZD9",Exploratory ranking only
+5mC,GO,GO:0061351,neural precursor cell proliferation,BP,96,2,0.0006973895821643,1.0,"NOTCH1,FZD9",Exploratory ranking only
+5mC,GO,GO:0030278,regulation of ossification,BP,100,2,0.0007066944176673,1.0,"NOTCH1,FZD9",Exploratory ranking only
+5mC,GO,GO:0003178,coronary sinus valve development,BP,1,1,0.0008372296353351,1.0,NOTCH1,Exploratory ranking only
+5mC,KEGG,hsa01522,Endocrine resistance,,95,2,0.0008101175509109,0.104805564537736,"ADCY9,NOTCH1",Exploratory ranking only
+5mC,KEGG,hsa05200,Pathways in cancer,,507,3,0.0008209019581433,0.104805564537736,"ADCY9,NOTCH1,FZD9",Exploratory ranking only
+5mC,KEGG,hsa04916,Melanogenesis,,101,2,0.0008452061656269,0.104805564537736,"ADCY9,FZD9",Exploratory ranking only
+5mC,KEGG,hsa05224,Breast cancer,,145,2,0.0015752561887323,0.146498825552112,"NOTCH1,FZD9",Exploratory ranking only
+5mC,KEGG,hsa04934,Cushing syndrome,,153,2,0.0019894376475103,0.148014160974771,"ADCY9,FZD9",Exploratory ranking only
+5mC,KEGG,hsa05165,Human papillomavirus infection,,320,2,0.0073563363582676,0.456092854212591,"NOTCH1,FZD9",Exploratory ranking only
+5mC,KEGG,hsa04962,Vasopressin-regulated water reabsorption,,43,1,0.0159286841866285,0.465108081815869,ADCY9,Exploratory ranking only
+5mC,KEGG,hsa04913,Ovarian steroidogenesis,,51,1,0.0183505506247211,0.465108081815869,ADCY9,Exploratory ranking only
+5mC,KEGG,hsa05110,Vibrio cholerae infection,,49,1,0.0187682716024598,0.465108081815869,ADCY9,Exploratory ranking only
+5mC,KEGG,hsa04923,Regulation of lipolysis in adipocytes,,57,1,0.024097383921686,0.465108081815869,ADCY9,Exploratory ranking only

@@ -1,0 +1,4 @@
+STEP 8 PRESENTATION-LABEL REPAIR APPLIED
+Completed UTC: 2026-08-20 20:21:21 UTC
+Scope: display_term, top-term table, figures, HTML report, and provenance metadata
+Core GOmeth statistics changed: FALSE

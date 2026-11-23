@@ -1,0 +1,21 @@
+{
+  "pipeline": "GSE143157 Step 9 final audit and paper package",
+  "version": "1.0.0",
+  "completed_utc": "2026-08-20T20:47:00.469228+00:00",
+  "step_directories": {
+    "step1": "D:\\Paper\\MSA_Research\\02_Epigenetics\\GSE143157\\02_Preprocessing\\Step1_results_full78",
+    "step2": "D:\\Paper\\MSA_Research\\02_Epigenetics\\GSE143157\\02_Preprocessing\\Step2_PCA_Outliers_full78",
+    "step3": "D:\\Paper\\MSA_Research\\02_Epigenetics\\GSE143157\\02_Preprocessing\\Step3_Confounders_CV",
+    "step4": "D:\\Paper\\MSA_Research\\02_Epigenetics\\GSE143157\\02_Preprocessing\\Step4_Covariate_Benchmark",
+    "step5": "D:\\Paper\\MSA_Research\\02_Epigenetics\\GSE143157\\02_Preprocessing\\Step5_Molecular_Benchmark_Primary77",
+    "step6": "D:\\Paper\\MSA_Research\\02_Epigenetics\\GSE143157\\02_Preprocessing\\Step6_Annotation_Interpretation_Primary77",
+    "step7": "D:\\Paper\\MSA_Research\\02_Epigenetics\\GSE143157\\02_Preprocessing\\Step7_Molecular_Sensitivity",
+    "step8": "D:\\Paper\\MSA_Research\\02_Epigenetics\\GSE143157\\02_Preprocessing\\Step8_BiasAware_Pathway_Enrichment",
+    "step2b": "D:\\Paper\\MSA_Research\\02_Epigenetics\\GSE143157\\02_Preprocessing\\Step2B_Cohorts"
+  },
+  "output": "D:\\Paper\\MSA_Research\\02_Epigenetics\\GSE143157\\02_Preprocessing\\Step9_Final_Audit_Paper_Package",
+  "primary_cohort": "Primary Clean-77",
+  "primary_model_view": "molecular_plus_covariates",
+  "candidate_support_rule": "selection frequency >=0.60 and primary effect direction matched in both Full-78 and Clean-76",
+  "pathway_significance_rule": "GOmeth Benjamini-Hochberg FDR <0.05"
+}

@@ -1,0 +1,10 @@
+claim_topic,status,paper_wording_guardrail
+Association language,ALLOWED,Use 'MSA-associated methylation/hydroxymethylation signatures'.
+Classification performance,ALLOWED WITH UNCERTAINTY,Report donor-mean out-of-fold estimates with 95% donor-bootstrap intervals.
+Molecular improvement over covariates,NOT ESTABLISHED,Primary paired comparison CI crosses zero and multiplicity-adjusted evidence is not significant.
+Independent validation,NOT ALLOWED,Full-78 and Clean-76 overlap the primary cohort; they are sensitivity analyses.
+Diagnostic biomarker,NOT ALLOWED,No independent clinical validation or prospective diagnostic evaluation was performed.
+Stable CpGs as statistically significant,NOT ALLOWED,"Selection frequency is a stability measure, not a p-value."
+Causal mechanism,NOT ALLOWED,Observational post-mortem data cannot establish causality.
+Pathway significance,NO FDR-SIGNIFICANT PATHWAY,GOmeth FDR<0.05 count = 0; nominal rankings remain exploratory.
+Generalization,NOT ESTABLISHED,Single public dataset; external replication is required.

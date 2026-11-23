@@ -1,0 +1,143 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GSE143157 Step 4 report</title><style>
+body{font-family:Arial,sans-serif;max-width:1080px;margin:28px auto;padding:0 18px;line-height:1.5;color:#222}h1,h2{color:#17365d}
+.notice{background:#fff4ce;border-left:5px solid #d6a800;padding:12px 16px}.good{background:#eaf6ec;border-left:5px solid #2e7d32;padding:12px 16px}
+.data-table{border-collapse:collapse;width:100%;font-size:.87rem}.data-table th,.data-table td{padding:7px;border-bottom:1px solid #ddd;text-align:left}
+img{max-width:100%;height:auto}code{background:#f4f4f4;padding:2px 4px}</style></head><body>
+<h1>GSE143157 Step 4: covariate-only nested-CV benchmark</h1>
+<p class="good"><strong>Leakage check:</strong> Every preprocessing fit and hyperparameter decision used inner/outer training donors only. Each donor received one outer-test prediction per repeat.</p>
+<p class="notice"><strong>Interpretation:</strong> These are confounding benchmarks, not molecular biomarkers. A later methylation model must improve over the all-covariate benchmark to claim added molecular predictive value.</p>
+<h2>Primary Clean-77 aggregate out-of-fold metrics</h2><table class="dataframe data-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>model</th>
+      <th>roc_auc_donor_mean_oof</th>
+      <th>roc_auc_bootstrap_low</th>
+      <th>roc_auc_bootstrap_high</th>
+      <th>pr_auc_donor_mean_oof</th>
+      <th>balanced_accuracy_donor_mean_oof</th>
+      <th>mcc_donor_mean_oof</th>
+      <th>brier_score_donor_mean_oof</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>age_only</td>
+      <td>0.7128</td>
+      <td>0.5804</td>
+      <td>0.8257</td>
+      <td>0.6319</td>
+      <td>0.6848</td>
+      <td>0.3765</td>
+      <td>0.2409</td>
+    </tr>
+    <tr>
+      <td>all_covariates</td>
+      <td>0.6932</td>
+      <td>0.5601</td>
+      <td>0.8095</td>
+      <td>0.6166</td>
+      <td>0.6223</td>
+      <td>0.2449</td>
+      <td>0.2323</td>
+    </tr>
+    <tr>
+      <td>no_age_covariates</td>
+      <td>0.4757</td>
+      <td>0.3486</td>
+      <td>0.6082</td>
+      <td>0.5233</td>
+      <td>0.5098</td>
+      <td>0.0199</td>
+      <td>0.2559</td>
+    </tr>
+  </tbody>
+</table>
+<h2>Paired donor-bootstrap ROC-AUC comparisons</h2><table class="dataframe data-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>model_a</th>
+      <th>model_b</th>
+      <th>roc_auc_difference_a_minus_b</th>
+      <th>bootstrap_low</th>
+      <th>bootstrap_high</th>
+      <th>bootstrap_two_sided_p</th>
+      <th>bootstrap_iterations</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>all_covariates</td>
+      <td>age_only</td>
+      <td>-0.0196</td>
+      <td>-0.0676</td>
+      <td>0.0243</td>
+      <td>0.4348</td>
+      <td>2000</td>
+    </tr>
+    <tr>
+      <td>all_covariates</td>
+      <td>no_age_covariates</td>
+      <td>0.2176</td>
+      <td>0.0662</td>
+      <td>0.3595</td>
+      <td>0.0020</td>
+      <td>2000</td>
+    </tr>
+    <tr>
+      <td>age_only</td>
+      <td>no_age_covariates</td>
+      <td>0.2372</td>
+      <td>0.0689</td>
+      <td>0.4028</td>
+      <td>0.0060</td>
+      <td>2000</td>
+    </tr>
+  </tbody>
+</table>
+<h2>ROC curve</h2><img src="roc_primary.png" alt="Primary ROC curves">
+<h2>Precision–recall curve</h2><img src="pr_primary.png" alt="Primary precision recall curves">
+<h2>Metric comparison</h2><img src="metrics_primary.png" alt="Primary performance metrics">
+<h2>All-covariate coefficient stability</h2><table class="dataframe data-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>feature</th>
+      <th>coefficient_mean</th>
+      <th>coefficient_sd</th>
+      <th>positive_fraction</th>
+      <th>odds_ratio_median</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>age</td>
+      <td>-0.2590</td>
+      <td>0.2512</td>
+      <td>0.0000</td>
+      <td>0.8982</td>
+    </tr>
+    <tr>
+      <td>brain_bank_MRC London Neurodegenerative Diseases Brain Bank</td>
+      <td>-0.0861</td>
+      <td>0.1456</td>
+      <td>0.0400</td>
+      <td>0.9758</td>
+    </tr>
+    <tr>
+      <td>pmi_hours</td>
+      <td>0.0229</td>
+      <td>0.0490</td>
+      <td>0.7000</td>
+      <td>1.0082</td>
+    </tr>
+    <tr>
+      <td>sex_Male</td>
+      <td>-0.0396</td>
+      <td>0.0858</td>
+      <td>0.1600</td>
+      <td>0.9909</td>
+    </tr>
+  </tbody>
+</table><img src="coefficients_primary.png" alt="Coefficient stability">
+<h2>Frozen design</h2><ul><li>Outer CV: 5 folds × 10 repeats.</li><li>Inner CV: 4 folds.</li><li>Inner selection metric: ROC-AUC.</li><li>C grid: [0.01, 0.1, 1.0, 10.0, 100.0]; class-weight options: none and balanced.</li><li>Prediction threshold: 0.5, not optimized on outer test data.</li></ul>
+</body></html>

@@ -1,0 +1,4 @@
+cohort,role,donors_n,control_n,msa_n,female_n,male_n,age_mean_years,age_range_years,excluded_donors
+Primary Clean-77,Primary analysis,77,37,40,41,36,69.35064935064935,51-91,MSA 30
+Sensitivity Full-78,Outlier-inclusion sensitivity,78,37,41,42,36,69.34615384615384,51-91,None
+Sensitivity Clean-76,Strict outlier stress-test,76,36,40,41,35,69.40789473684211,51-91,MSA 30; Control 11

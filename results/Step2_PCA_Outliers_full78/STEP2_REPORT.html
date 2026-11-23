@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GSE143157 Step 2 QC report</title>
+<style>
+body{font-family:Arial,sans-serif;max-width:1080px;margin:28px auto;padding:0 18px;color:#222;line-height:1.5}
+h1,h2{color:#17365d} .notice{background:#fff4ce;padding:12px 16px;border-left:5px solid #d6a800}
+.metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px}
+.metric{background:#f3f6fa;padding:12px} .metric strong{display:block;font-size:1.35rem}
+img{max-width:100%;height:auto} section{margin:34px 0} .data-table{border-collapse:collapse;width:100%;font-size:.9rem}
+.data-table th,.data-table td{padding:7px;border-bottom:1px solid #ddd;text-align:left}
+code{background:#f4f4f4;padding:2px 4px}
+</style></head><body>
+<h1>GSE143157 Step 2: PCA and outlier review</h1>
+<p class="notice"><strong>Important:</strong> A review candidate is not an excluded donor. No sample was deleted in Step 2.</p>
+<div class="metrics">
+<div class="metric"><span>Donors</span><strong>78</strong></div>
+<div class="metric"><span>Variable CpGs per modality</span><strong>50,000</strong></div>
+<div class="metric"><span>Review candidates</span><strong>10</strong></div>
+<div class="metric"><span>High-priority review</span><strong>2</strong></div>
+</div>
+<h2>Review-candidate table</h2><table class="dataframe data-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>donor_id</th>
+      <th>condition</th>
+      <th>evidence_count</th>
+      <th>outlier_evidence</th>
+      <th>high_priority_review</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MSA 30</td>
+      <td>MSA</td>
+      <td>4</td>
+      <td>5hmC PCA; 5hmC missingness; negative 5hmC; Detection-P</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>Control 11</td>
+      <td>Control</td>
+      <td>2</td>
+      <td>5mC PCA; 5hmC PCA</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>MSA 4</td>
+      <td>MSA</td>
+      <td>1</td>
+      <td>5hmC missingness</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>Control 36</td>
+      <td>Control</td>
+      <td>1</td>
+      <td>5hmC missingness</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>MSA 11</td>
+      <td>MSA</td>
+      <td>1</td>
+      <td>5hmC PCA</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>MSA 29</td>
+      <td>MSA</td>
+      <td>1</td>
+      <td>5mC low correlation</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>MSA 8</td>
+      <td>MSA</td>
+      <td>1</td>
+      <td>5hmC PCA</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>Control 32</td>
+      <td>Control</td>
+      <td>1</td>
+      <td>5hmC PCA</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>Control 9</td>
+      <td>Control</td>
+      <td>1</td>
+      <td>5hmC PCA</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>MSA 33</td>
+      <td>MSA</td>
+      <td>1</td>
+      <td>5hmC PCA</td>
+      <td>False</td>
+    </tr>
+  </tbody>
+</table>
+<h2>Method summary</h2>
+<ul><li>Separate 5mC and 5hmC PCA using the top variable CpGs.</li>
+<li>Remaining 5hmC missing values were median-imputed per CpG for unsupervised QC only.</li>
+<li>CpGs were centered across donors and were not variance-scaled.</li>
+<li>Outlier evidence combines robust PCA distance, low mean sample correlation, Detection-P QC, and 5hmC missingness.</li>
+<li>These full-cohort QC selections must not be reused as supervised ML feature selection.</li></ul>
+<section><h2>5mC PCA</h2><img src="pca_5mC.png" alt="5mC PCA"></section>
+<section><h2>5hmC PCA</h2><img src="pca_5hmC.png" alt="5hmC PCA"></section>
+<section><h2>5mC outlier diagnostics</h2><img src="outlier_diagnostics_5mC.png" alt="5mC outlier diagnostics"></section>
+<section><h2>5hmC outlier diagnostics</h2><img src="outlier_diagnostics_5hmC.png" alt="5hmC outlier diagnostics"></section>
+<section><h2>5hmC donor QC</h2><img src="qc_5hmC_donor_missingness.png" alt="5hmC donor QC"></section>
+<section><h2>5mC correlations</h2><img src="correlation_heatmap_5mC.png" alt="5mC correlations"></section>
+<section><h2>5hmC correlations</h2><img src="correlation_heatmap_5hmC.png" alt="5hmC correlations"></section>
+<section><h2>5mC covariates</h2><img src="pca_covariates_5mC.png" alt="5mC covariates"></section>
+<section><h2>5hmC covariates</h2><img src="pca_covariates_5hmC.png" alt="5hmC covariates"></section>
+<section><h2>5mC scree plot</h2><img src="scree_5mC.png" alt="5mC scree plot"></section>
+<section><h2>5hmC scree plot</h2><img src="scree_5hmC.png" alt="5hmC scree plot"></section>
+</body></html>

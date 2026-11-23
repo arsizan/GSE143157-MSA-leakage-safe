@@ -1,0 +1,7 @@
+SUCCESS
+Completed UTC: 2026-08-20T20:47:00.469228+00:00
+Analysis mode: FINAL_VERIFIED_FREEZE
+Freeze ID: e30e23c8421ef850700d7269bd05be775a809256dcca097a5d77c0cd329328f3
+Primary candidates supported in both sensitivity cohorts: 15/20
+GOmeth FDR-significant pathways: 0
+Interpretation: internal donor-level analysis with overlapping-cohort sensitivity; not external validation

@@ -1,0 +1,280 @@
+{
+  "pipeline": {
+    "name": "GSE143157 Step 6 CpG annotation and interpretation audit",
+    "version": "1.0.0",
+    "completed_utc": "2026-08-19T19:25:28.028204+00:00",
+    "elapsed_seconds": 29.15386414527893
+  },
+  "analysis_policy": {
+    "primary_model": "combined__molecular_plus_covariates",
+    "tier_A": {
+      "minimum_selection_frequency": 0.8,
+      "minimum_coefficient_direction_consistency": 0.9
+    },
+    "tier_B": {
+      "minimum_selection_frequency": 0.6,
+      "minimum_coefficient_direction_consistency": 0.8
+    },
+    "common_manifest_snp_maf_flag_threshold": 0.05,
+    "stability_is_not_a_p_value": true,
+    "automatic_pathway_enrichment_run": false,
+    "pathway_reason": "Naive enrichment was prohibited because EPIC gene-set tests require correction for probe-number and multi-gene bias. GOmeth-ready files were produced."
+  },
+  "inputs": {
+    "step5_dir": "D:\\Paper\\MSA_Research\\02_Epigenetics\\GSE143157\\02_Preprocessing\\Step5_Molecular_Benchmark_Primary77",
+    "step2b_dir": "D:\\Paper\\MSA_Research\\02_Epigenetics\\GSE143157\\02_Preprocessing\\Step2B_Cohorts",
+    "manifest": "D:\\Paper\\MSA_Research\\GSE143157_RAW\\GPL21145_MethylationEPIC_15073387_v-1-0.csv.gz",
+    "feature_stability_sha256": "c4c771eaf3b3eb5061a4041c477b72dcb86478d36395f9dedeac078004f189e8",
+    "manifest_sha256": "bcb11dc3de47b509864238ca2f2d24a505684624b4a18e362597756da6f3bea1",
+    "h5_sha256": "9c147a03b4742ae588621bf95a3aa9c249ee9f36cd8b863428550e08f3ba8eb9",
+    "published_signals_sha256": "be826db479891b846911f2b28a0da141379e1be1ac3135321d59c21f73cfdadf"
+  },
+  "counts": {
+    "step5_feature_stability_rows": 8753,
+    "unique_step5_cpgs": 2165,
+    "manifest_assay_rows_scanned": 867926,
+    "manifest_targets_requested": 2170,
+    "manifest_targets_found": 2170,
+    "primary_model_feature_rows": 1405,
+    "primary_stable_cpgs": 20,
+    "tier_a": 7,
+    "tier_b": 13,
+    "gene_mapped_primary": 19,
+    "intergenic_primary": 1,
+    "manifest_qc_pass_primary": 14,
+    "unique_candidate_genes": 18,
+    "published_reference_rows": 6,
+    "published_primary_exact_overlap": 0,
+    "gometh_background_5mC": 731661,
+    "gometh_background_5hmC": 405408,
+    "gometh_selected_5mC": 7,
+    "gometh_selected_5hmC": 7
+  },
+  "sources": {
+    "original_GSE143157_publication": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7063795/",
+    "bias_aware_enrichment_guidance": "https://bioconductor.org/packages/release/bioc/vignettes/missMethyl/inst/doc/missMethyl.html",
+    "manifest_coordinate_build": "Genome Build 37 / hg19"
+  },
+  "top_primary_candidates": [
+    {
+      "source_modality": "5mC",
+      "cpg_id": "cg14225168",
+      "gene_symbols": "NOTCH1",
+      "stability_tier": "A_high_stability",
+      "selection_frequency": 0.92,
+      "coefficient_direction_consistency": 1.0,
+      "effect_direction": "MSA_higher",
+      "mean_effect_msa_minus_control": 0.1292033705020743,
+      "manifest_qc_status": "pass_manifest_audit"
+    },
+    {
+      "source_modality": "5hmC",
+      "cpg_id": "cg24800754",
+      "gene_symbols": "MLLT1",
+      "stability_tier": "A_high_stability",
+      "selection_frequency": 0.92,
+      "coefficient_direction_consistency": 0.9782608695652174,
+      "effect_direction": "MSA_lower",
+      "mean_effect_msa_minus_control": -0.0849102888859041,
+      "manifest_qc_status": "pass_manifest_audit"
+    },
+    {
+      "source_modality": "5mC",
+      "cpg_id": "cg05666820",
+      "gene_symbols": "FZD9",
+      "stability_tier": "B_moderate_stability",
+      "selection_frequency": 0.92,
+      "coefficient_direction_consistency": 0.8695652173913044,
+      "effect_direction": "MSA_lower",
+      "mean_effect_msa_minus_control": -0.1155755454516117,
+      "manifest_qc_status": "pass_manifest_audit"
+    },
+    {
+      "source_modality": "5hmC",
+      "cpg_id": "cg09165919",
+      "gene_symbols": "MLLT1",
+      "stability_tier": "A_high_stability",
+      "selection_frequency": 0.88,
+      "coefficient_direction_consistency": 1.0,
+      "effect_direction": "MSA_lower",
+      "mean_effect_msa_minus_control": -0.1007730435250111,
+      "manifest_qc_status": "pass_manifest_audit"
+    },
+    {
+      "source_modality": "5hmC",
+      "cpg_id": "cg11778876",
+      "gene_symbols": "RSL24D1",
+      "stability_tier": "A_high_stability",
+      "selection_frequency": 0.86,
+      "coefficient_direction_consistency": 1.0,
+      "effect_direction": "MSA_higher",
+      "mean_effect_msa_minus_control": 0.0878868880140226,
+      "manifest_qc_status": "pass_manifest_audit"
+    },
+    {
+      "source_modality": "5mC",
+      "cpg_id": "cg07879897",
+      "gene_symbols": "",
+      "stability_tier": "A_high_stability",
+      "selection_frequency": 0.82,
+      "coefficient_direction_consistency": 1.0,
+      "effect_direction": "MSA_higher",
+      "mean_effect_msa_minus_control": 0.1186715225705105,
+      "manifest_qc_status": "review_common_manifest_snp"
+    },
+    {
+      "source_modality": "5mC",
+      "cpg_id": "cg22190721",
+      "gene_symbols": "ESRP2",
+      "stability_tier": "A_high_stability",
+      "selection_frequency": 0.82,
+      "coefficient_direction_consistency": 0.975609756097561,
+      "effect_direction": "MSA_lower",
+      "mean_effect_msa_minus_control": -0.1271047985440218,
+      "manifest_qc_status": "pass_manifest_audit"
+    },
+    {
+      "source_modality": "5mC",
+      "cpg_id": "cg01883408",
+      "gene_symbols": "CCNI2",
+      "stability_tier": "A_high_stability",
+      "selection_frequency": 0.8,
+      "coefficient_direction_consistency": 0.925,
+      "effect_direction": "MSA_lower",
+      "mean_effect_msa_minus_control": -0.111219362093339,
+      "manifest_qc_status": "review_common_manifest_snp"
+    },
+    {
+      "source_modality": "5mC",
+      "cpg_id": "cg18705301",
+      "gene_symbols": "NDUFAF1",
+      "stability_tier": "B_moderate_stability",
+      "selection_frequency": 0.78,
+      "coefficient_direction_consistency": 1.0,
+      "effect_direction": "MSA_higher",
+      "mean_effect_msa_minus_control": 0.1096010516353463,
+      "manifest_qc_status": "review_common_manifest_snp"
+    },
+    {
+      "source_modality": "5mC",
+      "cpg_id": "cg11874946",
+      "gene_symbols": "LINC00299",
+      "stability_tier": "B_moderate_stability",
+      "selection_frequency": 0.74,
+      "coefficient_direction_consistency": 1.0,
+      "effect_direction": "MSA_higher",
+      "mean_effect_msa_minus_control": 0.1361886851271296,
+      "manifest_qc_status": "pass_manifest_audit"
+    },
+    {
+      "source_modality": "5mC",
+      "cpg_id": "cg00944421",
+      "gene_symbols": "ESRP2",
+      "stability_tier": "B_moderate_stability",
+      "selection_frequency": 0.74,
+      "coefficient_direction_consistency": 0.8648648648648649,
+      "effect_direction": "MSA_lower",
+      "mean_effect_msa_minus_control": -0.1147230157925787,
+      "manifest_qc_status": "pass_manifest_audit"
+    },
+    {
+      "source_modality": "5hmC",
+      "cpg_id": "cg25938287",
+      "gene_symbols": "MIR103A1;PANK3",
+      "stability_tier": "B_moderate_stability",
+      "selection_frequency": 0.7,
+      "coefficient_direction_consistency": 1.0,
+      "effect_direction": "MSA_higher",
+      "mean_effect_msa_minus_control": 0.0857834922593264,
+      "manifest_qc_status": "pass_manifest_audit"
+    },
+    {
+      "source_modality": "5hmC",
+      "cpg_id": "cg25681427",
+      "gene_symbols": "MYO1B",
+      "stability_tier": "B_moderate_stability",
+      "selection_frequency": 0.68,
+      "coefficient_direction_consistency": 1.0,
+      "effect_direction": "MSA_lower",
+      "mean_effect_msa_minus_control": -0.0855769416443283,
+      "manifest_qc_status": "pass_manifest_audit"
+    },
+    {
+      "source_modality": "5hmC",
+      "cpg_id": "cg02115067",
+      "gene_symbols": "UST",
+      "stability_tier": "B_moderate_stability",
+      "selection_frequency": 0.68,
+      "coefficient_direction_consistency": 0.9705882352941176,
+      "effect_direction": "MSA_higher",
+      "mean_effect_msa_minus_control": 0.0843497571400653,
+      "manifest_qc_status": "pass_manifest_audit"
+    },
+    {
+      "source_modality": "5hmC",
+      "cpg_id": "cg14614346",
+      "gene_symbols": "FAM198B",
+      "stability_tier": "B_moderate_stability",
+      "selection_frequency": 0.66,
+      "coefficient_direction_consistency": 0.8787878787878788,
+      "effect_direction": "MSA_lower",
+      "mean_effect_msa_minus_control": -0.0864598028165217,
+      "manifest_qc_status": "review_common_manifest_snp"
+    },
+    {
+      "source_modality": "5mC",
+      "cpg_id": "cg09255157",
+      "gene_symbols": "ARHGEF38",
+      "stability_tier": "B_moderate_stability",
+      "selection_frequency": 0.64,
+      "coefficient_direction_consistency": 1.0,
+      "effect_direction": "MSA_lower",
+      "mean_effect_msa_minus_control": -0.1181021007117092,
+      "manifest_qc_status": "pass_manifest_audit"
+    },
+    {
+      "source_modality": "5hmC",
+      "cpg_id": "cg21185019",
+      "gene_symbols": "RP5-1007M22.2",
+      "stability_tier": "B_moderate_stability",
+      "selection_frequency": 0.62,
+      "coefficient_direction_consistency": 1.0,
+      "effect_direction": "MSA_higher",
+      "mean_effect_msa_minus_control": 0.0780772680273741,
+      "manifest_qc_status": "review_common_manifest_snp"
+    },
+    {
+      "source_modality": "5hmC",
+      "cpg_id": "cg26201957",
+      "gene_symbols": "PRCP",
+      "stability_tier": "B_moderate_stability",
+      "selection_frequency": 0.62,
+      "coefficient_direction_consistency": 1.0,
+      "effect_direction": "MSA_higher",
+      "mean_effect_msa_minus_control": 0.0842204924865875,
+      "manifest_qc_status": "pass_manifest_audit"
+    },
+    {
+      "source_modality": "5hmC",
+      "cpg_id": "cg03174521",
+      "gene_symbols": "OSBPL5",
+      "stability_tier": "B_moderate_stability",
+      "selection_frequency": 0.62,
+      "coefficient_direction_consistency": 0.935483870967742,
+      "effect_direction": "MSA_lower",
+      "mean_effect_msa_minus_control": -0.0783207480331228,
+      "manifest_qc_status": "review_common_manifest_snp"
+    },
+    {
+      "source_modality": "5mC",
+      "cpg_id": "cg05765011",
+      "gene_symbols": "ADCY9",
+      "stability_tier": "B_moderate_stability",
+      "selection_frequency": 0.62,
+      "coefficient_direction_consistency": 0.8709677419354839,
+      "effect_direction": "MSA_higher",
+      "mean_effect_msa_minus_control": 0.1020240443624337,
+      "manifest_qc_status": "pass_manifest_audit"
+    }
+  ]
+}

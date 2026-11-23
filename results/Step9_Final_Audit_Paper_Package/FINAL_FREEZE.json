@@ -1,0 +1,123 @@
+{
+  "freeze_id": "e30e23c8421ef850700d7269bd05be775a809256dcca097a5d77c0cd329328f3",
+  "created_utc": "2026-08-20T20:47:00.469228+00:00",
+  "pipeline_version": "1.0.0",
+  "files": [
+    {
+      "relative_path": "figures/Figure0_analysis_workflow.png",
+      "size_bytes": 281550,
+      "sha256": "87904a1435e968f611e9d0209c72ad99997f18a1070112385c7540c30b262622"
+    },
+    {
+      "relative_path": "figures/Figure1_primary_molecular_benchmarks.png",
+      "size_bytes": 65308,
+      "sha256": "84d09114d8a0d602117456f49e297b689176049437e0a2c71fafdcd635176c60"
+    },
+    {
+      "relative_path": "figures/Figure2_sensitivity_performance.png",
+      "size_bytes": 67978,
+      "sha256": "6fc6e1d4634f902a8fbfb22486629f5e9df6daeea0d52b07f2a9af76c4adb2fb"
+    },
+    {
+      "relative_path": "figures/Figure3_candidate_robustness.png",
+      "size_bytes": 223879,
+      "sha256": "c5d7771a22834040cf3e7d022428cd6b5f7c20cde43fa3a4c154dde0f98ceadb"
+    },
+    {
+      "relative_path": "figures/FigureS1_candidate_effect_concordance.png",
+      "size_bytes": 136476,
+      "sha256": "0f810ae4bc9145c2f39e434bdc7c4af2175c317f1ca5783fe4b01e4d324807c0"
+    },
+    {
+      "relative_path": "figures/FigureS2_stable_set_overlap.png",
+      "size_bytes": 67027,
+      "sha256": "37262cd0f0c572ee6f661ad6cd2c2f4d9add33593518bbdd346f6d5286b88c13"
+    },
+    {
+      "relative_path": "figures/FigureS3_candidate_annotation.png",
+      "size_bytes": 168823,
+      "sha256": "e131f3e28b69cade37ebab22682b84eff39d0e76bf99b849df5006b41ea32704"
+    },
+    {
+      "relative_path": "figures/FigureS4_5mC_pathway_ranking.png",
+      "size_bytes": 145975,
+      "sha256": "14e94ffe68f06f160584a401078fa52a6e2dc8c3a7a3426838b74f285ec7a04a"
+    },
+    {
+      "relative_path": "figures/FigureS5_5hmC_pathway_ranking.png",
+      "size_bytes": 146968,
+      "sha256": "3c7d5a1cb1fd4291d61a52670d95f4de7e7c8b0a4ccf3a0551a9e94973c99ba0"
+    },
+    {
+      "relative_path": "figures/FigureS6_5hmC_QC.png",
+      "size_bytes": 105000,
+      "sha256": "f0d22c0a2c09b6fb4cf8961d37a7b98fc8c2bd9e29e6ea17ade0dddd241982eb"
+    },
+    {
+      "relative_path": "FINAL_ANALYSIS_DECISION_LOG.csv",
+      "size_bytes": 1026,
+      "sha256": "1e24c308a7df5d90fad4e5d7ccae7ac063e0b88c82a62e79cf86ffb97968b960"
+    },
+    {
+      "relative_path": "FINAL_INPUT_FILE_MANIFEST.csv",
+      "size_bytes": 4300,
+      "sha256": "c12375707e39e17bd3a90031db690cff01a233ccf863756f0b6a443f1ed6a333"
+    },
+    {
+      "relative_path": "FINAL_METHODS_AUDIT.csv",
+      "size_bytes": 1283,
+      "sha256": "93c4879bb8a6706763cb4f95d0b9613f66b8bb6fde13a3bf792ffd67c8745d58"
+    },
+    {
+      "relative_path": "METHODS_RESULTS_NUMBERS.md",
+      "size_bytes": 2900,
+      "sha256": "27852f78703762e9b5bfa8714bee3363146cec05c728a11d4d6b448d5e1e700d"
+    },
+    {
+      "relative_path": "PAPER_CLAIMS_GUARDRAILS.csv",
+      "size_bytes": 1062,
+      "sha256": "739c11244e1700f9a3e88d93a37d12a52e8fa156964a496a17ef159fcb3fcc58"
+    },
+    {
+      "relative_path": "PAPER_NUMBERS.json",
+      "size_bytes": 2264,
+      "sha256": "2011e1d29a4e4b98b2f4915aeccb830a21a32c011477c9abc1d5dc3331a07519"
+    },
+    {
+      "relative_path": "RUN_CONFIGURATION.json",
+      "size_bytes": 1620,
+      "sha256": "813e5b4420728b2dd10e43a4fbf92c515bf35fc5ec9a734c85da584de0c916d0"
+    },
+    {
+      "relative_path": "STEP9_REPORT.html",
+      "size_bytes": 11986,
+      "sha256": "1ac06fcf001858d3144e63f89f73e65853cb3dd7787db1278fe033c29bc16da0"
+    },
+    {
+      "relative_path": "SUPPLEMENT_all_top_pathways.csv",
+      "size_bytes": 11624,
+      "sha256": "6d32af944f15de42b3df3b9f0a1de8874cb099f19d121036e824dd38db23f8ea"
+    },
+    {
+      "relative_path": "TABLE1_cohorts.csv",
+      "size_bytes": 384,
+      "sha256": "552830f32dcd07798b6aa2c0a8beb018449a737f25676054064c212208cbd758"
+    },
+    {
+      "relative_path": "TABLE2_model_performance.csv",
+      "size_bytes": 4318,
+      "sha256": "a31a5f39310f178dbd56df45b6c156c324e26e8b2184b68410aa3b2bd8eb69e4"
+    },
+    {
+      "relative_path": "TABLE3_robust_cpg_candidates.csv",
+      "size_bytes": 7070,
+      "sha256": "9e353a27a9cccf2dc82a8c09a3360db686e7ff14ad9bf87a72ce3b88307ecc54"
+    },
+    {
+      "relative_path": "TABLE4_bias_aware_pathways.csv",
+      "size_bytes": 4873,
+      "sha256": "b5c3af9c8ede8a3d8d1932b89791883efdbd0a7c616ec4d73117958f2b26c159"
+    }
+  ],
+  "instructions": "Do not edit frozen files in place. Create a versioned revision and regenerate FINAL_FREEZE.json."
+}

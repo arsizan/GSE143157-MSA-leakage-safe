@@ -1,0 +1,81 @@
+"modality","collection","term_id","display_term","Term","Ont","Pathway","N","DE","P.DE","FDR","SigGenesInSet","rank_by_p","fdr_significant_0_05","nominal_p_lt_0_05"
+"5hmC","GO","GO:0034482","alpha-1,6-mannosyltransferase activity","chondroitin 2-sulfotransferase activity","MF","",1,1,0.000756776109808699,1,"UST",1,FALSE,TRUE
+"5hmC","GO","GO:0102142","alpha-1,6-mannosyltransferase activity","dermatan 2-sulfotransferase activity","MF","",1,1,0.000756776109808699,1,"UST",2,FALSE,TRUE
+"5hmC","GO","GO:0004185","alpha-1,6-mannosyltransferase activity","serine-type carboxypeptidase activity","MF","",5,1,0.00174527183263381,1,"PRCP",3,FALSE,TRUE
+"5hmC","GO","GO:0034481","alpha-1,6-mannosyltransferase activity","chondroitin sulfotransferase activity","MF","",6,1,0.00279931279379551,1,"UST",4,FALSE,TRUE
+"5hmC","GO","GO:0120534","alpha-1,6-mannosyltransferase activity","dermatan sulfotransferase activity","MF","",6,1,0.0030541111862811,1,"UST",5,FALSE,TRUE
+"5hmC","GO","GO:0002002","alpha-1,6-mannosyltransferase activity","regulation of angiotensin levels in blood","BP","",10,1,0.00323391017122844,1,"PRCP",6,FALSE,TRUE
+"5hmC","GO","GO:0002003","alpha-1,6-mannosyltransferase activity","angiotensin maturation","BP","",10,1,0.00323391017122844,1,"PRCP",7,FALSE,TRUE
+"5hmC","GO","GO:0050656","alpha-1,6-mannosyltransferase activity","3'-phosphoadenosine 5'-phosphosulfate binding","MF","",9,1,0.00365199277438756,1,"UST",8,FALSE,TRUE
+"5hmC","GO","GO:0070008","alpha-1,6-mannosyltransferase activity","serine-type exopeptidase activity","MF","",12,1,0.0037503109391211,1,"PRCP",9,FALSE,TRUE
+"5hmC","GO","GO:0003085","alpha-1,6-mannosyltransferase activity","negative regulation of systemic arterial blood pressure","BP","",19,1,0.00509000959536566,1,"PRCP",10,FALSE,TRUE
+"5hmC","GO","GO:0050651","alpha-1,6-mannosyltransferase activity","dermatan sulfate proteoglycan biosynthetic process","BP","",13,1,0.00575298333082055,1,"UST",11,FALSE,TRUE
+"5hmC","GO","GO:0001991","alpha-1,6-mannosyltransferase activity","regulation of systemic arterial blood pressure by circulatory renin-angiotensin","BP","",17,1,0.00650487467636931,1,"PRCP",12,FALSE,TRUE
+"5hmC","GO","GO:0050655","alpha-1,6-mannosyltransferase activity","dermatan sulfate proteoglycan metabolic process","BP","",16,1,0.00677731595909313,1,"UST",13,FALSE,TRUE
+"5hmC","GO","GO:0003081","alpha-1,6-mannosyltransferase activity","regulation of systemic arterial blood pressure by renin-angiotensin","BP","",24,1,0.00850736444867515,1,"PRCP",14,FALSE,TRUE
+"5hmC","GO","GO:0050650","alpha-1,6-mannosyltransferase activity","chondroitin sulfate proteoglycan biosynthetic process","BP","",23,1,0.00944901421653821,1,"UST",15,FALSE,TRUE
+"5hmC","GO","GO:0060055","alpha-1,6-mannosyltransferase activity","angiogenesis involved in wound healing","BP","",26,1,0.0101400460242549,1,"PRCP",16,FALSE,TRUE
+"5hmC","GO","GO:0050698","alpha-1,6-mannosyltransferase activity","proteoglycan sulfotransferase activity","MF","",26,1,0.0105502285605671,1,"UST",17,FALSE,TRUE
+"5hmC","GO","GO:0004181","alpha-1,6-mannosyltransferase activity","metallocarboxypeptidase activity","MF","",32,1,0.0117540855861762,1,"PRCP",18,FALSE,TRUE
+"5hmC","GO","GO:0050654","alpha-1,6-mannosyltransferase activity","chondroitin sulfate proteoglycan metabolic process","BP","",31,1,0.0128343106720975,1,"UST",19,FALSE,TRUE
+"5hmC","GO","GO:0001990","alpha-1,6-mannosyltransferase activity","regulation of systemic arterial blood pressure by hormone","BP","",36,1,0.0129053954846599,1,"PRCP",20,FALSE,TRUE
+"5mC","GO","GO:2000179","alpha-1,6-mannosyltransferase activity","positive regulation of neural precursor cell proliferation","BP","",32,2,7.3464673257702e-05,1,"NOTCH1,FZD9",1,FALSE,TRUE
+"5mC","GO","GO:0042246","alpha-1,6-mannosyltransferase activity","tissue regeneration","BP","",58,2,0.000184085391738767,1,"NOTCH1,FZD9",2,FALSE,TRUE
+"5mC","GO","GO:2000177","alpha-1,6-mannosyltransferase activity","regulation of neural precursor cell proliferation","BP","",55,2,0.000216897380833084,1,"NOTCH1,FZD9",3,FALSE,TRUE
+"5mC","GO","GO:1903910","alpha-1,6-mannosyltransferase activity","negative regulation of receptor clustering","BP","",1,1,0.000250986410127179,1,"FZD9",4,FALSE,TRUE
+"5mC","GO","GO:1904394","alpha-1,6-mannosyltransferase activity","negative regulation of skeletal muscle acetylcholine-gated channel clustering","BP","",1,1,0.000250986410127179,1,"FZD9",5,FALSE,TRUE
+"5mC","GO","GO:1990523","alpha-1,6-mannosyltransferase activity","bone regeneration","BP","",2,1,0.000399845343189296,1,"FZD9",6,FALSE,TRUE
+"5mC","GO","GO:0070167","alpha-1,6-mannosyltransferase activity","regulation of biomineral tissue development","BP","",87,2,0.000452102907767669,1,"NOTCH1,FZD9",7,FALSE,TRUE
+"5mC","GO","GO:0061351","alpha-1,6-mannosyltransferase activity","neural precursor cell proliferation","BP","",96,2,0.000697389582164389,1,"NOTCH1,FZD9",8,FALSE,TRUE
+"5mC","GO","GO:0030278","alpha-1,6-mannosyltransferase activity","regulation of ossification","BP","",100,2,0.000706694417667392,1,"NOTCH1,FZD9",9,FALSE,TRUE
+"5mC","GO","GO:0003178","alpha-1,6-mannosyltransferase activity","coronary sinus valve development","BP","",1,1,0.000837229635335195,1,"NOTCH1",10,FALSE,TRUE
+"5mC","GO","GO:0003182","alpha-1,6-mannosyltransferase activity","coronary sinus valve morphogenesis","BP","",1,1,0.000837229635335195,1,"NOTCH1",11,FALSE,TRUE
+"5mC","GO","GO:0060843","alpha-1,6-mannosyltransferase activity","venous endothelial cell differentiation","BP","",1,1,0.000837229635335195,1,"NOTCH1",12,FALSE,TRUE
+"5mC","GO","GO:0031099","alpha-1,6-mannosyltransferase activity","regeneration","BP","",138,2,0.00109879127799031,1,"NOTCH1,FZD9",13,FALSE,TRUE
+"5mC","GO","GO:0003169","alpha-1,6-mannosyltransferase activity","coronary vein morphogenesis","BP","",2,1,0.00111489993067479,1,"NOTCH1",14,FALSE,TRUE
+"5mC","GO","GO:0060948","alpha-1,6-mannosyltransferase activity","cardiac vascular smooth muscle cell development","BP","",2,1,0.00111489993067479,1,"NOTCH1",15,FALSE,TRUE
+"5mC","GO","GO:0031214","alpha-1,6-mannosyltransferase activity","biomineral tissue development","BP","",140,2,0.00114849225161987,1,"NOTCH1,FZD9",16,FALSE,TRUE
+"5mC","GO","GO:0003263","alpha-1,6-mannosyltransferase activity","cardioblast proliferation","BP","",4,1,0.00135850847043466,1,"NOTCH1",17,FALSE,TRUE
+"5mC","GO","GO:0003264","alpha-1,6-mannosyltransferase activity","regulation of cardioblast proliferation","BP","",4,1,0.00135850847043466,1,"NOTCH1",18,FALSE,TRUE
+"5mC","GO","GO:2000974","alpha-1,6-mannosyltransferase activity","negative regulation of pro-B cell differentiation","BP","",3,1,0.00137952475684743,1,"NOTCH1",19,FALSE,TRUE
+"5mC","GO","GO:0003273","alpha-1,6-mannosyltransferase activity","cell migration involved in endocardial cushion formation","BP","",3,1,0.00138192927920828,1,"NOTCH1",20,FALSE,TRUE
+"5hmC","KEGG","hsa04614","Glycolysis / Gluconeogenesis","","","Renin-angiotensin system",19,1,0.00515441233665918,1,"PRCP",1,FALSE,TRUE
+"5hmC","KEGG","hsa00532","Glycolysis / Gluconeogenesis","","","Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate",20,1,0.00854061159804948,1,"UST",2,FALSE,TRUE
+"5hmC","KEGG","hsa03250","Glycolysis / Gluconeogenesis","","","Viral life cycle - HIV-1",64,1,0.0197488337090534,1,"MLLT1",3,FALSE,TRUE
+"5hmC","KEGG","hsa03010","Glycolysis / Gluconeogenesis","","","Ribosome",168,1,0.0383177382055879,1,"RSL24D1",4,FALSE,TRUE
+"5hmC","KEGG","hsa04974","Glycolysis / Gluconeogenesis","","","Protein digestion and absorption",93,1,0.0403989193787961,1,"PRCP",5,FALSE,TRUE
+"5hmC","KEGG","hsa05171","Glycolysis / Gluconeogenesis","","","Coronavirus disease",208,1,0.0589731791281017,1,"RSL24D1",6,FALSE,FALSE
+"5hmC","KEGG","hsa05130","Glycolysis / Gluconeogenesis","","","Pathogenic Escherichia coli infection",189,1,0.0681340643580653,1,"MYO1B",7,FALSE,FALSE
+"5hmC","KEGG","hsa04814","Glycolysis / Gluconeogenesis","","","Motor proteins",190,1,0.0709062756031539,1,"MYO1B",8,FALSE,FALSE
+"5hmC","KEGG","hsa05202","Glycolysis / Gluconeogenesis","","","Transcriptional misregulation in cancer",174,1,0.0720703873345754,1,"MLLT1",9,FALSE,FALSE
+"5hmC","KEGG","hsa04519","Glycolysis / Gluconeogenesis","","","Cadherin signaling",385,1,0.143077932441559,1,"MYO1B",10,FALSE,FALSE
+"5hmC","KEGG","hsa00430","Glycolysis / Gluconeogenesis","","","Taurine and hypotaurine metabolism",16,0,0.999999999999999,1,"",11,FALSE,FALSE
+"5hmC","KEGG","hsa00541","Glycolysis / Gluconeogenesis","","","Biosynthesis of various nucleotide sugars",19,0,0.999999999999999,1,"",12,FALSE,FALSE
+"5hmC","KEGG","hsa00670","Glycolysis / Gluconeogenesis","","","One carbon pool by folate",37,0,0.999999999999999,1,"",13,FALSE,FALSE
+"5hmC","KEGG","hsa04014","Glycolysis / Gluconeogenesis","","","Ras signaling pathway",226,0,0.999999999999999,1,"",14,FALSE,FALSE
+"5hmC","KEGG","hsa04020","Glycolysis / Gluconeogenesis","","","Calcium signaling pathway",241,0,0.999999999999999,1,"",15,FALSE,FALSE
+"5hmC","KEGG","hsa04062","Glycolysis / Gluconeogenesis","","","Chemokine signaling pathway",175,0,0.999999999999999,1,"",16,FALSE,FALSE
+"5hmC","KEGG","hsa04070","Glycolysis / Gluconeogenesis","","","Phosphatidylinositol signaling system",92,0,0.999999999999999,1,"",17,FALSE,FALSE
+"5hmC","KEGG","hsa04213","Glycolysis / Gluconeogenesis","","","Longevity regulating pathway - multiple species",60,0,0.999999999999999,1,"",18,FALSE,FALSE
+"5hmC","KEGG","hsa04260","Glycolysis / Gluconeogenesis","","","Cardiac muscle contraction",78,0,0.999999999999999,1,"",19,FALSE,FALSE
+"5hmC","KEGG","hsa04270","Glycolysis / Gluconeogenesis","","","Vascular smooth muscle contraction",132,0,0.999999999999999,1,"",20,FALSE,FALSE
+"5mC","KEGG","hsa01522","Glycolysis / Gluconeogenesis","","","Endocrine resistance",95,2,0.00081011755091091,0.104805564537736,"ADCY9,NOTCH1",1,FALSE,TRUE
+"5mC","KEGG","hsa05200","Glycolysis / Gluconeogenesis","","","Pathways in cancer",507,3,0.000820901958143322,0.104805564537736,"ADCY9,NOTCH1,FZD9",2,FALSE,TRUE
+"5mC","KEGG","hsa04916","Glycolysis / Gluconeogenesis","","","Melanogenesis",101,2,0.000845206165626901,0.104805564537736,"ADCY9,FZD9",3,FALSE,TRUE
+"5mC","KEGG","hsa05224","Glycolysis / Gluconeogenesis","","","Breast cancer",145,2,0.00157525618873238,0.146498825552112,"NOTCH1,FZD9",4,FALSE,TRUE
+"5mC","KEGG","hsa04934","Glycolysis / Gluconeogenesis","","","Cushing syndrome",153,2,0.00198943764751036,0.148014160974771,"ADCY9,FZD9",5,FALSE,TRUE
+"5mC","KEGG","hsa05165","Glycolysis / Gluconeogenesis","","","Human papillomavirus infection",320,2,0.0073563363582676,0.456092854212591,"NOTCH1,FZD9",6,FALSE,TRUE
+"5mC","KEGG","hsa04962","Glycolysis / Gluconeogenesis","","","Vasopressin-regulated water reabsorption",43,1,0.0159286841866285,0.465108081815869,"ADCY9",7,FALSE,TRUE
+"5mC","KEGG","hsa04913","Glycolysis / Gluconeogenesis","","","Ovarian steroidogenesis",51,1,0.0183505506247211,0.465108081815869,"ADCY9",8,FALSE,TRUE
+"5mC","KEGG","hsa05110","Glycolysis / Gluconeogenesis","","","Vibrio cholerae infection",49,1,0.0187682716024598,0.465108081815869,"ADCY9",9,FALSE,TRUE
+"5mC","KEGG","hsa04923","Glycolysis / Gluconeogenesis","","","Regulation of lipolysis in adipocytes",57,1,0.024097383921686,0.465108081815869,"ADCY9",10,FALSE,TRUE
+"5mC","KEGG","hsa04961","Glycolysis / Gluconeogenesis","","","Endocrine and other factor-regulated calcium reabsorption",51,1,0.024317029409672,0.465108081815869,"ADCY9",11,FALSE,TRUE
+"5mC","KEGG","hsa05217","Glycolysis / Gluconeogenesis","","","Basal cell carcinoma",63,1,0.0264262098620573,0.465108081815869,"FZD9",12,FALSE,TRUE
+"5mC","KEGG","hsa04330","Glycolysis / Gluconeogenesis","","","Notch signaling pathway",60,1,0.0269658901980294,0.465108081815869,"NOTCH1",13,FALSE,TRUE
+"5mC","KEGG","hsa04213","Glycolysis / Gluconeogenesis","","","Longevity regulating pathway - multiple species",60,1,0.0271468141768366,0.465108081815869,"ADCY9",14,FALSE,TRUE
+"5mC","KEGG","hsa04976","Glycolysis / Gluconeogenesis","","","Bile secretion",85,1,0.0278054801074643,0.465108081815869,"ADCY9",15,FALSE,TRUE
+"5mC","KEGG","hsa04927","Glycolysis / Gluconeogenesis","","","Cortisol synthesis and secretion",62,1,0.0311792604046873,0.465108081815869,"ADCY9",16,FALSE,TRUE
+"5mC","KEGG","hsa04918","Glycolysis / Gluconeogenesis","","","Thyroid hormone synthesis",73,1,0.032217282561553,0.465108081815869,"ADCY9",17,FALSE,TRUE
+"5mC","KEGG","hsa04658","Glycolysis / Gluconeogenesis","","","Th1 and Th2 cell differentiation",89,1,0.0329625718735176,0.465108081815869,"NOTCH1",18,FALSE,TRUE
+"5mC","KEGG","hsa04970","Glycolysis / Gluconeogenesis","","","Salivary secretion",87,1,0.034356438364828,0.465108081815869,"ADCY9",19,FALSE,TRUE
+"5mC","KEGG","hsa04971","Glycolysis / Gluconeogenesis","","","Gastric acid secretion",75,1,0.0357607840728202,0.465108081815869,"ADCY9",20,FALSE,TRUE

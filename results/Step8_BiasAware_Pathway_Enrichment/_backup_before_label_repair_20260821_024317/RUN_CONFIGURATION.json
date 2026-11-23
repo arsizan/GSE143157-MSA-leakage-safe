@@ -1,0 +1,21 @@
+{
+  "pipeline_version": "1.0.4",
+  "step6_dir": "D:/Paper/MSA_Research/02_Epigenetics/GSE143157/02_Preprocessing/Step6_Annotation_Interpretation_Primary77",
+  "output_dir": "D:/Paper/MSA_Research/02_Epigenetics/GSE143157/02_Preprocessing/Step8_BiasAware_Pathway_Enrichment",
+  "user_r_library": "C:/Users/User/AppData/Local/GSE143157_R_library/R-4.6",
+  "array_type": "EPIC",
+  "annotation": "IlluminaHumanMethylationEPICanno.ilm10b4.hg19",
+  "genome_build": "hg19",
+  "collections": ["GO", "KEGG"],
+  "package_install_ncpus": 1,
+  "dependency_bootstrap": "KEGGREST_then_targets",
+  "prior_prob": true,
+  "equivalent_cpg_counts": true,
+  "fractional_multi_gene_counts": true,
+  "genomic_features": "ALL",
+  "fdr_method": "Benjamini-Hochberg as returned by missMethyl::gometh",
+  "fdr_reporting_threshold": 0.050000000000000003,
+  "interpretation": "exploratory_hypothesis_generating",
+  "selected_cpg_definition": "Step 6 stable candidates that passed the manifest audit",
+  "selected_cpgs_are_ewas_significant": false
+}

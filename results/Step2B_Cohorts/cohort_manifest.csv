@@ -1,0 +1,79 @@
+original_hdf5_column,donor_id,condition,step2_evidence_count,step2_outlier_evidence,step2_high_priority_review,include_sensitivity_full78,sensitivity_full78_column,include_primary_clean77,primary_clean77_column,primary_decision,include_sensitivity_no2_76,sensitivity_no2_76_column,sensitivity_no2_note
+0,Control 1,Control,0,,False,True,0,True,0,Included in paired primary cohort,True,0,Included
+1,Control 2,Control,0,,False,True,1,True,1,Included in paired primary cohort,True,1,Included
+2,Control 3,Control,0,,False,True,2,True,2,Included in paired primary cohort,True,2,Included
+3,Control 4,Control,0,,False,True,3,True,3,Included in paired primary cohort,True,3,Included
+4,Control 5,Control,0,,False,True,4,True,4,Included in paired primary cohort,True,4,Included
+5,Control 6,Control,0,,False,True,5,True,5,Included in paired primary cohort,True,5,Included
+6,Control 7,Control,0,,False,True,6,True,6,Included in paired primary cohort,True,6,Included
+7,Control 8,Control,0,,False,True,7,True,7,Included in paired primary cohort,True,7,Included
+8,Control 9,Control,1,5hmC PCA,False,True,8,True,8,Included in paired primary cohort,True,8,Included
+9,Control 10,Control,0,,False,True,9,True,9,Included in paired primary cohort,True,9,Included
+10,Control 11,Control,2,5mC PCA; 5hmC PCA,True,True,10,True,10,Included in paired primary cohort,False,,Removed only in stress-test because of cross-modality PCA evidence
+11,Control 12,Control,0,,False,True,11,True,11,Included in paired primary cohort,True,10,Included
+12,Control 13,Control,0,,False,True,12,True,12,Included in paired primary cohort,True,11,Included
+13,Control 14,Control,0,,False,True,13,True,13,Included in paired primary cohort,True,12,Included
+14,Control 15,Control,0,,False,True,14,True,14,Included in paired primary cohort,True,13,Included
+15,Control 16,Control,0,,False,True,15,True,15,Included in paired primary cohort,True,14,Included
+16,Control 17,Control,0,,False,True,16,True,16,Included in paired primary cohort,True,15,Included
+17,Control 18,Control,0,,False,True,17,True,17,Included in paired primary cohort,True,16,Included
+18,Control 19,Control,0,,False,True,18,True,18,Included in paired primary cohort,True,17,Included
+19,Control 20,Control,0,,False,True,19,True,19,Included in paired primary cohort,True,18,Included
+20,Control 21,Control,0,,False,True,20,True,20,Included in paired primary cohort,True,19,Included
+21,Control 22,Control,0,,False,True,21,True,21,Included in paired primary cohort,True,20,Included
+22,Control 23,Control,0,,False,True,22,True,22,Included in paired primary cohort,True,21,Included
+23,Control 24,Control,0,,False,True,23,True,23,Included in paired primary cohort,True,22,Included
+24,Control 25,Control,0,,False,True,24,True,24,Included in paired primary cohort,True,23,Included
+25,Control 26,Control,0,,False,True,25,True,25,Included in paired primary cohort,True,24,Included
+26,Control 27,Control,0,,False,True,26,True,26,Included in paired primary cohort,True,25,Included
+27,Control 28,Control,0,,False,True,27,True,27,Included in paired primary cohort,True,26,Included
+28,Control 29,Control,0,,False,True,28,True,28,Included in paired primary cohort,True,27,Included
+29,Control 30,Control,0,,False,True,29,True,29,Included in paired primary cohort,True,28,Included
+30,Control 31,Control,0,,False,True,30,True,30,Included in paired primary cohort,True,29,Included
+31,Control 32,Control,1,5hmC PCA,False,True,31,True,31,Included in paired primary cohort,True,30,Included
+32,Control 33,Control,0,,False,True,32,True,32,Included in paired primary cohort,True,31,Included
+33,Control 34,Control,0,,False,True,33,True,33,Included in paired primary cohort,True,32,Included
+34,Control 35,Control,0,,False,True,34,True,34,Included in paired primary cohort,True,33,Included
+35,Control 36,Control,1,5hmC missingness,False,True,35,True,35,Included in paired primary cohort,True,34,Included
+36,Control 37,Control,0,,False,True,36,True,36,Included in paired primary cohort,True,35,Included
+37,MSA 1,MSA,0,,False,True,37,True,37,Included in paired primary cohort,True,36,Included
+38,MSA 2,MSA,0,,False,True,38,True,38,Included in paired primary cohort,True,37,Included
+39,MSA 3,MSA,0,,False,True,39,True,39,Included in paired primary cohort,True,38,Included
+40,MSA 4,MSA,1,5hmC missingness,False,True,40,True,40,Included in paired primary cohort,True,39,Included
+41,MSA 5,MSA,0,,False,True,41,True,41,Included in paired primary cohort,True,40,Included
+42,MSA 6,MSA,0,,False,True,42,True,42,Included in paired primary cohort,True,41,Included
+43,MSA 7,MSA,0,,False,True,43,True,43,Included in paired primary cohort,True,42,Included
+44,MSA 8,MSA,1,5hmC PCA,False,True,44,True,44,Included in paired primary cohort,True,43,Included
+45,MSA 9,MSA,0,,False,True,45,True,45,Included in paired primary cohort,True,44,Included
+46,MSA 10,MSA,0,,False,True,46,True,46,Included in paired primary cohort,True,45,Included
+47,MSA 11,MSA,1,5hmC PCA,False,True,47,True,47,Included in paired primary cohort,True,46,Included
+48,MSA 12,MSA,0,,False,True,48,True,48,Included in paired primary cohort,True,47,Included
+49,MSA 13,MSA,0,,False,True,49,True,49,Included in paired primary cohort,True,48,Included
+50,MSA 14,MSA,0,,False,True,50,True,50,Included in paired primary cohort,True,49,Included
+51,MSA 15,MSA,0,,False,True,51,True,51,Included in paired primary cohort,True,50,Included
+52,MSA 16,MSA,0,,False,True,52,True,52,Included in paired primary cohort,True,51,Included
+53,MSA 17,MSA,0,,False,True,53,True,53,Included in paired primary cohort,True,52,Included
+54,MSA 18,MSA,0,,False,True,54,True,54,Included in paired primary cohort,True,53,Included
+55,MSA 19,MSA,0,,False,True,55,True,55,Included in paired primary cohort,True,54,Included
+56,MSA 20,MSA,0,,False,True,56,True,56,Included in paired primary cohort,True,55,Included
+57,MSA 21,MSA,0,,False,True,57,True,57,Included in paired primary cohort,True,56,Included
+58,MSA 22,MSA,0,,False,True,58,True,58,Included in paired primary cohort,True,57,Included
+59,MSA 23,MSA,0,,False,True,59,True,59,Included in paired primary cohort,True,58,Included
+60,MSA 24,MSA,0,,False,True,60,True,60,Included in paired primary cohort,True,59,Included
+61,MSA 25,MSA,0,,False,True,61,True,61,Included in paired primary cohort,True,60,Included
+62,MSA 26,MSA,0,,False,True,62,True,62,Included in paired primary cohort,True,61,Included
+63,MSA 27,MSA,0,,False,True,63,True,63,Included in paired primary cohort,True,62,Included
+64,MSA 28,MSA,0,,False,True,64,True,64,Included in paired primary cohort,True,63,Included
+65,MSA 29,MSA,1,5mC low correlation,False,True,65,True,65,Included in paired primary cohort,True,64,Included
+66,MSA 30,MSA,4,5hmC PCA; 5hmC missingness; negative 5hmC; Detection-P,True,True,66,False,,Excluded from paired primary cohort: BS/5hmC technical QC failure,False,,Removed for objective technical QC failure
+67,MSA 31,MSA,0,,False,True,67,True,66,Included in paired primary cohort,True,65,Included
+68,MSA 32,MSA,0,,False,True,68,True,67,Included in paired primary cohort,True,66,Included
+69,MSA 33,MSA,1,5hmC PCA,False,True,69,True,68,Included in paired primary cohort,True,67,Included
+70,MSA 34,MSA,0,,False,True,70,True,69,Included in paired primary cohort,True,68,Included
+71,MSA 35,MSA,0,,False,True,71,True,70,Included in paired primary cohort,True,69,Included
+72,MSA 36,MSA,0,,False,True,72,True,71,Included in paired primary cohort,True,70,Included
+73,MSA 37,MSA,0,,False,True,73,True,72,Included in paired primary cohort,True,71,Included
+74,MSA 38,MSA,0,,False,True,74,True,73,Included in paired primary cohort,True,72,Included
+75,MSA 39,MSA,0,,False,True,75,True,74,Included in paired primary cohort,True,73,Included
+76,MSA 40,MSA,0,,False,True,76,True,75,Included in paired primary cohort,True,74,Included
+77,MSA 41,MSA,0,,False,True,77,True,76,Included in paired primary cohort,True,75,Included

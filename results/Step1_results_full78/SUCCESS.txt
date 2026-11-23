@@ -1,0 +1,5 @@
+SUCCESS
+Completed UTC: 2026-08-18T19:31:36.703540+00:00
+5mC shape: 731661 CpGs x 78 donors
+5hmC shape after >20% missing filter: 405408 CpGs x 78 donors
+Read qc_summary.json before Step 2.

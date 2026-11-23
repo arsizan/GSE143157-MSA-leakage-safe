@@ -1,7 +1,7 @@
 cff-version: 1.2.0
-message: "If you use this code or these outputs, please cite the paper below and the GSE143157 dataset (Rydbirk et al., 2020)."
-title: "GSE143157 MSA leakage-safe analysis: code and frozen outputs"
-type: software
+message: "If you use these outputs, please cite the paper below and the GSE143157 dataset (Rydbirk et al., 2020)."
+title: "GSE143157 MSA leakage-safe analysis: frozen outputs and run configurations"
+type: dataset
 authors:
   - family-names: Sizan
     given-names: Md. Abdur Rahman
@@ -14,8 +14,8 @@ authors:
     affiliation: Varendra University
 version: 1.0.0
 repository-code: "https://github.com/arsizan/GSE143157-MSA-leakage-safe"
-# license: MIT            # set to the license you choose (SPDX id)
-# doi: 10.5281/zenodo.XXXXXXX   # add after Zenodo archives the release
+# license: CC-BY-4.0            # set to the license you choose (SPDX id)
+# doi: 10.5281/zenodo.XXXXXXX   # add after Zenodo archives a release
 preferred-citation:
   type: conference-paper
   title: "Leakage-Safe Nested Validation of Paired DNA Methylation and Hydroxymethylation Profiles in Multiple System Atrophy"

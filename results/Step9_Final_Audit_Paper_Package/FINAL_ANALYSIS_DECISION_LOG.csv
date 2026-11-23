@@ -1,0 +1,11 @@
+step,decision,locked_rule
+1,Construct 5mC and 5hmC,5mC=oxBS; 5hmC=BS-oxBS; negative differences set missing; >20% missing CpGs removed
+2,Unsupervised QC,PCA/correlation/missingness flags requested review; flags were not automatic exclusions
+2B,Freeze cohorts,Primary excludes MSA 30; Full-78 and Clean-76 prespecified as sensitivity cohorts
+3,Freeze confounders and CV,"Age, sex, brain bank, PMI; donor-level repeated nested CV"
+4,Measure non-molecular predictability,Covariate-only baselines established before molecular comparison
+5,Molecular benchmark,"All preprocessing, selection and tuning restricted to training folds"
+6,Interpret stable candidates,Selection stability separated from statistical significance; EPIC manifest audited
+7,Outlier-decision sensitivity,Locked molecular-plus-covariate view repeated on overlapping cohorts
+8,Bias-aware pathways,GOmeth with separate modality backgrounds; FDR<0.05 reporting rule
+9,Final freeze,"Verified tables, figures, hashes and paper-claim guardrails generated"

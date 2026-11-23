@@ -1,0 +1,6 @@
+SUCCESS
+Completed UTC: 2026-08-18T20:45:21.076373+00:00
+Primary cohort: 77 donors (37 Control, 40 MSA)
+Primary excluded donor: MSA 30
+Full-78 sensitivity cohort preserved
+Control 11 retained in primary cohort

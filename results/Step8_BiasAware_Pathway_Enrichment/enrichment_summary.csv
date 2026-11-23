@@ -1,0 +1,5 @@
+"modality","collection","selected_cpgs","background_cpgs","tested_terms","nominal_p_lt_0_05","fdr_lt_0_05","minimum_p_value","minimum_fdr"
+"5mC","GO",7,731661,21165,409,0,7.3464673257702e-05,1
+"5mC","KEGG",7,731661,372,34,0,0.00081011755091091,0.104805564537736
+"5hmC","GO",7,405408,21140,54,0,0.000756776109808699,1
+"5hmC","KEGG",7,405408,372,5,0,0.00515441233665918,1

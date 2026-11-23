@@ -1,0 +1,7 @@
+SUCCESS
+Completed UTC: 2026-08-19T18:41:46.916138+00:00
+Analysis mode: FULL_RESEARCH_RUN
+Outer predictions: 6930
+Outer repeats: 10
+Models: 3 modalities x 3 views
+All outer transformations and supervised selections were training-only

@@ -1,0 +1,6 @@
+PRIMARY COHORT: Clean-77
+Included: 37 Control + 40 MSA = 77 donors
+Primary exclusion: MSA 30
+Reason: objective BS/5hmC technical QC failure
+Control 11: retained in primary; optional 76-donor stress-test supplied
+Full-78: required sensitivity analysis

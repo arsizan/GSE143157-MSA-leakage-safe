@@ -1,0 +1,7 @@
+"package","version"
+"R","4.6.1"
+"BiocManager","1.30.27"
+"missMethyl","1.46.0"
+"IlluminaHumanMethylationEPICanno.ilm10b4.hg19","0.6.0"
+"org.Hs.eg.db","3.23.1"
+"jsonlite","2.0.0"

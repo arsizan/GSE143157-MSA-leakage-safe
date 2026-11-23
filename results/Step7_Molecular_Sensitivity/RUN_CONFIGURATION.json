@@ -1,0 +1,30 @@
+{
+  "pipeline_version": "1.0.0",
+  "analysis_mode": "FULL_RESEARCH_RUN",
+  "locked_model_view": "molecular_plus_covariates",
+  "sensitivity_support_rule": {
+    "minimum_selection_frequency_in_each_alternative_cohort": 0.6,
+    "mean_effect_direction_must_match_primary_in_each_alternative_cohort": true,
+    "descriptive_not_p_value": true
+  },
+  "input_sha256": {
+    "step4_success": "c2cba7fcc9744c41916a8b63b06154a0d788156c4c6c11de778fa3d65f0cf273",
+    "step5_success": "caba8f320853d55090d2def81401892d2dc63964820329cb83d813fcea2187a8",
+    "step5_config": "8405e986d26006de6eef2ca3955f96784eb7418456028597a38037a08ed11add",
+    "primary_aggregate": "7dabf48a79b61ee377ccad5ef061d9fd28f824a55e4f1a390be7aade9cf2a75f",
+    "primary_stability": "c4c771eaf3b3eb5061a4041c477b72dcb86478d36395f9dedeac078004f189e8",
+    "step6_success": "6afd2e1205aaea089d703b87b3e1428a5ccfd80dde2c8328cd44c21a8fb26ae5",
+    "primary_candidates": "0087a4e44d1461b0ee4baeb78b56cda9cbcc0e0da682b1f4b21f3a0fab7fd761",
+    "full78_success": "a6d94045091da5c9dac1d938f6cf5989c0b3bd20afff43a31502c3eaefd9bc37",
+    "full78_summary": "3f5b24d49c72368183c07cb0d34b3591aadb5306b9fc0b08359b6b3dd2bd3ac1",
+    "full78_aggregate": "13f9ba3b6c156fa086050768e5699984954ba428b94eaa02b57624ca845f94aa",
+    "full78_stability": "a275e3fd6ca26e37fd603636c4293f9790e7c737b471b3e948516a1582193de9",
+    "clean76_success": "1afdc5f2c1b5c103a581372254c7ad764c14d4513488f273781ec6e12bf42dbc",
+    "clean76_summary": "b6318c8ca5a94e709d7bd4b94002c0666ea056d89be696f90f04ef25223c0cca",
+    "clean76_aggregate": "1e5d19d7cafe131946e74f532c78474d3930d65ec39249be3a59dd57a5437ea3",
+    "clean76_stability": "296bf85c10c0e160f8646e8ace05aad0a78a1cc1c5bfe4903f53ef0423d66be6",
+    "step4_primary_clean77": "cbe08f5167744f72d79de22d2f7613cdf57bac8dc5691e628b0c3937a55c6985",
+    "step4_sensitivity_full78": "7d67c2c243bcaa883a65b8251aabe904d0dd23933a469e7095ffb66317266d4b",
+    "step4_sensitivity_no_MSA30_Control11_76": "26841f50f6a6c0ac4047b748dffa8202d14d2c01cb25b9569dc8277345fa0e53"
+  }
+}

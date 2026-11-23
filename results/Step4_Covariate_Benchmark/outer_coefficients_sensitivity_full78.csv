@@ -1,0 +1,401 @@
+model,repeat,outer_fold,feature,coefficient,odds_ratio_per_transformed_unit,selected_C,selected_class_weight
+age_only,1,1,age,-0.1020250859948537,0.90300689855833,0.01,none
+age_only,1,2,age,-0.08176722473948311,0.921486432977726,0.01,none
+age_only,1,3,age,-0.10798182119253114,0.8976439143780091,0.01,none
+age_only,1,4,age,-0.11637752550216889,0.8901391096413588,0.01,none
+age_only,1,5,age,-0.11593969091434707,0.8905289286634307,0.01,none
+age_only,2,1,age,-0.0960729349599903,0.9083977596982737,0.01,none
+age_only,2,2,age,-0.10392485313854873,0.9012930242184627,0.01,none
+age_only,2,3,age,-0.11631992142704267,0.8901903867583746,0.01,none
+age_only,2,4,age,-0.10392115506136154,0.9012963572757975,0.01,none
+age_only,2,5,age,-0.10286709727765771,0.9022468765797381,0.01,none
+age_only,3,1,age,-0.09541088941351174,0.9089993595107778,0.01,none
+age_only,3,2,age,-0.10983807742447123,0.8959792028114979,0.01,none
+age_only,3,3,age,-0.1069551436915047,0.8985659784390542,0.01,none
+age_only,3,4,age,-0.09523131287729611,0.9091626091246424,0.01,none
+age_only,3,5,age,-0.11613590252888785,0.8903542136856569,0.01,none
+age_only,4,1,age,-0.09478662062359042,0.9095669966016042,0.01,none
+age_only,4,2,age,-0.10949919227265342,0.8962828883140157,0.01,none
+age_only,4,3,age,-0.11044569109063669,0.8954349589650134,0.01,none
+age_only,4,4,age,-0.10339819843055018,0.901767819448551,0.01,none
+age_only,4,5,age,-0.10425759152268685,0.900993179321669,0.01,none
+age_only,5,1,age,-0.1115779306438655,0.8944216858293391,0.01,none
+age_only,5,2,age,-0.11307558692642652,0.8930831521541733,0.01,none
+age_only,5,3,age,-0.09029726479719093,0.9136595460791771,0.01,none
+age_only,5,4,age,-0.10166518276550045,0.9033319521476589,0.01,none
+age_only,5,5,age,-0.10694013917914076,0.8985794610845375,0.01,none
+age_only,6,1,age,-0.10957461690563998,0.8962152890554692,0.01,none
+age_only,6,2,age,-0.09278986925504472,0.9113849901834079,0.01,none
+age_only,6,3,age,-0.10267058201988224,0.9024241992800037,0.01,none
+age_only,6,4,age,-0.13957336074754853,0.8697292168784723,0.01,none
+age_only,6,5,age,-0.07727593974425713,0.9256343990437352,0.01,none
+age_only,7,1,age,-0.09494473111607662,0.909423195884323,0.01,none
+age_only,7,2,age,-0.11383852636950473,0.8924020436467571,0.01,none
+age_only,7,3,age,-0.1228316889669687,0.8844125064170187,0.01,none
+age_only,7,4,age,-0.097906533908155,0.9067336486439554,0.01,none
+age_only,7,5,age,-0.09281199079177829,0.9113648291698663,0.01,none
+age_only,8,1,age,-0.10215303635258732,0.902891365894004,0.01,none
+age_only,8,2,age,-0.10805308040168249,0.8975799512615786,0.01,none
+age_only,8,3,age,-0.10084838246755111,0.9040700953720847,0.01,none
+age_only,8,4,age,-0.10871754431858112,0.8969837398738468,0.01,none
+age_only,8,5,age,-0.10341099379235302,0.9017562810768579,0.01,none
+age_only,9,1,age,-0.10910761671528897,0.8966339195086961,0.01,none
+age_only,9,2,age,-0.11804768124507893,0.8886536794905416,0.01,none
+age_only,9,3,age,-0.09378952726423051,0.9104743721076787,0.01,none
+age_only,9,4,age,-0.09163544433544547,0.9124377232611591,0.01,none
+age_only,9,5,age,-0.11108050330475414,0.8948667063020633,0.01,none
+age_only,10,1,age,-0.11940716200618912,0.8874463927374825,0.01,none
+age_only,10,2,age,-0.10727916413634045,0.8982748718557954,0.01,none
+age_only,10,3,age,-0.08533131834500282,0.9182080148393519,0.01,none
+age_only,10,4,age,-0.10791000872244823,0.8977083787193996,0.01,none
+age_only,10,5,age,-0.10275327194500453,0.9023495809756703,0.01,none
+no_age_covariates,1,1,pmi_hours,0.17214984841125217,1.187855818185342,10.0,none
+no_age_covariates,1,1,sex_Male,-0.7664115581741008,0.4646775484304194,10.0,none
+no_age_covariates,1,1,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.5657930571680787,0.5679095833539873,10.0,none
+no_age_covariates,1,2,pmi_hours,-0.02623808836696472,0.9741031393718103,100.0,none
+no_age_covariates,1,2,sex_Male,-0.3233146612180568,0.7237460837102342,100.0,none
+no_age_covariates,1,2,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.9653102498688525,0.38086501808545237,100.0,none
+no_age_covariates,1,3,pmi_hours,0.036855965177386665,1.0375435676714622,10.0,balanced
+no_age_covariates,1,3,sex_Male,-0.10212085097014113,0.9029204262655798,10.0,balanced
+no_age_covariates,1,3,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.5488447850208337,0.5776166965679574,10.0,balanced
+no_age_covariates,1,4,pmi_hours,-0.111895042081273,0.894138099449516,10.0,none
+no_age_covariates,1,4,sex_Male,0.3953568624781264,1.4849140064718003,10.0,none
+no_age_covariates,1,4,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-1.127148796119079,0.323955604372817,10.0,none
+no_age_covariates,1,5,pmi_hours,0.2012374583869901,1.222915128802024,10.0,none
+no_age_covariates,1,5,sex_Male,-0.6965407988142559,0.4983060667798953,10.0,none
+no_age_covariates,1,5,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.4735157608677498,0.622808767936368,10.0,none
+no_age_covariates,2,1,pmi_hours,-0.019186944015177294,0.9809959537773109,0.01,balanced
+no_age_covariates,2,1,sex_Male,-0.012627481367824173,0.9874519107495106,0.01,balanced
+no_age_covariates,2,1,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.01606835057622829,0.9840600566846486,0.01,balanced
+no_age_covariates,2,2,pmi_hours,0.11708092409314301,1.1242104017168337,100.0,none
+no_age_covariates,2,2,sex_Male,-0.19923585696170762,0.8193566195784925,100.0,none
+no_age_covariates,2,2,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.6777580329494162,0.5077540851557318,100.0,none
+no_age_covariates,2,3,pmi_hours,-0.00809722032163843,0.9919354738633118,0.01,balanced
+no_age_covariates,2,3,sex_Male,-0.0068562337916169116,0.9931672165549925,0.01,balanced
+no_age_covariates,2,3,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.03526729535805047,0.9653473489037319,0.01,balanced
+no_age_covariates,2,4,pmi_hours,-0.003927046880176726,0.9960806538847032,0.01,balanced
+no_age_covariates,2,4,sex_Male,-0.014251251378812248,0.9858498170174317,0.01,balanced
+no_age_covariates,2,4,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.03121371107584552,0.9692684075458705,0.01,balanced
+no_age_covariates,2,5,pmi_hours,0.3560002632988372,1.4276079241513018,10.0,none
+no_age_covariates,2,5,sex_Male,-0.8213703012675465,0.43982854376763975,10.0,none
+no_age_covariates,2,5,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.43296992812336704,0.64857999552933,10.0,none
+no_age_covariates,3,1,pmi_hours,0.004221450652208481,1.004230373526419,10.0,none
+no_age_covariates,3,1,sex_Male,-0.557978738813259,0.5723647941820419,10.0,none
+no_age_covariates,3,1,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-1.2827578541417775,0.2772715705036568,10.0,none
+no_age_covariates,3,2,pmi_hours,0.11399074321043684,1.1207417503655979,100.0,none
+no_age_covariates,3,2,sex_Male,-0.16268450193435105,0.8498592750793158,100.0,none
+no_age_covariates,3,2,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.5687143377089701,0.5662529810173382,100.0,none
+no_age_covariates,3,3,pmi_hours,-0.04805031807318605,0.953085828428454,10.0,none
+no_age_covariates,3,3,sex_Male,-0.13974746363058632,0.8695778076951216,10.0,none
+no_age_covariates,3,3,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.3451307760460532,0.7081277412660998,10.0,none
+no_age_covariates,3,4,pmi_hours,0.33606173333925826,1.3994254133481854,10.0,none
+no_age_covariates,3,4,sex_Male,-0.5293985933713671,0.5889590670763544,10.0,none
+no_age_covariates,3,4,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-1.1142691389819306,0.3281550269947621,10.0,none
+no_age_covariates,3,5,pmi_hours,-0.089088054234548,0.9147650210942868,1.0,balanced
+no_age_covariates,3,5,sex_Male,-0.2259115853084649,0.797788634783601,1.0,balanced
+no_age_covariates,3,5,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.23417809168763276,0.7912208934831905,1.0,balanced
+no_age_covariates,4,1,pmi_hours,0.07136568621136669,1.0739738915112693,1.0,none
+no_age_covariates,4,1,sex_Male,-0.0684808607012212,0.9338113324265848,1.0,none
+no_age_covariates,4,1,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.6942509851541073,0.4994484021870239,1.0,none
+no_age_covariates,4,2,pmi_hours,0.08698630745483374,1.0908817426684823,10.0,none
+no_age_covariates,4,2,sex_Male,-0.2952799843854066,0.7443231594266367,10.0,none
+no_age_covariates,4,2,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.43209223126804147,0.6491495020423109,10.0,none
+no_age_covariates,4,3,pmi_hours,0.1121229696895079,1.118650412281397,0.1,balanced
+no_age_covariates,4,3,sex_Male,-0.16640248629178256,0.8467053782911471,0.1,balanced
+no_age_covariates,4,3,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.15859929045677235,0.8533382312416755,0.1,balanced
+no_age_covariates,4,4,pmi_hours,-0.08292827743828741,0.9204171595293361,0.1,none
+no_age_covariates,4,4,sex_Male,-0.051577255517370864,0.9497302752241591,0.1,none
+no_age_covariates,4,4,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.10834027667528982,0.8973222066577281,0.1,none
+no_age_covariates,4,5,pmi_hours,-0.005401366129174666,0.9946131950203598,0.01,balanced
+no_age_covariates,4,5,sex_Male,-0.009873429619055931,0.9901751526644434,0.01,balanced
+no_age_covariates,4,5,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.026978856646746947,0.9733818218624771,0.01,balanced
+no_age_covariates,5,1,pmi_hours,0.009909206198888947,1.0099584649532412,1.0,balanced
+no_age_covariates,5,1,sex_Male,-0.17892818254628176,0.8361659485500318,1.0,balanced
+no_age_covariates,5,1,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.4062925584035212,0.6661152612981573,1.0,balanced
+no_age_covariates,5,2,pmi_hours,0.0034817285194356615,1.0034877967768083,0.01,balanced
+no_age_covariates,5,2,sex_Male,-0.006981396705249988,0.9930429166314763,0.01,balanced
+no_age_covariates,5,2,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.042316600394013505,0.9585662500736208,0.01,balanced
+no_age_covariates,5,3,pmi_hours,-0.03151225233876753,0.9689790841210106,0.01,balanced
+no_age_covariates,5,3,sex_Male,-0.020573169678863076,0.9796370141263366,0.01,balanced
+no_age_covariates,5,3,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.02955411905953358,0.970878333197065,0.01,balanced
+no_age_covariates,5,4,pmi_hours,0.2251851872333149,1.2525546518459916,10.0,none
+no_age_covariates,5,4,sex_Male,-0.5136226396620631,0.5983241352650738,10.0,none
+no_age_covariates,5,4,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.3086574120339181,0.7344323346120426,10.0,none
+no_age_covariates,5,5,pmi_hours,0.1279658963716648,1.1365142427768038,10.0,none
+no_age_covariates,5,5,sex_Male,-0.36518499197687676,0.694068241944869,10.0,none
+no_age_covariates,5,5,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.4418298941974711,0.6428589801979194,10.0,none
+no_age_covariates,6,1,pmi_hours,-0.1778162532556651,0.8370962230639327,10.0,none
+no_age_covariates,6,1,sex_Male,-0.3344368907533102,0.7157410132787864,10.0,none
+no_age_covariates,6,1,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.9084586879460897,0.40314511784476903,10.0,none
+no_age_covariates,6,2,pmi_hours,0.21894458597999536,1.2447622974934873,10.0,none
+no_age_covariates,6,2,sex_Male,-0.11848852926486828,0.8882620046165495,10.0,none
+no_age_covariates,6,2,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.6413303128358981,0.5265914265394422,10.0,none
+no_age_covariates,6,3,pmi_hours,0.03509891130093541,1.0357221483584265,100.0,none
+no_age_covariates,6,3,sex_Male,-0.6937519349118901,0.49969771423755566,100.0,none
+no_age_covariates,6,3,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.8995487659112542,0.4067531592280223,100.0,none
+no_age_covariates,6,4,pmi_hours,0.041065347222814026,1.0419201899116979,10.0,none
+no_age_covariates,6,4,sex_Male,0.1368182649376051,1.146619748572633,10.0,none
+no_age_covariates,6,4,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-1.029043007997912,0.3573487769067652,10.0,none
+no_age_covariates,6,5,pmi_hours,0.015542625105498099,1.0156640399224963,0.01,balanced
+no_age_covariates,6,5,sex_Male,-0.016319032673959975,0.9838134013626734,0.01,balanced
+no_age_covariates,6,5,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.008756659630159785,0.9912815682495589,0.01,balanced
+no_age_covariates,7,1,pmi_hours,-0.019926206101871794,0.9802710086567196,0.01,balanced
+no_age_covariates,7,1,sex_Male,-0.017162474320447665,0.9829839620086102,0.01,balanced
+no_age_covariates,7,1,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.02069921439345439,0.97951354384004,0.01,balanced
+no_age_covariates,7,2,pmi_hours,-0.024149943419071233,0.9761393331149792,0.01,none
+no_age_covariates,7,2,sex_Male,-0.013477531775436343,0.986612883508527,0.01,none
+no_age_covariates,7,2,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.02327620897638958,0.976992592377899,0.01,none
+no_age_covariates,7,3,pmi_hours,0.17613602021817154,1.1926002653670096,1.0,balanced
+no_age_covariates,7,3,sex_Male,-0.15793203435589412,0.853907816391034,1.0,balanced
+no_age_covariates,7,3,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.7058795154692019,0.49367418917381933,1.0,balanced
+no_age_covariates,7,4,pmi_hours,-7.855331619594514e-05,0.999921449769035,0.01,balanced
+no_age_covariates,7,4,sex_Male,-0.010446830273002729,0.9896075483322831,0.01,balanced
+no_age_covariates,7,4,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.017502608774732496,0.9826496721500937,0.01,balanced
+no_age_covariates,7,5,pmi_hours,0.026286671744239397,1.0266352136000587,0.01,none
+no_age_covariates,7,5,sex_Male,-0.005516746464992147,0.99449844283611,0.01,none
+no_age_covariates,7,5,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.010255955867616455,0.9897964571129889,0.01,none
+no_age_covariates,8,1,pmi_hours,0.25733020471754925,1.2934721668616616,1.0,none
+no_age_covariates,8,1,sex_Male,-0.4477407261640074,0.6390703567765548,1.0,none
+no_age_covariates,8,1,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.5234331090042725,0.59248299369795,1.0,none
+no_age_covariates,8,2,pmi_hours,-0.08126475553247192,0.9219495678807454,1.0,none
+no_age_covariates,8,2,sex_Male,-0.29972722401652363,0.741020325663881,1.0,none
+no_age_covariates,8,2,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.5150737305134215,0.5974565422166497,1.0,none
+no_age_covariates,8,3,pmi_hours,0.2076292015968702,1.2307567223018716,10.0,none
+no_age_covariates,8,3,sex_Male,-0.35058774421342787,0.7042740350627431,10.0,none
+no_age_covariates,8,3,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.46685656336092063,0.6269700144346971,10.0,none
+no_age_covariates,8,4,pmi_hours,-0.08193054400061821,0.9213359487831643,100.0,balanced
+no_age_covariates,8,4,sex_Male,-0.01687587744413445,0.9832657225154997,100.0,balanced
+no_age_covariates,8,4,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.8623021609930202,0.42218901558601507,100.0,balanced
+no_age_covariates,8,5,pmi_hours,-0.03797268236280882,0.9627392402932552,1.0,balanced
+no_age_covariates,8,5,sex_Male,-0.1969633994755637,0.8212206898705389,1.0,balanced
+no_age_covariates,8,5,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.5566489670180816,0.5731264150206219,1.0,balanced
+no_age_covariates,9,1,pmi_hours,0.019288749829914405,1.0194759796370692,100.0,none
+no_age_covariates,9,1,sex_Male,-0.31020468899157916,0.7332968430702221,100.0,none
+no_age_covariates,9,1,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.4481088855862157,0.6388351203081716,100.0,none
+no_age_covariates,9,2,pmi_hours,0.011813472693327701,1.0118835273530136,0.1,balanced
+no_age_covariates,9,2,sex_Male,0.009178122207389424,1.0092203703248928,0.1,balanced
+no_age_covariates,9,2,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.30985683273114933,0.7335519693388998,0.1,balanced
+no_age_covariates,9,3,pmi_hours,0.15298060326068857,1.165302375657124,100.0,none
+no_age_covariates,9,3,sex_Male,-0.5353963529918208,0.585437204366412,100.0,none
+no_age_covariates,9,3,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.14547560225932032,0.8646109843712113,100.0,none
+no_age_covariates,9,4,pmi_hours,-0.018568537509229932,0.9816027956755844,0.01,balanced
+no_age_covariates,9,4,sex_Male,-0.017036988122793306,0.9831073206681005,0.01,balanced
+no_age_covariates,9,4,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.0282107907767881,0.9721834179034967,0.01,balanced
+no_age_covariates,9,5,pmi_hours,0.18500072348793692,1.2032193106420372,100.0,balanced
+no_age_covariates,9,5,sex_Male,-0.403226311909636,0.6681608694493358,100.0,balanced
+no_age_covariates,9,5,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.8327924990155444,0.43483331770451883,100.0,balanced
+no_age_covariates,10,1,pmi_hours,0.06480712716840294,1.0669532182492394,1.0,balanced
+no_age_covariates,10,1,sex_Male,-0.3008337674410214,0.7402008079946633,1.0,balanced
+no_age_covariates,10,1,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.3507065169604962,0.7041903914682979,1.0,balanced
+no_age_covariates,10,2,pmi_hours,0.10744269775292273,1.1134270570461804,10.0,none
+no_age_covariates,10,2,sex_Male,-0.6184502831763261,0.538778745443297,10.0,none
+no_age_covariates,10,2,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.44681655649352914,0.6396612392133473,10.0,none
+no_age_covariates,10,3,pmi_hours,0.09734504901747781,1.1022406350609717,10.0,none
+no_age_covariates,10,3,sex_Male,-0.06791555172661616,0.934339373592536,10.0,none
+no_age_covariates,10,3,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.4201618697418435,0.6569404724233988,10.0,none
+no_age_covariates,10,4,pmi_hours,-0.0006443267709325959,0.9993558807629856,0.01,balanced
+no_age_covariates,10,4,sex_Male,-0.009298819173981513,0.9907442811475436,0.01,balanced
+no_age_covariates,10,4,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.031739714511108574,0.9687587030987066,0.01,balanced
+no_age_covariates,10,5,pmi_hours,-0.061598476563726835,0.9402603475720913,1.0,none
+no_age_covariates,10,5,sex_Male,-0.24044321871575347,0.7862792901284835,1.0,none
+no_age_covariates,10,5,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.8927663707604592,0.4095212965720013,1.0,none
+all_covariates,1,1,age,-0.10135100966962267,0.9036157993299098,0.01,balanced
+all_covariates,1,1,pmi_hours,0.012166391232490371,1.0122407028325067,0.01,balanced
+all_covariates,1,1,sex_Male,-0.026175624119778966,0.974163987891501,0.01,balanced
+all_covariates,1,1,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.01749038282694332,0.982661686047121,0.01,balanced
+all_covariates,1,2,age,-0.08066962738789071,0.9224984093157693,0.01,balanced
+all_covariates,1,2,pmi_hours,-0.013489956542466828,0.986600625149454,0.01,balanced
+all_covariates,1,2,sex_Male,-0.013878369661801454,0.9862174909350966,0.01,balanced
+all_covariates,1,2,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.029381390493091415,0.9710460461037359,0.01,balanced
+all_covariates,1,3,age,-0.10783176689754187,0.8977786198090439,0.01,none
+all_covariates,1,3,pmi_hours,0.00031339996402690817,1.0003134490789263,0.01,none
+all_covariates,1,3,sex_Male,-0.00041813218927207955,0.9995819552158091,0.01,none
+all_covariates,1,3,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.008243168639308986,0.9917907131137146,0.01,none
+all_covariates,1,4,age,-0.11567437363655682,0.8907652327209656,0.01,balanced
+all_covariates,1,4,pmi_hours,-0.007484099022962216,0.992543837110424,0.01,balanced
+all_covariates,1,4,sex_Male,0.00625860165573578,1.006278227625424,0.01,balanced
+all_covariates,1,4,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.03006461808899265,0.9703828272386616,0.01,balanced
+all_covariates,1,5,age,-0.11556073917290996,0.8908664601017718,0.01,balanced
+all_covariates,1,5,pmi_hours,0.01839926143225338,1.018569570761339,0.01,balanced
+all_covariates,1,5,sex_Male,-0.023359309093026033,0.9769114075528004,0.01,balanced
+all_covariates,1,5,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.015174511896939517,0.9849400408494098,0.01,balanced
+all_covariates,2,1,age,-0.09561609464618112,0.9088128472230163,0.01,none
+all_covariates,2,1,pmi_hours,-0.017231517973617844,0.9829160955477665,0.01,none
+all_covariates,2,1,sex_Male,-0.004810171518695712,0.9952013788291846,0.01,none
+all_covariates,2,1,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.004218502331717195,0.9957903830505179,0.01,none
+all_covariates,2,2,age,-0.10369089459621714,0.901503914089404,0.01,none
+all_covariates,2,2,pmi_hours,0.007600461389886725,1.007629418211803,0.01,none
+all_covariates,2,2,sex_Male,-0.004122898613356205,0.9958855888647881,0.01,none
+all_covariates,2,2,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.0124041345166094,0.9876724796552708,0.01,none
+all_covariates,2,3,age,-0.8918908811779572,0.40987998519212726,1.0,none
+all_covariates,2,3,pmi_hours,-0.006495370191977664,0.9935256791259591,1.0,none
+all_covariates,2,3,sex_Male,0.16499474280074916,1.1793869184230685,1.0,none
+all_covariates,2,3,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.5633820124968065,0.5692804907240462,1.0,none
+all_covariates,2,4,age,-0.1032348006341801,0.9019151783618193,0.01,balanced
+all_covariates,2,4,pmi_hours,-0.0031985955489571764,0.9968065145079986,0.01,balanced
+all_covariates,2,4,sex_Male,-0.014098827094622297,0.9860000959228957,0.01,balanced
+all_covariates,2,4,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.028852725224453864,0.9715595401438315,0.01,balanced
+all_covariates,2,5,age,-0.10289531912530474,0.9022214138651514,0.01,none
+all_covariates,2,5,pmi_hours,0.02810645068605485,1.028505163674535,0.01,none
+all_covariates,2,5,sex_Male,-0.018829813740791193,0.981346359698012,0.01,none
+all_covariates,2,5,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.007200313649751358,0.9928255465042787,0.01,none
+all_covariates,3,1,age,-0.4083595882777303,0.664739803199611,0.1,balanced
+all_covariates,3,1,pmi_hours,0.0030284833093940358,1.0030330737978745,0.1,balanced
+all_covariates,3,1,sex_Male,-0.10960289229817173,0.896189948574636,0.1,balanced
+all_covariates,3,1,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.19401788169010933,0.8236431760048601,0.1,balanced
+all_covariates,3,2,age,-0.1097747442338836,0.8960359498300781,0.01,none
+all_covariates,3,2,pmi_hours,0.013565166790506261,1.0136575911097825,0.01,none
+all_covariates,3,2,sex_Male,3.4627713909673944e-05,1.0000346283134558,0.01,none
+all_covariates,3,2,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.008054202698280258,0.9919781454877314,0.01,none
+all_covariates,3,3,age,-0.912613409157445,0.4014736369453626,10.0,none
+all_covariates,3,3,pmi_hours,-0.005330189543985733,0.9946839907106331,10.0,none
+all_covariates,3,3,sex_Male,-0.11015522948571713,0.895695086216956,10.0,none
+all_covariates,3,3,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.06937731311094314,0.9329745901132726,10.0,none
+all_covariates,3,4,age,-0.09480518235472234,0.909550113620256,0.01,none
+all_covariates,3,4,pmi_hours,0.025522449997607437,1.0258509363629977,0.01,none
+all_covariates,3,4,sex_Male,-0.012726647804856358,0.9873539935169127,0.01,none
+all_covariates,3,4,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.03095926288745348,0.9695150675159967,0.01,none
+all_covariates,3,5,age,-0.11572972821587027,0.8907159261509261,0.01,balanced
+all_covariates,3,5,pmi_hours,-0.014001573038872018,0.9860959930943132,0.01,balanced
+all_covariates,3,5,sex_Male,-0.012628776795813833,0.9874506315774955,0.01,balanced
+all_covariates,3,5,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.008706406252418664,0.9913313847483691,0.01,balanced
+all_covariates,4,1,age,-0.43096102699763134,0.6498842382211585,0.1,none
+all_covariates,4,1,pmi_hours,0.02604547021162466,1.026387617474585,0.1,none
+all_covariates,4,1,sex_Male,0.007366163057959024,1.0073933599750202,0.1,none
+all_covariates,4,1,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.1336831924322228,0.8748671852491442,0.1,none
+all_covariates,4,2,age,-0.1092649760634175,0.8964928368802386,0.01,balanced
+all_covariates,4,2,pmi_hours,0.0036880284705466545,1.0036948376157468,0.01,balanced
+all_covariates,4,2,sex_Male,-0.010125662144115342,0.9899254297808765,0.01,balanced
+all_covariates,4,2,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.011104945463027585,0.9889564868327925,0.01,balanced
+all_covariates,4,3,age,-0.11018562542885003,0.8956678611338191,0.01,none
+all_covariates,4,3,pmi_hours,0.022591949657368632,1.0228490804631056,0.01,none
+all_covariates,4,3,sex_Male,-0.01793352521525964,0.9822263234715894,0.01,none
+all_covariates,4,3,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.016685674172907904,0.9834527606594766,0.01,none
+all_covariates,4,4,age,-0.10299592659742564,0.902130648215337,0.01,none
+all_covariates,4,4,pmi_hours,-0.016903521144284284,0.9832385417883885,0.01,none
+all_covariates,4,4,sex_Male,-0.005215514120964972,0.9947980630585621,0.01,none
+all_covariates,4,4,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.008423546475630168,0.9916118321843622,0.01,none
+all_covariates,4,5,age,-0.10388197537722778,0.901331670474162,0.01,none
+all_covariates,4,5,pmi_hours,-0.004173101035012043,0.9958355942514707,0.01,none
+all_covariates,4,5,sex_Male,-0.003652285622951301,0.9963543758598375,0.01,none
+all_covariates,4,5,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.017499400137767622,0.9826528251212137,0.01,none
+all_covariates,5,1,age,-0.11141103151713061,0.8945709764855303,0.01,none
+all_covariates,5,1,pmi_hours,-0.0008851164702647004,0.9991152751297725,0.01,none
+all_covariates,5,1,sex_Male,-0.004495354950701878,0.9955147340338474,0.01,none
+all_covariates,5,1,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.008309157868163159,0.9917252677687391,0.01,none
+all_covariates,5,2,age,-0.9158463353671342,0.40017779810631093,100.0,none
+all_covariates,5,2,pmi_hours,0.18769112780905925,1.2064608155988759,100.0,none
+all_covariates,5,2,sex_Male,0.19462688039439593,1.2148576147199732,100.0,none
+all_covariates,5,2,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-1.0813761153279424,0.339128524434257,100.0,none
+all_covariates,5,3,age,-0.08856443385618265,0.9152441361269981,0.01,balanced
+all_covariates,5,3,pmi_hours,-0.02867972170562133,0.9717276379033644,0.01,balanced
+all_covariates,5,3,sex_Male,-0.019619817890346697,0.9805713981534223,0.01,balanced
+all_covariates,5,3,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.027734824679722762,0.972646254389048,0.01,balanced
+all_covariates,5,4,age,-0.468205781815033,0.626124665329592,0.1,none
+all_covariates,5,4,pmi_hours,0.10724300531515862,1.113204736281513,0.1,none
+all_covariates,5,4,sex_Male,-0.0876977114293255,0.916037742614419,0.1,none
+all_covariates,5,4,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,0.011668297306777209,1.0117366374334444,0.1,none
+all_covariates,5,5,age,-0.4955091810439828,0.6092606043522434,0.1,none
+all_covariates,5,5,pmi_hours,0.05991627222079162,1.0617476450512493,0.1,none
+all_covariates,5,5,sex_Male,-0.06083468031159571,0.940978789238193,0.1,none
+all_covariates,5,5,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.001486340290868177,0.998514763765793,0.1,none
+all_covariates,6,1,age,-0.8441325019731084,0.4299301600504745,100.0,balanced
+all_covariates,6,1,pmi_hours,-0.08288853443883164,0.9204537403949182,100.0,balanced
+all_covariates,6,1,sex_Male,-0.4310006805127168,0.6498584685376471,100.0,balanced
+all_covariates,6,1,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.2750935290494157,0.7595010844884651,100.0,balanced
+all_covariates,6,2,age,-0.42714336150545906,0.652370020775361,0.1,none
+all_covariates,6,2,pmi_hours,0.1214840858671428,1.1291713959985556,0.1,none
+all_covariates,6,2,sex_Male,0.00044476315980411133,1.0004448620816033,0.1,none
+all_covariates,6,2,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.07078775821855189,0.931659608239996,0.1,none
+all_covariates,6,3,age,-0.453620369853504,0.6353238755665386,0.1,balanced
+all_covariates,6,3,pmi_hours,-0.008653211309885342,0.9913841199670234,0.1,balanced
+all_covariates,6,3,sex_Male,-0.14466355080876445,0.8653133781265724,0.1,balanced
+all_covariates,6,3,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.11642378423923917,0.8900979338827065,0.1,balanced
+all_covariates,6,4,age,-0.13915481383571526,0.8700933155471994,0.01,balanced
+all_covariates,6,4,pmi_hours,0.00513763817218193,1.0051508584658413,0.01,balanced
+all_covariates,6,4,sex_Male,-0.0005063929379497721,0.9994937352573141,0.01,balanced
+all_covariates,6,4,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.028269577212445943,0.9721262683853772,0.01,balanced
+all_covariates,6,5,age,-0.35797339247683735,0.6990916758570215,0.1,none
+all_covariates,6,5,pmi_hours,0.10145839305058271,1.1067838675335322,0.1,none
+all_covariates,6,5,sex_Male,-0.09799161384097835,0.906656507087686,0.1,none
+all_covariates,6,5,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,0.008796025774910158,1.0088348244843421,0.1,none
+all_covariates,7,1,age,-0.41980414725212845,0.6571755168426197,0.1,balanced
+all_covariates,7,1,pmi_hours,-0.04858402701851744,0.9525772937129876,0.1,balanced
+all_covariates,7,1,sex_Male,-0.09008103916830434,0.9138571240490568,0.1,balanced
+all_covariates,7,1,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.06779253397223303,0.9344543209942477,0.1,balanced
+all_covariates,7,2,age,-0.11297544738389957,0.8931725895705048,0.01,none
+all_covariates,7,2,pmi_hours,-0.022053053641233885,0.9781883372214357,0.01,none
+all_covariates,7,2,sex_Male,-0.012338462736772849,0.9877373439947604,0.01,none
+all_covariates,7,2,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.021504919939518488,0.978724662191159,0.01,none
+all_covariates,7,3,age,-0.576318948836229,0.5619631791080069,0.1,none
+all_covariates,7,3,pmi_hours,0.12474598514022892,1.1328606530757055,0.1,none
+all_covariates,7,3,sex_Male,-0.01914674569153876,0.9810353889627578,0.1,none
+all_covariates,7,3,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.1025006817173856,0.9025775344499187,0.1,none
+all_covariates,7,4,age,-0.09774538879528573,0.9068797761136562,0.01,none
+all_covariates,7,4,pmi_hours,0.00013145354012054564,1.0001314621805157,0.01,none
+all_covariates,7,4,sex_Male,-0.005053292899737112,0.9949594535053504,0.01,none
+all_covariates,7,4,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.008203568305296016,0.9918299891348915,0.01,none
+all_covariates,7,5,age,-0.09254674431959375,0.9116065975383626,0.01,balanced
+all_covariates,7,5,pmi_hours,0.027289207085984795,1.0276649677810044,0.01,balanced
+all_covariates,7,5,sex_Male,-0.010089672204767166,0.9899610577781744,0.01,balanced
+all_covariates,7,5,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.01668684298502774,0.9834516111886424,0.01,balanced
+all_covariates,8,1,age,-0.10135065053931325,0.9036161238457897,0.01,balanced
+all_covariates,8,1,pmi_hours,0.02873354488116455,1.0291503355629459,0.01,balanced
+all_covariates,8,1,sex_Male,-0.018960835926600212,0.9812177899758556,0.01,balanced
+all_covariates,8,1,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.02426643367168732,0.9760256290203141,0.01,balanced
+all_covariates,8,2,age,-0.48997334175077617,0.6126427259492004,0.1,none
+all_covariates,8,2,pmi_hours,-0.045660711258380095,0.9553660521531893,0.1,none
+all_covariates,8,2,sex_Male,-0.0973670723759292,0.9072229285293462,0.1,none
+all_covariates,8,2,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.06944129449583653,0.9329148990165066,0.1,none
+all_covariates,8,3,age,-0.4789088139431512,0.6194589681381929,0.1,none
+all_covariates,8,3,pmi_hours,0.12412508534589572,1.1321574784522825,0.1,none
+all_covariates,8,3,sex_Male,-0.04806221886738626,0.9530744860176468,0.1,none
+all_covariates,8,3,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.021044653445416863,0.9791752400451066,0.1,none
+all_covariates,8,4,age,-0.10812326161591093,0.8975169602211517,0.01,none
+all_covariates,8,4,pmi_hours,-0.013991064421216379,0.9861063556545244,0.01,none
+all_covariates,8,4,sex_Male,0.0011259608855455757,1.0011265950174837,0.01,none
+all_covariates,8,4,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.017027489692170786,0.9831166586891286,0.01,none
+all_covariates,8,5,age,-0.10286066766126774,0.9022526776996931,0.01,balanced
+all_covariates,8,5,pmi_hours,-0.006481441193355642,0.9935395180401555,0.01,balanced
+all_covariates,8,5,sex_Male,-0.011504332759372867,0.9885615890391434,0.01,balanced
+all_covariates,8,5,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.02341756891656372,0.976854494524472,0.01,balanced
+all_covariates,9,1,age,-0.5049334975489619,0.6035457113615759,0.1,none
+all_covariates,9,1,pmi_hours,0.011457865281656704,1.0115237580430467,0.1,none
+all_covariates,9,1,sex_Male,-0.059170067801559735,0.9425464587215617,0.1,none
+all_covariates,9,1,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,0.002222338185869388,1.0022248094096682,0.1,none
+all_covariates,9,2,age,-0.5345504950821739,0.5859326105484081,0.1,none
+all_covariates,9,2,pmi_hours,0.04922497335798975,1.050456648918364,0.1,none
+all_covariates,9,2,sex_Male,0.04397791165751823,1.0449592732152204,0.1,none
+all_covariates,9,2,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.22346686863487683,0.7997413879525963,0.1,none
+all_covariates,9,3,age,-0.09354459342944389,0.9106974054001987,0.01,balanced
+all_covariates,9,3,pmi_hours,0.012516848239057477,1.012595511848168,0.01,balanced
+all_covariates,9,3,sex_Male,-0.016654149971220836,0.9834837637113241,0.01,balanced
+all_covariates,9,3,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.005779516306757385,0.9942371529687022,0.01,balanced
+all_covariates,9,4,age,-0.0904146914967927,0.9135522643531141,0.01,balanced
+all_covariates,9,4,pmi_hours,-0.016251821232869328,0.9838795271013214,0.01,balanced
+all_covariates,9,4,sex_Male,-0.016587425391322602,0.9835493884416614,0.01,balanced
+all_covariates,9,4,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.025999008878690825,0.9743360552934974,0.01,balanced
+all_covariates,9,5,age,-0.11049555034813562,0.8953903143558035,0.01,balanced
+all_covariates,9,5,pmi_hours,0.012296727256755569,1.0123726428593958,0.01,balanced
+all_covariates,9,5,sex_Male,-0.015013606644479384,0.9850985356263199,0.01,balanced
+all_covariates,9,5,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.02297166830120887,0.977290171671828,0.01,balanced
+all_covariates,10,1,age,-0.5483162643899495,0.577922059597059,0.1,balanced
+all_covariates,10,1,pmi_hours,0.045076154994764736,1.046107523188252,0.1,balanced
+all_covariates,10,1,sex_Male,-0.08839124040040806,0.9154026641494231,0.1,balanced
+all_covariates,10,1,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.012219241081374631,0.9878551106960411,0.1,balanced
+all_covariates,10,2,age,-0.9025996756813409,0.4055140831562815,10.0,none
+all_covariates,10,2,pmi_hours,0.08726826905894094,1.0911893728024413,10.0,none
+all_covariates,10,2,sex_Male,-0.43236037547522715,0.6489754596990066,10.0,none
+all_covariates,10,2,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,0.023555905674041915,1.0238355373625128,10.0,none
+all_covariates,10,3,age,-0.0853420500747881,0.9181981609319249,0.01,none
+all_covariates,10,3,pmi_hours,0.012251515839357964,1.0123268730919435,0.01,none
+all_covariates,10,3,sex_Male,0.003926458319730032,1.0039341769561934,0.01,none
+all_covariates,10,3,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.004948225652773526,0.9950639966479045,0.01,none
+all_covariates,10,4,age,-0.10723788044261762,0.8983119567259789,0.01,balanced
+all_covariates,10,4,pmi_hours,0.000997365534750729,1.0009978630691498,0.01,balanced
+all_covariates,10,4,sex_Male,-0.008475503877113703,0.991560311948722,0.01,balanced
+all_covariates,10,4,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.029685966111778202,0.9707503341890762,0.01,balanced
+all_covariates,10,5,age,-0.7215356659602442,0.4860053407423449,1.0,none
+all_covariates,10,5,pmi_hours,0.059384135157017515,1.0611828000777446,1.0,none
+all_covariates,10,5,sex_Male,-0.21133330817329624,0.8095042075419214,1.0,none
+all_covariates,10,5,brain_bank_MRC London Neurodegenerative Diseases Brain Bank,-0.6258774789498838,0.5347919538899558,1.0,none

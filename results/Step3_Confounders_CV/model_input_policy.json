@@ -1,0 +1,67 @@
+{
+  "policy_version": "1.0.0",
+  "primary_cohort": "primary_clean77",
+  "same_outer_and_inner_donor_folds_for_modalities": [
+    "5mC",
+    "5hmC",
+    "combined"
+  ],
+  "covariates": [
+    "age",
+    "sex",
+    "brain_bank",
+    "pmi_hours"
+  ],
+  "required_model_views": [
+    "covariate_only_baseline",
+    "molecular_only",
+    "molecular_plus_covariates",
+    "training_fold_residualized_molecular_sensitivity"
+  ],
+  "nested_cv": {
+    "outer_folds": 5,
+    "outer_repeats": 10,
+    "inner_folds": 4,
+    "purpose_outer": "unbiased performance estimation only",
+    "purpose_inner": "hyperparameter and feature-count selection only",
+    "split_optimization_inputs": "condition labels and baseline covariates only; no CpG values"
+  },
+  "inside_each_outer_training_fold_only": [
+    "5hmC missingness filtering using training donors only",
+    "per-CpG median imputation fitted on training donors only",
+    "zero/near-zero variance filtering",
+    "unsupervised variance prefiltering",
+    "all supervised feature selection",
+    "feature scaling",
+    "covariate encoder fitting",
+    "molecular residualization sensitivity model fitting",
+    "hyperparameter tuning through the predefined inner folds"
+  ],
+  "application_to_outer_test": [
+    "reuse training-fold CpG list in the same order",
+    "reuse training-fold medians",
+    "reuse training-fold scaling parameters",
+    "reuse training-fold covariate encoding",
+    "reuse training-fold residualization coefficients when that sensitivity model is evaluated"
+  ],
+  "prohibited": [
+    "global imputation before cross-validation",
+    "global scaling before cross-validation",
+    "using Step 2 top-variable CpGs as supervised-model features",
+    "selecting CpGs using all diagnosis labels before cross-validation",
+    "tuning on outer-test performance",
+    "reporting only the best repeat or fold",
+    "using different donor folds for 5mC, 5hmC, and combined views"
+  ],
+  "molecular_scale": {
+    "5mC": "Use beta values for the primary predictive pipeline; any M-value analysis is a separately documented sensitivity analysis.",
+    "5hmC": "Use non-negative BS-oxBS difference values; do not apply a beta-value logit transform."
+  },
+  "reporting": [
+    "aggregate predictions from every outer test fold and report all repeats",
+    "report balanced accuracy, ROC-AUC, PR-AUC, sensitivity, specificity, and MCC with uncertainty",
+    "compare against the covariate-only baseline",
+    "repeat final locked workflow on Full-78",
+    "use the 76-donor cohort only as an optional stress-test"
+  ]
+}

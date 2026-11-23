@@ -1,0 +1,10 @@
+{
+  "pipeline_version": "1.0.0",
+  "primary_model": "combined__molecular_plus_covariates",
+  "tier_A_frequency": 0.8,
+  "tier_A_direction": 0.9,
+  "tier_B_frequency": 0.6,
+  "tier_B_direction": 0.8,
+  "common_manifest_snp_maf": 0.05,
+  "chunk_size": 50000
+}

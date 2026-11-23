@@ -1,0 +1,8 @@
+SUCCESS
+Completed UTC: 2026-08-19T19:25:28.028204+00:00
+Analysis: CpG annotation and descriptive stability audit
+Primary model: combined__molecular_plus_covariates
+Primary stable CpGs: 20 (Tier A=7, Tier B=13)
+Manifest targets found: 2170/2170
+Naive pathway enrichment: NOT RUN
+GOmeth-ready selected and background CpG files: CREATED

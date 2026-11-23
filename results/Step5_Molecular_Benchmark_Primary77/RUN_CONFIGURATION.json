@@ -1,0 +1,45 @@
+{
+  "pipeline_version": "1.0.0",
+  "parameters": {
+    "analysis_mode": "FULL_RESEARCH_RUN",
+    "outer_folds": 5,
+    "outer_repeats": 10,
+    "inner_folds": 4,
+    "candidate_pool": 5000,
+    "candidate_pool_method": "outer-training-only variance ranking; no diagnosis labels",
+    "feature_counts": [
+      25,
+      50,
+      100
+    ],
+    "combined_feature_count_rule": "feature_count separately from 5mC and 5hmC",
+    "supervised_selection": "absolute Welch statistic inside each inner-training fold; refit on outer training only",
+    "c_grid": [
+      0.01,
+      0.1,
+      1.0,
+      10.0
+    ],
+    "class_weights": [
+      "none",
+      "balanced"
+    ],
+    "inner_selection_metric": "ROC-AUC",
+    "missing_threshold": 0.2,
+    "minimum_variance": 1e-08,
+    "chunk_rows": 5000,
+    "classification_threshold": 0.5,
+    "bootstrap_iterations": 2000,
+    "seed": 143157
+  },
+  "inputs": {
+    "h5": "D:\\Paper\\MSA_Research\\02_Epigenetics\\GSE143157\\02_Preprocessing\\Step2B_Cohorts\\GSE143157_primary_clean77.h5",
+    "h5_size": 309003675,
+    "h5_mtime_ns": 1787085921072085600,
+    "metadata_sha256": "088e61469da18ba5a4c013ef509b25c096a298058ca7f12eacfe6d84dcee7931",
+    "outer_folds_sha256": "fe12268f879cfb369a4862ed5ccacb25280dc7ce7b8158dd523a8bf9dd7c58f1",
+    "inner_folds_sha256": "116066ce348f1d4b9da4e068900cfe86d5447c200fec7af3e85c061cdb1ee161",
+    "model_policy_sha256": "22af337a6c30947374a6682a9730888a28586d129b1bcbbd547dc51934799bc2",
+    "step4_predictions_sha256": "6378d58e61d0fa7631c0ea7d3f6457843a84f20ca228e9d988ea1fc6429c3108"
+  }
+}

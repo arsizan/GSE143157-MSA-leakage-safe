@@ -1,0 +1,72 @@
+{
+  "pipeline": {
+    "name": "GSE143157 Step 1 streaming 5mC/5hmC builder",
+    "version": "1.1.0",
+    "completed_utc": "2026-08-18T19:31:36.703540+00:00",
+    "elapsed_seconds": 62.92279314994812
+  },
+  "inputs": {
+    "matrix_path": "D:\\Paper\\MSA_Research\\GSE143157_BMIQ_normalized_beta.txt\\GSE143157_BMIQ_normalized_beta.txt",
+    "matrix_size_bytes": 2350321787,
+    "metadata_path": "D:\\Paper\\MSA_Research\\GSE143157_BMIQ_normalized_beta.txt\\GSE143157_family.soft.gz",
+    "resolved_metadata_fields": {
+      "sample": "sample_column",
+      "donor": "biological_subject_id",
+      "conversion": "conversion",
+      "condition": "condition"
+    }
+  },
+  "parameters": {
+    "chunk_rows": 5000,
+    "missing_threshold": 0.2,
+    "detection_p_threshold": 0.01,
+    "detection_p_masking_enabled": false,
+    "allow_out_of_range_beta": false,
+    "duplicate_cpg_check_performed": true
+  },
+  "observed_structure": {
+    "total_input_columns": 313,
+    "cpg_rows": 731661,
+    "beta_arrays": 156,
+    "detection_p_arrays": 156,
+    "paired_donors": 78,
+    "condition_counts": {
+      "Control": 37,
+      "MSA": 41
+    },
+    "duplicate_cpg_ids": 0,
+    "beta_global_min": 9.118999826085439e-12,
+    "beta_global_max": 0.9998510479927063,
+    "beta_nonfinite_cells": 0,
+    "beta_out_of_range_cells": 0,
+    "detection_p_nonfinite_cells": 0,
+    "detection_p_out_of_range_cells": 0,
+    "detection_p_failures_gt_threshold": 40533
+  },
+  "construction": {
+    "5mC": "paired donor oxBS beta value",
+    "5hmC": "paired donor BS beta minus oxBS beta",
+    "negative_5hmC": "set to missing (NaN)",
+    "5hmC_probe_filter": "retained when missing_fraction <= threshold; removed only when > threshold",
+    "imputation": "not performed in Step 1",
+    "detection_p_use": "reported for QC only; did not alter beta values"
+  },
+  "outputs_summary": {
+    "5mC_cpgs": 731661,
+    "5mC_donors": 78,
+    "5hmC_cpgs_retained": 405408,
+    "5hmC_cpgs_removed_gt_missing_threshold": 326253,
+    "5hmC_donors": 78,
+    "5hmC_negative_cells_set_missing": 13882748,
+    "5hmC_input_missing_pair_cells": 0,
+    "detection_masked_beta_cells": 0
+  },
+  "files": {
+    "matrices_hdf5": "GSE143157_step1_matrices.h5",
+    "array_metadata": "metadata_arrays_aligned.csv",
+    "donor_metadata": "metadata_donors_aligned.csv",
+    "per_array_qc": "qc_per_array.csv",
+    "per_donor_qc": "qc_per_donor.csv",
+    "per_probe_5hmC_qc": "5hmC_probe_qc.tsv.gz"
+  }
+}
