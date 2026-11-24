@@ -1,0 +1,7 @@
+modality,cpg_id,gene,chromosome,position,reported_effect_msa_minus_control,reported_p,reported_adj_p,publication_status,source_url,notes
+5mC,cg08753407,AREL1,14,75151317,-0.09,1.47e-07,0.036,genome_wide_FDR_below_0.05,https://pmc.ncbi.nlm.nih.gov/articles/PMC7063795/,Gene body; open sea; published methylation-to-hydroxymethylation shift
+5mC,cg03452759,IGR,2,31467215,0.03,1.91e-07,0.036,genome_wide_FDR_below_0.05,https://pmc.ncbi.nlm.nih.gov/articles/PMC7063795/,Intergenic; open sea
+5mC,cg24646067,IGR,5,87812057,-0.08,2.00e-07,0.036,genome_wide_FDR_below_0.05,https://pmc.ncbi.nlm.nih.gov/articles/PMC7063795/,Intergenic; open sea
+5mC,cg27312312,KTN1,14,56046001,0.04,2.08e-07,0.036,genome_wide_FDR_below_0.05,https://pmc.ncbi.nlm.nih.gov/articles/PMC7063795/,TSS1500; CpG shore
+5mC,cg16096172,IGR,6,46924482,0.03,2.46e-07,0.036,genome_wide_FDR_below_0.05,https://pmc.ncbi.nlm.nih.gov/articles/PMC7063795/,Intergenic; open sea
+5hmC,cg08753407,AREL1,14,75151317,0.085,2.69e-07,,reported_top_5hmC_not_FDR_below_0.05,https://pmc.ncbi.nlm.nih.gov/articles/PMC7063795/,Published opposite-direction hydroxymethylation shift

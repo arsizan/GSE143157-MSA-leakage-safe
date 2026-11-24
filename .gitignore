@@ -6,6 +6,11 @@ _checkpoints/
 data/
 GSE143157_BMIQ_normalized_beta.txt
 *_family.soft.gz
+# Python and R run artifacts
+.venv/
+__pycache__/
+*.pyc
+Rplots.pdf
 # OS / Office temp files
 .DS_Store
 Thumbs.db
